@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <slideshow imagePath="assets/slides/">
-  <slide image="slide_1.jpeg">Slide 1</slide>
-  <slide image="slide_2.jpeg">Slide 2</slide>
-  <slide image="slide_3.jpeg">Slide 3</slide>
-  <slide image="slide_4.jpeg">Slide 3</slide>
+  <slide image="slide_1.jpg">Slide 1</slide>
+  <slide image="slide_2.jpg">Slide 2</slide>
+  <slide image="slide_3.jpg">Slide 3</slide>
+  <slide image="slide_4.jpg">Slide 3</slide>
 </slideshow>
