@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<slideshow imagePath="slides/">
+<slideshow imagePath="assets/slides/">
   <slide image="slide_1.jpg">Slide 1</slide>
   <slide image="slide_2.jpg">Slide 2</slide>
   <slide image="slide_3.jpg">Slide 3</slide>
