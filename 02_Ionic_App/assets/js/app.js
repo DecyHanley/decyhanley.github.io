@@ -51,7 +51,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   .state('tab.podcasts', {
       url: '/podcasts',
       views: {
-        'tab-chats': {
+        'tab-podcasts': {
           templateUrl: 'assets/templates/tab-podcasts.html',
           controller: 'PodcastsCtrl'
         }
