@@ -33,41 +33,70 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     .state('tab', {
     url: "/tab",
     abstract: true,
-    templateUrl: "assets/html/tabs.html"
+    templateUrl: "templates/tabs.html"
   })
 
   // Each tab has its own nav history stack:
 
-  .state('tab.home', {
-    url: '/home',
+  .state('tab.dash', {
+    url: '/dash',
     views: {
-      'tab-home': {
-        templateUrl: 'assets/templates/tab-home.html',
-        controller: 'HomeCtrl'
+      'tab-dash': {
+        templateUrl: 'templates/tab-dash.html',
+        controller: 'DashCtrl'
       }
     }
   })
 
-  .state('tab.podcasts', {
-      url: '/podcasts',
+  .state('tab.chats', {
+      url: '/chats',
       views: {
-        'tab-podcasts': {
-          templateUrl: 'assets/templates/tab-podcasts.html',
-          controller: 'PodcastsCtrl'
+        'tab-chats': {
+          templateUrl: 'templates/tab-chats.html',
+          controller: 'ChatsCtrl'
         }
       }
     })
-    .state('tab.podcasts-detail', {
-      url: '/podcasts/:podcastId',
+    .state('tab.chat-detail', {
+      url: '/chats/:chatId',
       views: {
-        'tab-podcasts': {
-          templateUrl: 'assets/templates/podcasts-detail.html',
-          controller: 'PodcastsDetailCtrl'
+        'tab-chats': {
+          templateUrl: 'templates/chat-detail.html',
+          controller: 'ChatDetailCtrl'
         }
       }
     })
 
+  .state('tab.friends', {
+      url: '/friends',
+      views: {
+        'tab-friends': {
+          templateUrl: 'templates/tab-friends.html',
+          controller: 'FriendsCtrl'
+        }
+      }
+    })
+    .state('tab.friend-detail', {
+      url: '/friend/:friendId',
+      views: {
+        'tab-friends': {
+          templateUrl: 'templates/friend-detail.html',
+          controller: 'FriendDetailCtrl'
+        }
+      }
+    })
+
+  .state('tab.account', {
+    url: '/account',
+    views: {
+      'tab-account': {
+        templateUrl: 'templates/tab-account.html',
+        controller: 'AccountCtrl'
+      }
+    }
+  });
+
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/home');
+  $urlRouterProvider.otherwise('/tab/dash');
 
 });
