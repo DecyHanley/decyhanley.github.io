@@ -19,7 +19,7 @@ angular.module('starter.services', [])
     name: 'Andrew Jostlin',
     lastText: 'Did you get the ice cream?',
     face: 'https://pbs.twimg.com/profile_images/491274378181488640/Tti0fFVJ.jpeg'
-  }, {
+  }, /*{
     id: 3,
     name: 'Adam Bradleyson',
     lastText: 'I should buy a boat',
@@ -29,7 +29,7 @@ angular.module('starter.services', [])
     name: 'Perry Governor',
     lastText: 'Look at my mukluks!',
     face: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
-  }];
+  }];*/
 
   return {
     all: function() {
