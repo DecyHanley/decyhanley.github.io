@@ -4,11 +4,11 @@ angular.module('starter.controllers', [])
 
 .controller('PodcastsCtrl', function($scope, Podcasts) {
   $scope.podcasts = Podcasts.all();
-  $scope.remove = function(Podcasts) {
+  $scope.remove = function(podcast) {
     Podcasts.remove(podcast);
   }
 })
 
 .controller('PodcastDetailCtrl', function($scope, $stateParams, Podcasts) {
   $scope.podcast = Podcasts.get($stateParams.podcastId);
-})
+});

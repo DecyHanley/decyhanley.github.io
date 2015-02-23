@@ -6,24 +6,24 @@ angular.module('starter.services', [])
   // Some fake testing data
   var podcasts = [{
     id: 0,
-    name: 'Better Call Saul Insider Podcast - Kelley Dixon',
-    lastText: '16th Febuary 2015 - 103',
-    face: 'http://a3.mzstatic.com/us/r30/Podcasts5/v4/6a/a9/cc/6aa9cc95-a389-f5ad-1ab1-5ac5b8265363/mza_3638591931975247127.600x600-75.jpg'
+    name: 'Ben Sparrow',
+    lastText: 'You on your way?',
+    face: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png'
   }, {
     id: 1,
-    name: 'Ear Biscits with Rhett and Link',
-    lastText: '20th Febuary 2015 - Ep.57',
-    face: 'http://i1.sndcdn.com/avatars-000055524562-w0m7rv-original.jpg'
+    name: 'Max Lynx',
+    lastText: 'Hey, it\'s me',
+    face: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
   }, {
     id: 2,
-    name: 'The Nerdist - Chris Hardwick',
-    lastText: '22nd Febuary 2015',
-    face: 'http://www.nerdist.com/wp-content/uploads/2011/10/nerdistpodcastv2.png'
+    name: 'Andrew Jostlin',
+    lastText: 'Did you get the ice cream?',
+    face: 'https://pbs.twimg.com/profile_images/491274378181488640/Tti0fFVJ.jpeg'
   }];
 
   return {
     all: function() {
-      return podcast;
+      return podcasts;
     },
     remove: function(podcast) {
       podcasts.splice(podcasts.indexOf(podcast), 1);
