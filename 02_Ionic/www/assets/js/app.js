@@ -33,7 +33,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     .state('tab', {
     url: "/tab",
     abstract: true,
-    templateUrl: "templates/tabs.html"
+    templateUrl: "assets/templates/tabs.html"
   })
 
   // Each tab has its own nav history stack:
@@ -42,7 +42,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: '/home',
     views: {
       'tab-home': {
-        templateUrl: 'templates/tab-home.html',
+        templateUrl: 'assets/templates/tab-home.html',
         controller: 'HomeCtrl'
       }
     }
@@ -52,7 +52,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: '/podcasts',
       views: {
         'tab-podcasts': {
-          templateUrl: 'templates/tab-podcasts.html',
+          templateUrl: 'assets/templates/tab-podcasts.html',
           controller: 'PodcastsCtrl'
         }
       }
@@ -61,7 +61,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: '/podcasts/:podcastId',
       views: {
         'tab-podcasts': {
-          templateUrl: 'templates/podcast-detail.html',
+          templateUrl: 'assets/templates/podcast-detail.html',
           controller: 'PodcastDetailCtrl'
         }
       }
