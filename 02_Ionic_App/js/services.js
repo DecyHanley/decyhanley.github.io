@@ -8,7 +8,7 @@ angular.module('starter.services', [])
     id: 0,
     name: 'Podcast 001',
     lastText: 'What Will They Say this week',
-    face: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png'
+    face: 'http://www.berksarl.org/wp-content/uploads/2013/10/podcast.jpg'
   }, {
     id: 1,
     name: 'Max Lynx',
