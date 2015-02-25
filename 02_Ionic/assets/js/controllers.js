@@ -2,15 +2,15 @@ angular.module('starter.controllers', [])
 
 .controller('HomeCtrl', function($scope) {})
 
-.controller('PodcastsCtrl', function($scope, Chats) {
-  $scope.chats = Chats.all();
-  $scope.remove = function(chat) {
-    Chats.remove(chat);
+.controller('PodcastsCtrl', function($scope, Podcasts) {
+  $scope.podcasts = Podcasts.all();
+  $scope.remove = function(podcast) {
+    Podcasts.remove(podcast);
   }
 })
 
-.controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
-  $scope.chat = Chats.get($stateParams.chatId);
+.controller('PodcastDetailCtrl', function($scope, $stateParams, Podcasts) {
+  $scope.podcast = Podcasts.get($stateParams.podcastId);
 });
 
 .controller('AboutUsCtrl', function($scope) {})
