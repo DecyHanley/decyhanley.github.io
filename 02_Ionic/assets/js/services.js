@@ -8,7 +8,7 @@ angular.module('starter.services', [])
     id: 0,
     name: 'Internet Box Motion Typography',
     lastText: 'Short Compilation - Audio from: Episode 1, 5 and 10',
-    face: 'https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10993956_800186606728830_8677960840824181840_n.jpg?oh=a5f0e8d4cb5be9b1b6945d379ff298a6&oe=55807EDC&__gda__=1431453878_e5504e08e597de95459c1c087b7be228'
+    face: 'assets/img/internet_box_logo.png'
   }];
 
   return {
