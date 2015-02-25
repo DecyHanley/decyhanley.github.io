@@ -11,6 +11,4 @@ angular.module('starter.controllers', [])
 
 .controller('PodcastDetailCtrl', function($scope, $stateParams, Podcasts) {
   $scope.podcast = Podcasts.get($stateParams.podcastId);
-})
-
-.controller('AboutUsCtrl', function($scope) {});
+});
