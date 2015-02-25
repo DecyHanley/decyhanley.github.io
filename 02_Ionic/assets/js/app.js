@@ -67,6 +67,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     });
 
+    .state('tab.about-us', {
+      url: '/about-us',
+      views: {
+        'tab-about-us': {
+          templateUrl: 'assets/templates/tab-about-us.html',
+          controller: 'AboutUsCtrl'
+        }
+      }
+    })
+
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/home');
 
