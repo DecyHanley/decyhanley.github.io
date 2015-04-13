@@ -12,10 +12,10 @@ angular.module('starter.services', [])
     video: 'video/Internet_Box_Motion_Typography.mp4'
   }, {
     id: 1,
-    name: 'Test',
-    lastText: 'Test',
-    face: 'img/ionic.png'
-    //video: ''
+    name: 'Screen Play Motion Typography',
+    lastText: 'Short Compilation - Audio from: Episode 1, 9 and 15',
+    face: 'img/screen_play.jpg',
+    video: 'video/Screen_Play_Motion_Typography.mp4'
   }, {
     id: 2,
     name: 'Test',
