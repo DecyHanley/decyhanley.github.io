@@ -6,9 +6,9 @@ $(document).ready(function() {
     
     $.ajax({
       method: "GET",
-      url: "//immense-harbor-7957.herokuapp.com"
+      url: "//immense-harbor-7957.herokuapp.com/api/yourName"
     }).done(function(response) {
-      
+      console.log(response.name);
     }).fail(function(mgs){
       
     });
