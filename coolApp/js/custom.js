@@ -1,8 +1,9 @@
 $(document).ready(function() {
+  
   function getAllNames() {
     $.ajax({
       method: "GET",
-      url: "//immense-harbor-7957.herokuapp.com/api/myName"
+      url: "//immense-harbor-7957.herokuapp.com/api/allNames"
     }).done(function(response) {
       console.log(response.allNames);
       var theNamesHtml = "<ul id=\"allNames\">";
@@ -34,7 +35,7 @@ $(document).ready(function() {
   
   $('button#button-my-name').click(function() {
     console.log("button-my-name clicked");
-    var theName = $('input.#myName').val();
+    var theName = $('input#myName').val();
     $('input#myName').val("");
     
     $.ajax({
@@ -53,5 +54,5 @@ $(document).ready(function() {
     }).fail(function(msg) {
        console.log(msg);
     });
-  )};
+  });
 });
