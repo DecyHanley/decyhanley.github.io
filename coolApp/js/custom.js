@@ -10,7 +10,7 @@ $(document).ready(function() {
     }).done(function(response) {
       console.log(response.name);
     }).fail(function(mgs){
-      
+      $('div#your-name').html("<p>"+response.name+"<p>");
     });
     
   });
