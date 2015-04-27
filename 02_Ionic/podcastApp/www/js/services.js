@@ -16,14 +16,18 @@ angular.module('starter.services', [])
     id: 1,
     name: 'Screen Play Motion Typography',
     text: 'Short Compilation - Audio from: Episode 1, 9 and 15',
+    title: 'Screen Play Review',
     face: 'img/screen_play.jpg',
-    video: 'video/screen_play_motion_typography.mp4'
+    video: 'video/screen_play_motion_typography.mp4',
+    review: 'review/screen_play_review.txt'
   }, {
     id: 2,
-    name: 'Irish History Podcast',
+    name: 'Irish History Podcast Motion Typography',
     text: 'Short Compilation - Audio from: Episodes The Barbarians and The Norman Invasion (Part 1 - 1156 - 1166)',
+    title: 'Irish History Podcast Review',
     face: 'img/irish_history_podcast.png',
-    video: 'video/irish_history_podcast_motion_typography.mp4'
+    video: 'video/irish_history_podcast_motion_typography.mp4',
+    review: 'review/irish_history_podcast_review.txt'
   }];
 
   return {
