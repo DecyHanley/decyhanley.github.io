@@ -11,16 +11,19 @@
     <div>
       <center>
         <video width="100%" height="300" controls autoplay loop>
-          <source src="{{podcast.video}}" type="video/mp4">
+          <source ng-src="{{podcast.video}}" type="video/mp4">
         </video>
       </center>
     </div>
-    <div>
+    <div class="list card">
       <center>
-        <p>
-          {{podcast.review}}
-        </p>
+        <div class="item item-divider">{{podcast.title}}</div>
       </center>
+      <div class="item item-body">
+        <div>
+          <p>{{podcast.review}}</p>
+        </div>
+      </div>
     </div>
   </ion-content>
 </ion-view>

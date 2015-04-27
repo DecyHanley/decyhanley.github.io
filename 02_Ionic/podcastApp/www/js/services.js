@@ -8,23 +8,22 @@ angular.module('starter.services', [])
     id: 0,
     name: 'Internet Box Motion Typography',
     text: 'Short Compilation - Audio from: Episode 1, 5 and 10',
+    title: 'Internet Box Review',
     face: 'img/internet_box_logo.png',
-    video: 'video/internet_box_motion_typography.mp4'//,
-    //review: 'review/internet_box_review.docx'
+    video: 'video/internet_box_motion_typography.mp4',
+    review: 'review/internet_box_review.txt'
   }, {
     id: 1,
     name: 'Screen Play Motion Typography',
     text: 'Short Compilation - Audio from: Episode 1, 9 and 15',
     face: 'img/screen_play.jpg',
-    video: 'video/screen_play_motion_typography.mp4'//,
-    //review: 'review/screen_play_review.docx'
+    video: 'video/screen_play_motion_typography.mp4'
   }, {
     id: 2,
     name: 'Irish History Podcast',
     text: 'Short Compilation - Audio from: Episodes The Barbarians and The Norman Invasion (Part 1 - 1156 - 1166)',
     face: 'img/irish_history_podcast.png',
-    video: 'video/irish_history_podcast_motion_typography.mp4'//,
-    //review: 'review/irish_history_podcast.docx'
+    video: 'video/irish_history_podcast_motion_typography.mp4'
   }];
 
   return {
