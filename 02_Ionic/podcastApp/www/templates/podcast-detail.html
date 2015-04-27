@@ -1,17 +1,26 @@
 <ion-view view-title="{{podcast.name}}">
   <ion-content class="padding">
-    <center>
-      <img ng-src="{{podcast.face}}" style="width:150px; height: 150px">
-      <p>
-        {{podcast.lastText}}
-      </p>
-    </center>
     <div>
-    <center>
-      <video width="100%" height="300" controls autoplay loop>
-        <source src="{{podcast.video}}" type="video/mp4">
-      </video>
-    </center>
+      <center>
+        <img ng-src="{{podcast.face}}" style="width:150px; height: 150px">
+        <p>
+          {{podcast.text}}
+        </p>
+      </center>
+    </div>
+    <div>
+      <center>
+        <video width="100%" height="300" controls autoplay loop>
+          <source src="{{podcast.video}}" type="video/mp4">
+        </video>
+      </center>
+    </div>
+    <div>
+      <center>
+        <p>
+          {{podcast.review}}
+        </p>
+      </center>
     </div>
   </ion-content>
 </ion-view>
