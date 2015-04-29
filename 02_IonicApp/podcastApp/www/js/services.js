@@ -3,7 +3,7 @@ angular.module('starter.services', [])
 .factory('Podcasts', function() {
   // Might use a resource here that returns a JSON array
 
-  // Some fake testing data
+  // Our data
   var podcasts = [{
     id: 0,
     name: 'Internet Box Motion Typography',
@@ -11,7 +11,8 @@ angular.module('starter.services', [])
     title: 'Internet Box Review',
     face: 'img/internet_box_logo.png',
     video: 'video/internet_box_motion_typography.mp4',
-    review: 'review/internet_box_review.txt'
+    review: 'review/internet_box_review.txt',
+    link: 'https://www.google.ie/'
   }, {
     id: 1,
     name: 'Screen Play Motion Typography',
@@ -19,7 +20,8 @@ angular.module('starter.services', [])
     title: 'Screen Play Review',
     face: 'img/screen_play.jpg',
     video: 'video/screen_play_motion_typography.mp4',
-    review: 'review/screen_play_review.txt'
+    review: 'review/screen_play_review.txt',
+    link: 'https://www.google.ie/'
   }, {
     id: 2,
     name: 'Irish History Podcast Motion Typography',
@@ -27,7 +29,8 @@ angular.module('starter.services', [])
     title: 'Irish History Podcast Review',
     face: 'img/irish_history_podcast.png',
     video: 'video/irish_history_podcast_motion_typography.mp4',
-    review: 'review/irish_history_podcast_review.txt'
+    review: 'review/irish_history_podcast_review.txt',
+    link: 'https://www.google.ie/'
   }];
 
   return {
