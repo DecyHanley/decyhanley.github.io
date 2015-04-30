@@ -21,7 +21,7 @@ angular.module('starter.services', [])
     face: 'img/screen_play.jpg',
     video: 'video/screen_play_motion_typography.mp4',
     review: 'review/screen_play_review.txt',
-    link: 'https://www.google.ie/'
+    link: 'https://www.bing.com/'
   }, {
     id: 2,
     name: 'Irish History Podcast Motion Typography',
@@ -30,7 +30,7 @@ angular.module('starter.services', [])
     face: 'img/irish_history_podcast.png',
     video: 'video/irish_history_podcast_motion_typography.mp4',
     review: 'review/irish_history_podcast_review.txt',
-    link: 'https://www.google.ie/'
+    link: 'https://www.yahoo.com/'
   }];
 
   return {

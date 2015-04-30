@@ -8,30 +8,32 @@
     <div class="list card">
       <center>
         <div class="item item-divider">{{podcast.text}}</div>
+        <div class="item item-body">
+          <video width="100%" height="300" controls autoplay loop>
+            <source src="{{podcast.video}}" type="video/mp4">
+          </video>
+        </div>
       </center>
-      <video width="100%" height="300" controls autoplay loop>
-        <source ng-src="{{podcast.video}}" type="video/mp4">
-      </video>
     </div>
     <div class="list card">
       <center>
         <div class="item item-divider">{{podcast.title}}</div>
-      </center>
-      <div class="item item-body">
-        <div>
-          <p ng-src="{{podcast.review}}" type="text/plain"></p>
+        <div class="item item-body">
+          <div>
+            <p href="{{podcast.review}}" type="text/plain">{{podcast.review}}</p>
+          </div>
         </div>
-      </div>
+      </center>
     </div>
     <div class="list card">
       <center>
-        <div class="item item-divider">Full Podcast</div>
-      </center>
-      <div class="item item-body">
-        <div>
-          <a href="{{podcast.link}}"></a>
+        <div class="item item-divider">Full Podcast Link</div>
+        <div class="item item-body">
+          <div>
+            <a href="{{podcast.link}}">{{podcast.link}}</a>
+          </div>
         </div>
-      </div>
+      </center>
     </div>
   </ion-content>
 </ion-view>
