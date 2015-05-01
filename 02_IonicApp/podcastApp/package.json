@@ -1,6 +1,6 @@
 {
   "name": "podcastapp",
-  "version": "0.9.6",
+  "version": "1.0.0",
   "description": "podcastApp: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",

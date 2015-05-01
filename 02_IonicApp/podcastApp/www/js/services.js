@@ -12,7 +12,7 @@ angular.module('starter.services', [])
     face: 'img/internet_box_logo.png',
     video: 'video/internet_box_motion_typography.mp4',
     review: 'review/internet_box_review.txt',
-    link: 'https://www.google.ie/'
+    link: 'http://internetboxpodcast.com/episode-archive/'
   }, {
     id: 1,
     name: 'Screen Play Motion Typography',
@@ -21,7 +21,7 @@ angular.module('starter.services', [])
     face: 'img/screen_play.jpg',
     video: 'video/screen_play_motion_typography.mp4',
     review: 'review/screen_play_review.txt',
-    link: 'https://www.bing.com/'
+    link: 'http://roosterteeth.com/screenplay/'
   }, {
     id: 2,
     name: 'Irish History Podcast Motion Typography',
@@ -30,7 +30,7 @@ angular.module('starter.services', [])
     face: 'img/irish_history_podcast.png',
     video: 'video/irish_history_podcast_motion_typography.mp4',
     review: 'review/irish_history_podcast_review.txt',
-    link: 'https://www.yahoo.com/'
+    link: 'http://irishhistorypodcast.ie/podcast-directory/'
   }];
 
   return {
