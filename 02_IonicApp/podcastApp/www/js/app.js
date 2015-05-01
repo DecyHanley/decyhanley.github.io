@@ -63,7 +63,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: '/podcasts/:podcastId',
       views: {
         'tab-podcasts': {
-          templateUrl: 'templates/tab-podcast-detail.html',
+          templateUrl: 'templates/podcast-detail.html',
           controller: 'PodcastDetailCtrl'
         }
       }
