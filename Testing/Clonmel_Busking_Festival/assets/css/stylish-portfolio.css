@@ -249,6 +249,14 @@ footer {
 /* Back To Top */
 #back-to-top {
   position: fixed;
-  top: 90%;
-  left: 90%;
+  top: 92%;
+  left: 95%;
+}
+
+@media(max-width:768px) {
+    #back-to-top {
+      position: fixed;
+      top: 90%;
+      left: 85%;
+    }
 }
