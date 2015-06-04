@@ -184,20 +184,20 @@ hr.small {
     margin-bottom: 20px;
 }
 
-/* Photos */
-.photos {
+/* Photo Gallery */
+.photo-gallery {
     padding: 20px 0;
 }
 
-.photos-item {
+.photo-gallery-item {
     margin-bottom: 20px;
 }
 
-.img-photo {
+.img-photo-gallery {
     margin: 0 auto;
 }
 
-.img-photo:hover {
+.img-photo-gallery:hover {
     opacity: 0.8;
 }
 
