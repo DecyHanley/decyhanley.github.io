@@ -31,7 +31,7 @@
 
 <body>
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i> Menu</a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -230,7 +230,7 @@
     <section id="contact" class="contact bg-primary">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+              <div class="col-lg-10 col-lg-offset-1 text-center">
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row">
                             <div class="col-md-6">
@@ -260,6 +260,7 @@
                             </div>
                         </div>
                     </form>
+                    <a href="#our-info" class="btn btn-light btn-lg">Our Info</a>
                 </div>
             </div>
         </div>
@@ -297,10 +298,9 @@
                             <a href="https://twitter.com/ClonmelBusking" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
-                    <hr class="small">
-                    <p class="text-muted"><i class="fa fa-copyright fa-fw"></i>2015 <a href="#">Clonmel Busking Festival</a></p>
+                    <p class="text-muted"><i class="fa fa-copyright fa-fw"></i>2015 <a href="#top">Clonmel Busking Festival</a></p>
                     <p class="text-muted">Layout Template by <a href="http://startbootstrap.com/template-overviews/stylish-portfolio/" target="_blank">Stylish Portfolio</a>, Contact Form Template from <a href="http://startbootstrap.com/template-overviews/agency/" target="_blank">Agency</a>, Templates by <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
-                    <p class="text-muted">Website Designed by <a href="https://decyhanley.github.io" target="_blank">Decy Hanley</a> - <a href="http://lit.ie/Courses/LC517/default.aspx" target="_blank">L.S.A.D. Clonmel</a></p>
+                    <p class="text-muted">Website Designed by <a href="https://decyhanley.github.io" target="_blank">Decy Hanley</a> - <a href="http://lit.ie/Courses/LC517/default.aspx" target="_blank">L.S.A.D. Clonmel</a> <a id="back-to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-arrow-up"></i></a></p>
                 </div>
             </div>
         </div>
@@ -342,7 +342,25 @@
             }
         });
     });
-    </script>
+
+    //Magic Back to top Button
+    $(document).ready(function(){
+  	//Check to see if the window is top if not then display button
+  	$(window).scroll(function(){
+  		if ($(this).scrollTop() > 100) {
+  			$('#back-to-top').fadeIn();
+  		} else {
+  			$('#back-to-top').fadeOut();
+  		}
+  	});
+  	//Click event to scroll to top
+  	$('#back-to-top').click(function(){
+  		$('html, body').animate({scrollTop : 0},1000);
+  		return false;
+  	});
+
+  });
+  </script>
 
 </body>
 
