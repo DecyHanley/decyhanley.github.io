@@ -30,7 +30,7 @@ body {
 
 /* Custom Button Styles */
 .btn-dark {
-    border-radius: 0;
+    border-radius: 10;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .btn-light {
-    border-radius: 0;
+    border-radius: 10;
     color: #333;
     background-color: rgb(255,255,255);
 }
@@ -57,7 +57,7 @@ body {
 
 /* Custom Horizontal Rule */
 hr.small {
-    max-width: 100px;
+    max-width: 300px;
 }
 
 /* SideBar */
@@ -190,20 +190,25 @@ hr.small {
 
 /* Festival Info */
 .festival-info {
-    padding: 35px 0;
+    padding: 50px 0;
 }
 
 .festival-info-item {
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
 /* Photo Gallery */
 .photo-gallery {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .photo-gallery-item {
     margin-bottom: 10px;
+}
+
+.img-responsive {
+  width: 70%;
+  height: 70%;
 }
 
 .img-photo-gallery {
