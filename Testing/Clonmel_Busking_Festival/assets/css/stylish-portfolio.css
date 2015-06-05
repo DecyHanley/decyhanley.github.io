@@ -251,14 +251,4 @@ footer {
   position: fixed;
   top: 90%;
   left: 95%;
-  display: none;
-}
-
-@media(max-width:768px) {
-    #back-to-top {
-      position: fixed;
-      top: 90%;
-      left: 85%;
-      display: block;
-    }
 }
