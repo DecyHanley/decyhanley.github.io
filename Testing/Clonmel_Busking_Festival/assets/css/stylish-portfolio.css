@@ -11,10 +11,6 @@ body {
     height: 100%;
 }
 
-body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -251,4 +247,11 @@ footer {
   position: fixed;
   top: 90%;
   left: 95%;
+}
+
+@media(max-width:768px) {
+  #back-to-top {
+    position: fixed;
+    top: 90%;
+    left: 85%;
 }
