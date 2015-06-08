@@ -185,21 +185,12 @@ hr.small {
     padding: 15px 0;
 }
 
-.photo-gallery-item {
-    margin-bottom: 25px;
-}
-
-.img-responsive {
-  width: 50%;
-  height: 50%;
-}
-
-.img-photo-gallery {
-    margin: 0 auto;
-}
-
-.img-photo-gallery:hover {
-    opacity: 0.8;
+/* Carousel */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 75%;
+    height: 75%;
+    margin: auto;
 }
 
 /* Breaker Two */
