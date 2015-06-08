@@ -1,19 +1,10 @@
 /* ==========================================================================
-   COPYRIGHT
-   ========================================================================== */
-
-   /*
-      ©2012 Lovelo Inline - Type design by Hans Renzler
-      ©2013 Font Fabric - http://fontfabric.com/lovelo-font/
-  */
-
-/* ==========================================================================
    IMPLEMENTATION
    ========================================================================== */
 
    body {
-     font-family: 'Lovelo', sans-serif;
-     font-weight: 300;
+     font-family: 'Lovelo Line', sans-serif;
+     font-weight: 700;
      font-size: 1em;
      line-height: 1.5;
    }
@@ -24,18 +15,27 @@
 
    @font-face {
      font-family: 'Lovelo';
-     src: url('Lovelo Line Light');
+     src: url('Lovelo-Black');
      font-weight: 100;
    }
 
    @font-face {
-     font-family: 'Lovelo';
-     src: url('Lovelo Black');
+     font-family: 'Lovelo Line';
+     src: url('Lovelo-Line-Light');
      font-weight: 300;
    }
 
+
    @font-face {
-     font-family: 'Lovelo';
-     src: url('Lovelo Line Bold');
+     font-family: 'Lovelo Line';
+     src: url('Lovelo-Line-Bold');
      font-weight: 700;
    }
+/* ==========================================================================
+  COPYRIGHT
+  ========================================================================== */
+
+  /*
+     ©2012 Lovelo Font - Type design by Hans Renzler
+     ©2013 Font Fabric - http://fontfabric.com/lovelo-font/
+ */
