@@ -173,16 +173,16 @@ hr.small {
 
 /* Festival Info */
 .festival-info {
-    padding: 100px 0;
+    padding: 10px 0;
 }
 
 .festival-info-item {
-    margin-bottom: 65px;
+    margin-bottom: 50px;
 }
 
 /* Photo Gallery */
 .photo-gallery {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .photo-gallery-item {
