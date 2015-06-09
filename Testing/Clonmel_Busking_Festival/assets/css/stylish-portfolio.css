@@ -209,8 +209,8 @@ hr.small {
 /* Carousel */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  width: 60%;
-  height: 60%;
+  width: 100%;
+  height: 375px;
   margin: auto;
 }
 
@@ -221,36 +221,18 @@ hr.small {
   text-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
-.carousel-indicators {
-  background-color: #227fbc;
+#controls-left {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
 }
 
-@media(max-width:768px) {
-  .carousel-indicators {
-    position: relative;
-    top: 320px;
-    left: 100px;
-    width: 100%;
-  }
-}
-
-.carousel-indicators li {
-  width: 15px;
-  height: 15px;
-  background-color: #fff;
-}
-
-.carousel-indicators .active {
-  width: 18px;
-  height: 18px;
-  background-color: #fff;
-}
-
-@media(max-width:768px) {
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    width: 100%;
-  }
+#controls-right {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  margin-right: -10px;
 }
 
 /* Breaker Two */
