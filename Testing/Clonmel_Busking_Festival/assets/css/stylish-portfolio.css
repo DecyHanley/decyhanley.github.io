@@ -186,6 +186,8 @@ hr.small {
 
 /* Festival Info */
 .festival-info {
+  color: #fff;
+  background-color: #227fbc;
   padding: 30px 0;
 }
 
@@ -220,7 +222,7 @@ hr.small {
 }
 
 .carousel-indicators {
-  background-color: #337ab7;
+  background-color: #227fbc;
 }
 
 @media(max-width:768px) {
@@ -266,6 +268,8 @@ hr.small {
 
 /* Contact */
 .contact {
+  color: #fff;
+  background-color: #227fbc;
   padding: 25px 0;
 }
 
