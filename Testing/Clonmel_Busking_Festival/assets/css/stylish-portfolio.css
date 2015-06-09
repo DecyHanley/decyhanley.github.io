@@ -220,7 +220,7 @@ hr.small {
 }
 
 .carousel-indicators {
-  background-color: #000;
+  background-color: #337ab7;
 }
 
 @media(max-width:768px) {
@@ -229,7 +229,6 @@ hr.small {
     top: 320px;
     left: 100px;
     width: 100%;
-    background-color: #000;
   }
 }
 
@@ -240,8 +239,8 @@ hr.small {
 }
 
 .carousel-indicators .active {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   background-color: #fff;
 }
 
