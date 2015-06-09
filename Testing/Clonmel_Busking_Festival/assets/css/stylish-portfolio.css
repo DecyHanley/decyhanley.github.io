@@ -161,7 +161,7 @@ hr.small {
 
 @media(max-width:768px) {
   #logo {
-    width: 60%;
+    width: 65%;
     height: 10%;
   }
 }
@@ -186,14 +186,7 @@ hr.small {
 
 /* Festival Info */
 .festival-info {
-  height: 80%;
   padding: 30px 0;
-}
-
-@media(max-width:768px) {
-  .festival-info {
-    height: 180%;
-  }
 }
 
 .festival-info-item {
