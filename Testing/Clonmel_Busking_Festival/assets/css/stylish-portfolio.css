@@ -170,7 +170,7 @@ hr.small {
 .breaker-one {
   display: table;
   width: 100%;
-  height: 45%;
+  height: 40%;
   color: #fff;
   background: url(../img/breaker.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -181,7 +181,7 @@ hr.small {
 
 /* Welcome */
 .welcome {
-  height: 55%;
+  height: 60%;
 }
 
 /* Festival Info */
