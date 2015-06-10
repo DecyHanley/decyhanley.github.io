@@ -6,7 +6,7 @@ body {
     font-family: 'Comic Neue Angular', sans-serif;
     font-style: oblique;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.5;
     /* Enable a font's kerning: http://stackoverflow.com/questions/15160897/font-feature-settings-what-is-the-correct-syntax */
     font-feature-settings: "kern";
@@ -14,9 +14,7 @@ body {
     -webkit-font-feature-settings: "kern";
 }
 
-
 /*
-
  	font-weight: 100; Comic Neue Light
  	font-weight: 300; Comic Neue Regular
  	font-weight: 700; Comic Neue Bold
@@ -33,7 +31,6 @@ body {
     line-height: 1.5;
  	}
 	or in shorthand: body { font: oblique 700 1em/1.5 'Comic Neue Angular', sans-serif; }
-
 */
 
 /* ==========================================================================
