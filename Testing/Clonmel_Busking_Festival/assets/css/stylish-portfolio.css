@@ -181,51 +181,42 @@ hr.small {
 
 /* Welcome */
 .welcome {
-  height: 60%;
+  padding: 20px 0;
 }
 
 /* Festival Info */
 .festival-info {
   color: #fff;
   background-color: #227fbc;
-  height: 75%
+  padding: 30px 0;
 }
 
-@media(max-width:768px) {
-  .festival-info {
-    height: 150%
-  }
+.festival-info-item {
+  margin-bottom: 25px;
 }
 
 /* Photo Gallery */
 .photo-gallery {
-  height: 100%;
+  padding: 20px 0;
+}
+
+@media(max-width:768px) {
+  .photo-gallery {
+    height: 100%;
+  }
 }
 
 /* Carousel */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   width: 100%;
-  height: 350px;
+  height: 375px;
   margin: auto;
-}
-
-@media(max-width:768px) {
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    height: 200px;
 }
 
 .carousel-indicators {
   position: relative;
-  top: 350px;
-}
-
-@media(max-width:768px) {
-  .carousel-indicators {
-    position: relative;
-    top: 200px;
-  }
+  top: 375px;
 }
 
 .carousel-caption {
@@ -252,7 +243,7 @@ hr.small {
 .breaker-two {
   display: table;
   width: 100%;
-  height: 45%;
+  height: 30%;
   color: #fff;
   background: url(../img/breaker.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -265,7 +256,11 @@ hr.small {
 .contact {
   color: #fff;
   background-color: #227fbc;
-  height: 95%;
+  padding: 25px 0;
+}
+
+.contact .btn {
+  margin: 20px;
 }
 
 /* Map */
@@ -302,5 +297,6 @@ footer {
     position: fixed;
     top: 90%;
     left: 85%;
+    z-index: 1;
   }
 }
