@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Event website for the CLonmel Busking Festival">
+  <meta name="description" content="Clonmel Busking Festival Infomational Website">
   <meta name="author" content="Decy Hanley">
 
   <title>Clonmel Busking Festival</title>
@@ -49,7 +49,7 @@
     <meta name="theme-color" content="#ffffff">
 
   <!-- Bootstrap Core CSS -->
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-min.css" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link href="assets/css/stylish-portfolio.css" rel="stylesheet">
@@ -57,9 +57,9 @@
   <link href="assets/css/arrow-bounce.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
-  <link href="assets/fonts/myFonts/ComicNeue/ComicNeue-Font.css" rel="stylesheet" type="text/css">
-  <!-- <link href="assets/fonts/myFonts/Lovelo/Lovelo-Font.css" rel="stylesheet" type="text/css"> -->
-  <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="assets/fonts/ComicNeue/ComicNeue.css" rel="stylesheet" type="text/css">
+  <!--<link href="assets/fonts/Lovelo/Lovelo.css" rel="stylesheet" type="text/css">-->
+  <link href="assets/font-awesome/css/font-awesome-min.css" rel="stylesheet" type="text/css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -255,13 +255,13 @@
                 <a class="left carousel-control" data-slide="left" href="#myCarousel"><i id="controls-left" class="fa fa-arrow-left fa-fw"></i></a>
                 <a class="right carousel-control" data-slide="right" href="#myCarousel"><i id="controls-right" class="fa fa-arrow-right fa-fw"></i></a>
               </div>
-
             </div>
           </div>
         </div>
       </div>
       <br>
       <a href="#" class="btn btn-dark">More Image Here</a>
+      <br>
       <a href="#contact-us" class="btn btn-dark btn-sm">Contact Us</a>
     </div>
   </section>
@@ -361,57 +361,9 @@
   <script src="assets/js/jquery.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
-  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/bootstrap-min.js"></script>
 
-  <!-- Custom Theme JavaScript -->
-  <script>
-  // Closes the sidebar menu
-  $("#menu-close").click(function(e) {
-      e.preventDefault();
-      $("#sidebar-wrapper").toggleClass("active");
-  });
-  // Opens the sidebar menu
-  $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#sidebar-wrapper").toggleClass("active");
-  });
-  // Scrolls to the selected menu item on the page
-  $(function() {
-      $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-              if (target.length) {
-                  $('html,body').animate({
-                      scrollTop: target.offset().top
-                  }, 1000);
-                  return false;
-              }
-          }
-      });
-  });
-  //Carousel
-  $(document).ready(function(){
-       $('#myCarousel').carousel({
-         interval: 2500
-       });
-   });
-  //Back to top Button
-  $(document).ready(function(){
-  	//Check to see if the window is top if not then display button
-  	$(window).scroll(function(){
-  		if ($(this).scrollTop() > 100) {
-  			$('#back-to-top').fadeIn();
-  		} else {
-  			$('#back-to-top').fadeOut();
-  		}
-  	});
-    //Click event to scroll to top
-  	$('#back-to-top').click(function(){
-  		$('html, body').animate({scrollTop : 0},1000);
-  		return false;
-  	});
-  });
-</script>
+  <!-- Custom JavaScript -->
+  <script> src="assets/js/custom.js"</script>
 </body>
 </html>
