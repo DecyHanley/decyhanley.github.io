@@ -21,6 +21,12 @@ section#contact .form-group textarea.form-control {
     height: 236px;
 }
 
+@media(max-width:768px) {
+  section#contact .form-group textarea.form-control {
+      height: 100px;
+  }
+}
+
 section#contact .form-control:focus {
     border-color: #fed136;
     box-shadow: none;
