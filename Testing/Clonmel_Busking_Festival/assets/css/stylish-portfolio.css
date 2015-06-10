@@ -170,7 +170,7 @@ hr.small {
 .breaker-one {
   display: table;
   width: 100%;
-  height: 50%;
+  height: 45%;
   color: #fff;
   background: url(../img/breaker.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -181,7 +181,7 @@ hr.small {
 
 /* Welcome */
 .welcome {
-  height: 50%;
+  height: 55%;
 }
 
 /* Festival Info */
@@ -191,15 +191,15 @@ hr.small {
   height: 75%
 }
 
+@media(max-width:768px) {
+  .festival-info {
+    height: 150%
+  }
+}
+
 /* Photo Gallery */
 .photo-gallery {
   height: 100%;
-}
-
-@media(max-width:768px) {
-  .photo-gallery {
-    height: 110%;
-  }
 }
 
 /* Carousel */
@@ -210,9 +210,22 @@ hr.small {
   margin: auto;
 }
 
+@media(max-width:768px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    height: 200px;
+}
+
 .carousel-indicators {
   position: relative;
   top: 350px;
+}
+
+@media(max-width:768px) {
+  .carousel-indicators {
+    position: relative;
+    top: 200px;
+  }
 }
 
 .carousel-caption {
@@ -239,7 +252,7 @@ hr.small {
 .breaker-two {
   display: table;
   width: 100%;
-  height: 50%;
+  height: 45%;
   color: #fff;
   background: url(../img/breaker.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -252,7 +265,7 @@ hr.small {
 .contact {
   color: #fff;
   background-color: #227fbc;
-  height: 50%;
+  height: 95%;
 }
 
 /* Map */
@@ -289,6 +302,5 @@ footer {
     position: fixed;
     top: 90%;
     left: 85%;
-    z-index: 1;
   }
 }
