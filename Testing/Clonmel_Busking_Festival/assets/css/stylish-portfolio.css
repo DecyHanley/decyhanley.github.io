@@ -164,7 +164,7 @@ hr.small {
 .breaker-one {
   display: table;
   width: 100%;
-  height: 35%;
+  height: 30%;
   color: #fff;
   background: url(../img/breaker.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -182,7 +182,7 @@ hr.small {
 /* Welcome */
 .welcome {
   padding: 25px 0;
-  height: 65%;
+  height: 70%;
 }
 
 @media(max-width:768px) {
