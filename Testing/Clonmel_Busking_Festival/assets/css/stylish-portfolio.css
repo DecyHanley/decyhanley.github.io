@@ -201,7 +201,7 @@ hr.small {
 
 @media(max-width:768px) {
     .festival-info {
-    height: 210%;
+    height: 220%;
     font-size: 0.9em;
   }
 }
