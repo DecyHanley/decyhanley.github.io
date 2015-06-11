@@ -175,6 +175,7 @@ hr.small {
 
 @media(max-width:768px) {
   .breaker-one {
+    height: 25%;
     font-size: 0.7em;
   }
 }
