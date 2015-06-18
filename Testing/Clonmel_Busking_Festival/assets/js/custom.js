@@ -23,6 +23,15 @@ $(document).ready(function() {
 			}
 		});
 	});
+	//Menu Toggle Fade In
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 100) {
+			$('#menu-toggle').fadeIn();
+		}
+		else {
+			$('#menu-toggle').fadeOut();
+		}
+	});
 	//Back to top Button
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 100) {

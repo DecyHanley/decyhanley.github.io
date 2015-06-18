@@ -111,6 +111,7 @@ hr.small {
 	position:fixed;
 	top:1%;
 	left:1%;
+	display:none;
 }
 
 #sidebar-wrapper.active {
