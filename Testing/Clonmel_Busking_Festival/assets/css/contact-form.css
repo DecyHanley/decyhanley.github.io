@@ -1,71 +1,59 @@
-section#contact {
+section#contact-us {
     background-color: #337ab7;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .form-group {
+section#contact-us .form-group {
     margin-bottom: 20px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#contact-us .form-group input,
+section#contact-us .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#contact-us .form-group input.form-control {
     height: auto;
 }
 
-@media(max-width:768px) {
-  section#contact .form-group input.form-control {
-      height: 50px;
-  }
-}
-
-section#contact .form-group textarea.form-control {
+section#contact-us .form-group textarea.form-control {
     height: 236px;
 }
 
-@media(max-width:768px) {
-  section#contact .form-group textarea.form-control {
-      height: 65px;
-  }
-}
-
-section#contact .form-control:focus {
+section#contact-us .form-control:focus {
     border-color: #fed136;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#contact-us::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#contact-us:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#contact-us::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#contact-us:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#contact-us .text-danger {
     color: #e74c3c;
 }
