@@ -41,6 +41,12 @@
   <link href="../css/contact-form.css" rel="stylesheet">
   <link href="../css/arrow-bounce.css" rel="stylesheet">
 
+  <!-- Important Owl stylesheet -->
+  <link rel="stylesheet" href="../libs/owl-carousel/owl.carousel.css">
+
+  <!-- Default Theme -->
+  <link rel="stylesheet" href="../libs/owl-carousel/owl.theme.css">
+
   <!-- Custom Fonts -->
   <link href="../fonts/Lovelo-Webfont/Lovelo-Webfont.css" rel="stylesheet" type="text/css">
   <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -57,36 +63,29 @@
 <body>
   <!-- Back To Top -->
   <div>
-    <a id="back-to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa  fa-1x fa-arrow-up"></i></a>
+    <a id="return" href="javascript:history.go(-1)" class="btn btn-dark btn-lg"><i class="fa  fa-1x fa-arrow-left"></i></a>
   </div>
 
-  <!-- Navigation -->
-  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-1x fa-bars"></i></a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"> <i class="fa fa-1x fa-times"></i></a>
-      <li class="sidebar-brand">
-        <a href="#top" onclick = $("#menu-close").click(); >Home</a>
-      </li>
-    </ul>
-  </nav>
-
   <!-- Banner-->
-  <aside  id="welcome" class="banner">
+  <aside  id="music" class="music-banner">
     <div class="text-vertical-center">
       <h1>Music</h1>
       <hr class="small">
     </div>
   </aside>
 
-  <!-- Festival -->
-  <section id="festival-info" class="festival-info">
+  <!-- Music -->
+  <section id="music" class="music">
     <div class="container text-center">
       <div class="row text-center">
         <div class="col-lg-10 col-lg-offset-1 text-center">
           <div class="row">
-              <hr class="small">
-              <a href="#our-info" class="btn btn-light btn-sm">Our Info</a>
+            <div id="owl-demo" class="owl-carousel owl-theme">
+              <div class="item"><iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/147955049&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe><span class="caption">Busking Festival Podcast</span></div>
+              <div class="item"><iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/98077267&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe><span class="caption">Busking Festival Podcast Episode 01</span></div>
+              <div class="item"><iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/98076784&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe><span class="caption">Busking Festival Podcast Episode 02</span></div>
+              <div class="item"><iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/102114693&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe><span class="caption">Busking Festival Podcast Episode 03</span></div>
+              <div class="item"><iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/104739208&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe><span class="caption">Busking Festival Podcast Episode 04</span></div>
             </div>
           </div>
         </div>
@@ -94,59 +93,16 @@
     </div>
   </section>
 
-
-  <!-- Footer -->
-  <footer>
-    <div id="our-info" class="container">
-      <div class="row">
-        <div class="col-lg-10 col-lg-offset-1 text-center">
-          <h1>Our Info</h1>
-          <hr class="small">
-
-          <!-- Map  -->
-          <section class="map text-center">
-            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" style="border:0" output="embed" iwloc="address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.746685958488!2d-7.703368446964457!3d52.35458240332958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484331e3a56bd48f%3A0x68285a9e7fb65e1!2s8+Sarsfield+St%2C+Clonmel%2C+Co.+Tipperary!5e0!3m2!1sen!2sie!4v1433239691270"></iframe>
-              <small>
-                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.746685958488!2d-7.703368446964457!3d52.35458240332958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484331e3a56bd48f%3A0x68285a9e7fb65e1!2s8+Sarsfield+St%2C+Clonmel%2C+Co.+Tipperary!5e0!3m2!1sen!2sie!4v1433239691270"></a>
-              </small>
-            </iframe>
-          </section>
-
-          <i class="fa fa-map-marker fa-fw"></i>
-          <p>8 Sarsfield Street<br>Clonmel, County Tipperary</p>
-          <ul class="list-unstyled">
-            <li><i class="fa fa-phone fa-fw"></i> <a href="tel:+353526126500">(052) 612-6500</a></li>
-            <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:buskingfestival@yahoo.ie">buskingfestival@yahoo.ie</a></li>
-          </ul>
-
-					<hr class="small">
-          <ul class="list-inline">
-            <li>
-              <a href="https://www.facebook.com/clonmelbuskingfestival" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/ClonmelBusking" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-            </li>
-          </ul>
-
-          <hr class="small">
-          <p class="text-muted">Lovelo Inline Font by <a href="https://www.behance.net/gallery/6787299/Lovelo-Inline-Font" target="_blank">Hans Renzler</a> and <a href="http://fontfabric.com/lovelo-font/">FontFabric</a></p>
-          <p class="text-muted">Layout Templates used, <a href="http://startbootstrap.com/template-overviews/stylish-portfolio/" target="_blank">Stylish Portfolio</a> and <a href="http://startbootstrap.com/template-overviews/agency/" target="_blank">Agency</a>, by <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
-          <hr class="small">
-          <p class="text-muted"><i class="fa fa-copyright fa-fw"></i>2015 <a href="#top">Clonmel Busking Festival</a></p>
-          <p class="text-muted">Website Designed by <a href="https://decyhanley.github.io" target="_blank">Decy Hanley</a> - <a href="http://lit.ie/Courses/LC517/default.aspx" target="_blank">L.S.A.D. Clonmel</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
   <!-- jQuery -->
-  <script src="assets/js/jquery.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
-  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
 
   <!-- Custom JavaScript -->
-  <script src="assets/js/custom.js"></script>
+  <script src="../js/custom.js"></script>
+
+  <!-- Owl Carousel JavaScript -->
+  <script src="../libs/owl-carousel/owl.carousel.min.js"></script>
 </body>
 </html>

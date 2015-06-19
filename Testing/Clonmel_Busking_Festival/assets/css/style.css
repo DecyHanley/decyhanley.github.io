@@ -218,3 +218,51 @@ footer {
 	z-index:1;
 	display:none;
 }
+
+	/* Return */
+	#return {
+		position:fixed;
+		top:1%;
+		left:1%;
+		z-index:1;
+	}
+
+	/* Music Banner */
+	.music-banner {
+		display:table;
+		width:100%;
+		height:20%;
+		color:#fff;
+		background:url(../img/stock/banner.jpg) no-repeat center center scroll;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		background-size:cover;
+		-o-background-size:cover;
+		font-size:1.5em;
+	}
+
+.music {
+	color:#fff;
+	background-color:#227fbc;
+}
+
+.music	{
+	width:100%;
+	height:80%;
+	padding-top:2.5%;
+}
+
+.music iframe {
+	width:100%;
+	height:425px;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+	font-size: 1.5em;
+}
