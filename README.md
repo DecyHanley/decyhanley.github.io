@@ -2,10 +2,10 @@
 
 *Repo for Hosting websites.*
 
-#### [College] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college)
+#### [College App Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets)
 
 * Assets for college sites
 
-#### [Clonmel Busking Festival test Site] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/clonmel-busking-festival)
+#### [Clonmel Busking Festival site] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/clonmel-busking-festival)
 
 * Clonmel Busking Festival site
