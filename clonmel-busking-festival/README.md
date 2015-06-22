@@ -2,13 +2,10 @@
 
 *Repo for Hosting the Clonmel Busking Festival.*
 
-#### [Home Page] (http://decyhanley.github.io/clonmel-busking-festival/index.html)
+#### [Home Page] (http://decyhanley.github.io/clonmel-busking-festival/index.html) * This brings you to the Home page.
 
-* This brings you to the Home page.
+#### [Music] (http://decyhanley.github.io/clonmel-busking-festival/music.html) * This brings you to the Music page.
 
-#### [Music] (http://decyhanley.github.io/clonmel-busking-festival/music.html)
-
-* This brings you to the Music page.
 
 #### [Events Page] (http://decyhanley.github.io/clonmel-busking-festival/events.html)
 
