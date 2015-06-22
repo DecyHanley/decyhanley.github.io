@@ -48,8 +48,33 @@
   	left:85%;
   }
 
+  .music iframe {
+  	width:90%;
+  	height:425px;
+  }
+
+  #owl-demo .item img{
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+
   #return {
     position:fixed;
-    left:85%;
+    left:1%;
+  }
+
+  .owl-theme .owl-controls .owl-buttons div {
+    position: absolute;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-prev{
+    left: 50px;
+    top: 450px;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-next{
+    right: 50px;
+    top: 450px;
   }
 }
