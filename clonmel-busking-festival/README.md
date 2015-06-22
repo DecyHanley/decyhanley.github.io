@@ -8,7 +8,9 @@
 * [Sponsors Page](http://decyhanley.github.io/clonmel-busking-festival/assets/html/sponsors.html)
 * [Past Link](http://www.clonmelbuskingfestival.com/)
 
---------------------------------------------------------------------------------------------------------------------------------Templates used are [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) and [Agency](http://startbootstrap.com/template-overviews/agency/) by [Start Bootstrap](http://startbootstrap.com/)
+--------------------------------------------------------------------------------------------------------------------------------
+
+Templates used are [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) and [Agency](http://startbootstrap.com/template-overviews/agency/) by [Start Bootstrap](http://startbootstrap.com/)
 
 Website designed and devloped by [Decy Hanley] (http://decyhanley.github.io/)
 
