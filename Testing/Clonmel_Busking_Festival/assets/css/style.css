@@ -254,15 +254,15 @@ footer {
 
 .music iframe {
 	width:100%;
-	height:425px;
+	height:400px;
 }
 
 #owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
+    display:block;
+    width:100%;
+    height:400px;
 }
 
 .caption {
-	font-size: 1.5em;
+	font-size:1.5em;
 }
