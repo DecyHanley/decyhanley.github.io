@@ -1,152 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Clonmel Busking Festival Infomational Website">
+    <meta name="author" content="Decy Hanley">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Clonmel Busking Festival Infomational Website">
-  <meta name="author" content="Decy Hanley">
+    <!-- Favicons -->
+    <!-- Apple -->
+    <meta name="apple-mobile-web-app-title" content="Clonmel Busking Festival">
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicons/apple/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicons/apple/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicons/apple/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicons/apple/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicons/apple/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicons/apple/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicons/apple/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicons/apple/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="../favicons/apple/apple-touch-icon-precomposed.png">
 
-  <title>Clonmel Busking Festival</title>
+    <!-- Desktop -->
+    <link rel="shortcut icon" href="../favicons/desktop/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicons/desktop/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicons/desktop/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="../favicons/desktop/favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicons/desktop/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="../favicons/desktop/favicon-194x194.png">
 
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="57x57" href="../favicons/apple/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="../favicons/apple/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="../favicons/apple/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="../favicons/apple/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="../favicons/apple/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="../favicons/apple/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="../favicons/apple/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="../favicons/apple/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../favicons/desktop/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../favicons/destop/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="194x194" href="../favicons/destop/favicon-194x194.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="../favicons/destop/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="../favicons/destop/favicon-192x192.png">
-  <link rel="shortcut icon" href="assets/favicons/desktop/favicon.ico">
-  <link rel="manifest" href="assets/favicons/android/manifest.json">
-  <meta name="apple-mobile-web-app-title" content="Clonmel Busking Festival">
-  <meta name="application-name" content="Clonmel Busking Festival">
-  <meta name="msapplication-config" content="../favicons/windows/browserconfig.xml">
-  <meta name="theme-color" content="#227fbc">
+    <!-- Android -->
+    <link rel="manifest" href="../favicons/android/manifest.json">
 
-  <!-- Bootstrap Core CSS -->
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Windows 8-->
+    <meta name="theme-color" content="#227fbc">
+    <meta name="application-name" content="Clonmel Busking Festival">
+    <meta name="msapplication-TileImage" content="../favicons/windows/mstile-70x70.png">
+    <meta name="msapplication-TileImage" content="../favicons/windows/mstile-144x144.png">
+    <meta name="msapplication-TileImage" content="../favicons/windows/mstile-150x150.png">
+    <meta name="msapplication-TileImage" content="../favicons/windows/mstile-310x150.png">
+    <meta name="msapplication-TileImage" content="../favicons/windows/mstile-310x310.png">
 
-  <!-- Custom CSS -->
-  <link href="../css/style.css" rel="stylesheet">
-	<link href="../css/media.css" rel="stylesheet">
-  <link href="../css/contact-form.css" rel="stylesheet">
-  <link href="../css/arrow-bounce.css" rel="stylesheet">
+    <!-- Windows 8.1 -->
+    <meta name="msapplication-config" content="../favicons/windows/browserconfig.xml">
 
-  <!-- Custom Fonts -->
-  <link href="../fonts/Lovelo-Webfont/Lovelo-Webfont.css" rel="stylesheet" type="text/css">
-  <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <title>Events</title>
 
-	<!-- HTML5 IE8 Fixes -->
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-<body>
-  <!-- Back To Top -->
-  <div>
-    <a id="back-to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa  fa-1x fa-arrow-up"></i></a>
-  </div>
+    <!-- Font-Awesome CSS-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-  <!-- Navigation -->
-  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-1x fa-bars"></i></a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"> <i class="fa fa-1x fa-times"></i></a>
-      <li class="sidebar-brand">
-        <a href="#top" onclick = $("#menu-close").click(); >Home</a>
-      </li>
-    </ul>
-  </nav>
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" type="text/css" href="../fonts/lovelo-webfont/lovelo.webfont.css">
 
-  <!-- Banner-->
-  <aside  id="welcome" class="banner">
-    <div class="text-vertical-center">
-      <h1>Events</h1>
-      <hr class="small">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  	<link rel="stylesheet" type="text/css" href="../css/media.css">
+
+  	<!-- HTML5 IE8 Fixes -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Return -->
+    <div>
+      <a id="return" href="javascript:history.go(-1)" class="btn btn-dark btn-lg"><i class="fa  fa-1x fa-arrow-left"></i></a>
     </div>
-  </aside>
 
-  <!-- Festival -->
-  <section id="festival-info" class="festival-info">
-    <div class="container text-center">
-      <div class="row text-center">
-        <div class="col-lg-10 col-lg-offset-1 text-center">
-          <div class="row">
-              <hr class="small">
-              <a href="#our-info" class="btn btn-light btn-sm">Our Info</a>
-            </div>
-          </div>
-        </div>
+    <!-- Event Banner-->
+    <aside  id="events" class="events-banner">
+      <div class="text-vertical-center">
+        <h1>Events</h1>
+        <hr class="small">
       </div>
-    </div>
-  </section>
+    </aside>
 
+    <!-- Events -->
+     <section id="events" class="events">
+       <div class="container text-center">
+         <div class="row text-center">
+           <div class="col-lg-10 col-lg-offset-1 text-center">
+             <div class="row">
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
 
-  <!-- Footer -->
-  <footer>
-    <div id="our-info" class="container">
-      <div class="row">
-        <div class="col-lg-10 col-lg-offset-1 text-center">
-          <h1>Our Info</h1>
-          <hr class="small">
+    <!-- jQuery -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-          <!-- Map  -->
-          <section class="map text-center">
-            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" style="border:0" output="embed" iwloc="address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.746685958488!2d-7.703368446964457!3d52.35458240332958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484331e3a56bd48f%3A0x68285a9e7fb65e1!2s8+Sarsfield+St%2C+Clonmel%2C+Co.+Tipperary!5e0!3m2!1sen!2sie!4v1433239691270"></iframe>
-              <small>
-                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.746685958488!2d-7.703368446964457!3d52.35458240332958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484331e3a56bd48f%3A0x68285a9e7fb65e1!2s8+Sarsfield+St%2C+Clonmel%2C+Co.+Tipperary!5e0!3m2!1sen!2sie!4v1433239691270"></a>
-              </small>
-            </iframe>
-          </section>
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-          <i class="fa fa-map-marker fa-fw"></i>
-          <p>8 Sarsfield Street<br>Clonmel, County Tipperary</p>
-          <ul class="list-unstyled">
-            <li><i class="fa fa-phone fa-fw"></i> <a href="tel:+353526126500">(052) 612-6500</a></li>
-            <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:buskingfestival@yahoo.ie">buskingfestival@yahoo.ie</a></li>
-          </ul>
-
-					<hr class="small">
-          <ul class="list-inline">
-            <li>
-              <a href="https://www.facebook.com/clonmelbuskingfestival" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/ClonmelBusking" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-            </li>
-          </ul>
-
-          <hr class="small">
-          <p class="text-muted">Lovelo Inline Font by <a href="https://www.behance.net/gallery/6787299/Lovelo-Inline-Font" target="_blank">Hans Renzler</a> and <a href="http://fontfabric.com/lovelo-font/">FontFabric</a></p>
-          <p class="text-muted">Layout Templates used, <a href="http://startbootstrap.com/template-overviews/stylish-portfolio/" target="_blank">Stylish Portfolio</a> and <a href="http://startbootstrap.com/template-overviews/agency/" target="_blank">Agency</a>, by <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
-          <hr class="small">
-          <p class="text-muted"><i class="fa fa-copyright fa-fw"></i>2015 <a href="#top">Clonmel Busking Festival</a></p>
-          <p class="text-muted">Website Designed by <a href="https://decyhanley.github.io" target="_blank">Decy Hanley</a> - <a href="http://lit.ie/Courses/LC517/default.aspx" target="_blank">L.S.A.D. Clonmel</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- jQuery -->
-  <script src="assets/js/jquery.js"></script>
-
-  <!-- Bootstrap Core JavaScript -->
-  <script src="assets/js/bootstrap.min.js"></script>
-
-  <!-- Custom JavaScript -->
-  <script src="assets/js/custom.js"></script>
-</body>
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="../js/custom.js"></script>
+  </body>
 </html>

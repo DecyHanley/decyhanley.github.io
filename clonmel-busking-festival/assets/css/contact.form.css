@@ -14,11 +14,11 @@ section#contact-us .form-group textarea {
 }
 
 section#contact-us .form-group input.form-control {
-    height: auto;
+    height: 75px;
 }
 
 section#contact-us .form-group textarea.form-control {
-    height: 236px;
+    height: 265px;
 }
 
 section#contact-us .form-control:focus {
