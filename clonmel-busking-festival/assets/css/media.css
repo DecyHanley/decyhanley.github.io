@@ -17,19 +17,19 @@
 	}
 
 	.photo-gallery {
-		height: 110%;
+		height: 100%;
 	}
 
   .contact-us {
-  	height:105%;
+  	height:110%;
   }
 
   section#contact-us .form-group input.form-control {
-      height: 50px;
+      height: 15px;
   }
 
   section#contact-us .form-group textarea.form-control {
-      height: 100px;
+      height: 85px;
   }
 
   .map {
