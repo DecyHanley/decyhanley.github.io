@@ -5,6 +5,7 @@
 }
 
 .caption {
+  color: #FFF;
 	font-size:1.5em;
 }
 
@@ -22,4 +23,8 @@
 .owl-theme .owl-controls .owl-buttons .owl-next{
   right: -75px;
   top: 100px;
+}
+
+.owl-theme .owl-controls .owl-page span{
+  	background: #000;
 }

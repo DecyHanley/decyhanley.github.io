@@ -172,21 +172,19 @@ hr.small {
 .banner {
 		display: table;
 		width: 100%;
-		height: 35%;
+		height: 30%;
 		color: #fff;
 		background: url(../img/stock/banner.jpg) no-repeat center center scroll;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		background-size: cover;
 		-o-background-size: cover;
-		font-size: 1.5em;
 }
 
 /* Welcome */
 	.welcome {
 		height: 50%;
-	  font-size: 1.2em;
-		padding: 1.5%;
+		padding: 2.5%;
 }
 
 /* Festival Info */
