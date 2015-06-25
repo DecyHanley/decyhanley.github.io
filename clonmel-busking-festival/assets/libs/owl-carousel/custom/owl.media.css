@@ -1,5 +1,5 @@
 @media(max-width:768px) {
-  #owl-demo .item img{
+  .item img{
       display:block;
       width:100%;
       height:400px;

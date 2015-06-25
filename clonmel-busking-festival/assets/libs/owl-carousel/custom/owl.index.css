@@ -1,0 +1,25 @@
+#photo .item img{
+    display: block;
+    width: 95%;
+    height: 300px;
+}
+
+.caption {
+	font-size:1.5em;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  color: #FFF;
+  background-color: #000;
+  position: absolute;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -75px;
+  top: 100px;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: -75px;
+  top: 100px;
+}

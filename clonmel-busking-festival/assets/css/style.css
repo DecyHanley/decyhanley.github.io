@@ -179,28 +179,50 @@ hr.small {
 		-moz-background-size: cover;
 		background-size: cover;
 		-o-background-size: cover;
+		font-size: 1.5em;
 }
 
 /* Welcome */
 	.welcome {
-		height: 65%;
-	  font-size: 1.5em;
+		height: 50%;
+	  font-size: 1.2em;
+		padding: 1.5%;
 }
 
 /* Festival Info */
 .festival-info {
 		color: #fff;
 		background-color: #227fbc;
-		height: 100%;
-		font-size: 1.2em;
+		height: 86%;
+		font-size: 1em;
 }
 
 .festival-info-item {
-		margin-bottom: 15px;
+		margin-bottom: 1%;
 }
 
 /* Photo Gallery */
 .photo-gallery {
+		height: 85%;
+}
+
+/* Contact Us */
+.contact-us {
+		color: #fff;
+		background-color: #227fbc;
+		height: 85%;
+}
+
+/* Map */
+.map iframe {
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+}
+
+/* Footer */
+footer {
+		width: 100%;
 		height: 100%;
 }
 
@@ -223,25 +245,6 @@ hr.small {
 		width: 100%;
 		height: 80%;
 		padding-top: 2.5%;
-}
-
-/* Contact Us */
-.contact-us {
-		color: #fff;
-		background-color: #227fbc;
-		height: 100%;
-}
-
-/* Map */
-.map {
-		height: 100%;
-		z-index: 0;
-}
-
-/* Footer */
-footer {
-		width: 100%;
-		height: 100%;
 }
 
 /* Music */
@@ -330,6 +333,10 @@ footer {
 		width: 100%;
 		height: 80%;
 		padding-top: 2.5%;
+}
+.sponsors iframe {
+		width: 853px;
+		height: 480px;
 }
 
 /* Past */
