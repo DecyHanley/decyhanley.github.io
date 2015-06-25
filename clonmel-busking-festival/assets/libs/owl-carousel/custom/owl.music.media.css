@@ -15,12 +15,12 @@
   }
 
   .owl-theme .owl-controls .owl-buttons .owl-prev{
-    left: 50px;
+    left: 25px;
     top: 400px;
   }
 
   .owl-theme .owl-controls .owl-buttons .owl-next{
-    right: 50px;
+    right: 25px;
     top: 400px;
   }
 }
