@@ -250,7 +250,7 @@ footer {
 .music-banner {
 		display: table;
 		width: 100%;
-		height: 20%;
+		height: 15%;
 		color: #fff;
 		background: url(../img/stock/banner.jpg) no-repeat center center scroll;
 		-webkit-background-size: cover;
@@ -263,8 +263,19 @@ footer {
 		color: #fff;
 		background-color: #227fbc;
 		width: 100%;
-		height: 80%;
-		padding-top: 2.5%;
+		height:85%;
+		padding-top: 2%;
+}
+.music .white-box {
+	background-color: #FFF;
+	border-radius: 5%;
+	padding-top: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 100%;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
 }
 .music iframe {
 		width: 100%;
@@ -317,7 +328,7 @@ footer {
 .sponsors-banner {
 		display: table;
 		width: 100%;
-		height: 20%;
+		height: 15%;
 		color: #fff;
 		background: url(../img/stock/banner.jpg) no-repeat center center scroll;
 		-webkit-background-size: cover;
@@ -330,8 +341,20 @@ footer {
 		color: #fff;
 		background-color: #227fbc;
 		width: 100%;
-		height: 80%;
-		padding-top: 2.5%;
+		height: 85%;
+		padding: 2%;
+}
+.sponsors .white-box {
+	position: absolute;
+	left: 10%;
+	background-color: #FFF;
+	border-radius: 5%;
+	padding: 2%;
+	width: 900px;
+	height: 520px;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
 }
 .sponsors iframe {
 		width: 853px;
@@ -342,7 +365,7 @@ footer {
 .past-banner {
 		display: table;
 		width: 100%;
-		height: 20%;
+		height: 15%;
 		color: #fff;
 		background: url(../img/stock/banner.jpg) no-repeat center center scroll;
 		-webkit-background-size: cover;
@@ -355,10 +378,9 @@ footer {
 		color: #fff;
 		background-color: #227fbc;
 		width: 100%;
-		height: 80%;
-		padding: 2.5%;
+		height: 85%;
 }
 .past iframe {
 		width: 100%;
-		height: 500px;
+		height: 100%;
 }
