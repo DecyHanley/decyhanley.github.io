@@ -17,4 +17,3 @@ Lovelo Inline Font by [Hans Renzler](https://www.behance.net/gallery/6787299/Lov
 &copy; 2015 [Clonmel Busking Festival](http://www.clonmelbuskingfestival.com/).
 
 Website designed and devloped by [Decy Hanley](http://decyhanley.github.io/).
-

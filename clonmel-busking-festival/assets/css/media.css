@@ -1,49 +1,39 @@
 @media(max-width:768px) {
   #logo {
-		width: 80%;
-		height: 10%;
-	}
-
+    width: 80%;
+    height: 10%;
+  }
   .banner {
     height: 15%;
-	}
-
+  }
   .welcome {
     height: 75%;
     font-size: 1.2em;
-	}
-
-	.festival-info {
-		height: 190%;
-	}
-
-	.photo-gallery {
-		height: 90%;
-	}
-
+  }
+  .festival-info {
+    height: 190%;
+  }
+  .photo-gallery {
+    height: 90%;
+  }
   .contact-us {
-  	height:110%;
+    height: 110%;
   }
-
   section#contact-us .form-group input.form-control {
-      height: 15px;
+    height: 15px;
   }
-
   section#contact-us .form-group textarea.form-control {
-      height: 85px;
+    height: 85px;
   }
-
   .map {
-  	height: 75%;
+    height: 75%;
   }
-
   #back-to-top {
-  	position:fixed;
-  	left: 85%;
+    position: fixed;
+    left: 85%;
   }
-
   .music iframe {
-  	width: 90%;
-  	height: 375px;
+    width: 90%;
+    height: 375px;
   }
 }

@@ -1,59 +1,48 @@
 section#contact-us {
-    background-color: #337ab7;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-color: #337ab7;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
 section#contact-us .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-
-section#contact-us .form-group input,
-section#contact-us .form-group textarea {
-    padding: 20px;
+section#contact-us .form-group input, section#contact-us .form-group textarea {
+  padding: 20px;
 }
-
 section#contact-us .form-group input.form-control {
-    height: 75px;
+  height: 75px;
 }
-
 section#contact-us .form-group textarea.form-control {
-    height: 265px;
+  height: 265px;
 }
-
 section#contact-us .form-control:focus {
-    border-color: #fed136;
-    box-shadow: none;
+  border-color: #fed136;
+  box-shadow: none;
 }
-
 section#contact-us::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #bbb;
 }
-
 section#contact-us:-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #bbb;
 }
-
 section#contact-us::-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #bbb;
 }
-
 section#contact-us:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #bbb;
 }
-
 section#contact-us .text-danger {
-    color: #e74c3c;
+  color: #e74c3c;
 }

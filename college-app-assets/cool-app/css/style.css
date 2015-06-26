@@ -1,15 +1,12 @@
 body {
   background-color: orange;
 }
-
 h1 {
   text-align: center;
 }
-
 input[name="myName"] {
   width: 100%;
 }
-
 button {
   width: 100%;
 }

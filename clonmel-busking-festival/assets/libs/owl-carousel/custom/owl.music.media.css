@@ -1,25 +1,21 @@
 @media(max-width:768px) {
-  #music .item img{
-      display:block;
-      width:100%;
-      height:400px;
+  #music .item img {
+    display: block;
+    width: 100%;
+    height: 400px;
   }
-
   #return {
-    position:fixed;
-    left:1%;
+    position: fixed;
+    left: 1%;
   }
-
   .owl-theme .owl-controls .owl-buttons div {
     position: absolute;
   }
-
-  .owl-theme .owl-controls .owl-buttons .owl-prev{
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
     left: 25px;
     top: 400px;
   }
-
-  .owl-theme .owl-controls .owl-buttons .owl-next{
+  .owl-theme .owl-controls .owl-buttons .owl-next {
     right: 25px;
     top: 400px;
   }
