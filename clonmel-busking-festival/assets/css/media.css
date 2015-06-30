@@ -8,11 +8,16 @@
     font-size: 1em;
   }
   .welcome {
+    padding-top: 2.5%;
     height: 75%;
     font-size: 1.1em;
   }
   .festival-info {
     height: 190%;
+    font-size: 1.5em;
+  }
+  .festival-info-item {
+    padding: 1%
   }
   .photo-gallery {
     height: 90%;
