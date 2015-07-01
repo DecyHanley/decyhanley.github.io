@@ -15,6 +15,8 @@
 
 Lovelo Inline Font by [Hans Renzler](https://www.behance.net/gallery/6787299/Lovelo-Inline-Font) and [FontFabric](http://fontfabric.com/lovelo-font/).
 
+WebFont Generator [FontSquirrel](http://www.fontsquirrel.com/tools/webfont-generator).
+
 [Owl Carousel](http://owlgraphic.com/owlcarousel/Owl Carousel) by [OwlFonk](https://github.com/OwlFonk/OwlCarousel)
 
 [Nice Scroll](http://nicescroll.areaaperta.com/) by [Inuyaksa](https://github.com/inuyaksa/jquery.nicescroll)
