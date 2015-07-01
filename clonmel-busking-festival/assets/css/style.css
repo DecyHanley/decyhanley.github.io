@@ -3,18 +3,11 @@
 html, body {
   width: 100%;
   height: 100%;
-  text-align: justify;
 }
 .text-vertical-center {
   á display: table-cell;
   text-align: center;
   vertical-align: middle;
-}
-.text-vertical-center h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 3em;
-  font-weight: 700;
 }
 
 /* Custom Button Styles */
@@ -104,7 +97,6 @@ hr.small {
   top: 1%;
   left: 1%;
   display: none;
-  font-size: 1.5em;
 }
 #sidebar-wrapper.active {
   left: 250px;
@@ -127,7 +119,6 @@ hr.small {
   bottom: 1%;
   right: 1%;
   display: none;
-  font-size: 1.5em;
 }
 
 /* Return */
@@ -137,7 +128,6 @@ hr.small {
   position: fixed;
   top: 1%;
   left: 1%;
-  font-size: 1.5em;
 }
 
 /* Header */
@@ -174,7 +164,6 @@ hr.small {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-size: 1.5em;
 }
 
 /* Welcome */
@@ -182,7 +171,6 @@ hr.small {
 .welcome {
   height: 65%;
   padding-top: 12px;
-  font-size: 1.5em;
 }
 
 /* Festival Info */
@@ -190,10 +178,10 @@ hr.small {
 .festival-info {
   color: #fff;
   background-color: #227fbc;
-  height: 87%;
+  height: 100%;
 }
 .festival-info-item {
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 /* Photo Gallery */
@@ -238,7 +226,6 @@ footer {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-size: 1.5em;
 }
 .gallery {
   color: #fff;
@@ -261,7 +248,6 @@ footer {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-size: 1.5em;
 }
 .music {
   color: #fff;
@@ -300,7 +286,6 @@ footer {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-size: 1.5em;
 }
 .events {
   color: #fff;
@@ -323,7 +308,6 @@ footer {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-size: 1.5em;
 }
 .workshops {
   color: #fff;
@@ -346,7 +330,6 @@ footer {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-size: 1.5em;
 }
 .sponsors {
   color: #fff;
@@ -385,7 +368,6 @@ footer {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-size: 1.5em;
 }
 .past {
   width: 100%;
