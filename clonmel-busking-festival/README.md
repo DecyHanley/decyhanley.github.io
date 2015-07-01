@@ -14,6 +14,10 @@ Templates used are [Stylish Portfolio](http://startbootstrap.com/template-overvi
 
 Lovelo Inline Font by [Hans Renzler](https://www.behance.net/gallery/6787299/Lovelo-Inline-Font) and [FontFabric](http://fontfabric.com/lovelo-font/).
 
+[Owl Carousel](http://owlgraphic.com/owlcarousel/Owl Carousel) by [OwlFonk](https://github.com/OwlFonk/OwlCarousel)
+
+[Nice Scroll](http://nicescroll.areaaperta.com/) by [Inuyaksa](https://github.com/inuyaksa/jquery.nicescroll)
+
 &copy; 2015 [Clonmel Busking Festival](http://www.clonmelbuskingfestival.com/).
 
 Website designed and devloped by [Decy Hanley](http://decyhanley.github.io/).
