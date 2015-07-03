@@ -147,8 +147,22 @@ hr.small {
 /* Logo */
 
 #logo {
-  width: 38%;
+  width: 0%;
+  height: 0%;
+}
+#logo.appear {
+  width: 40%;
   height: 20%;
+  transition: width 1500ms, height 1500ms;
+}
+#logo.tiny {
+  width: 5%;
+  height: 10%;
+  z-index: 1;
+  position: fixed;
+  top: 1%;
+  left: 5%;
+  transition: width 1500ms, height 1500ms;
 }
 
 /* Banner */
@@ -178,7 +192,7 @@ hr.small {
 .festival-info {
   color: #fff;
   background-color: #227fbc;
-  height: 100%;
+  height: 90%;
 }
 .festival-info-item {
   margin-bottom: 20px;

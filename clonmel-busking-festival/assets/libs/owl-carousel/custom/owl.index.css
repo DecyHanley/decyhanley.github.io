@@ -1,11 +1,10 @@
 #photo .item img {
   display: block;
   width: 95%;
-  height: 285px;
+  height: 275px;
 }
 .caption {
   color: #000;
-  font-size: 1.5em;
 }
 .owl-theme .owl-controls .owl-buttons div {
   color: #FFF;
