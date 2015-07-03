@@ -1,6 +1,4 @@
 @media(max-width:768px) {
-  /* Logo */
-
   #logo {
     width: 0%;
     height: 0%;
@@ -8,7 +6,7 @@
   #logo.appear {
     width: 100%;
     height: 100%;
-    transition: width 1500ms, height 1500ms;
+    transition: width 1000ms, height 1000ms;
   }
   #logo.tiny {
     width: 17%;
@@ -17,7 +15,7 @@
     position: fixed;
     top: 1%;
     right: 1%;
-    transition: width 1500ms, height 1500ms;
+    transition: width 1000ms, height 1000ms;
   }
   .banner {
     height: 25%;
@@ -29,17 +27,17 @@
     font-size: 1em;
   }
   .festival-info {
-    height: 190%;
+    height: 170%;
     font-size: 1em;
   }
   .festival-info-item {
     padding: 1%
   }
   .photo-gallery {
-    height: 90%;
+    height: 105%;
   }
   .contact-us {
-    height: 110%;
+    height: 100%;
   }
   section#contact-us .form-group input.form-control {
     height: 15px;
@@ -52,7 +50,7 @@
   }
   #back-to-top {
     position: fixed;
-    left: 85%;
+    right: 1%;
   }
   .music iframe {
     width: 90%;
