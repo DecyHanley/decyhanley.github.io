@@ -1,12 +1,12 @@
 $(document).ready(function() {
-
   //Animated Logo
-  $(window).on("load", function () {
-      $('#logo').toggleClass('appear', $(document).scrollTop() <= 0);
+  $(window).on("load", function() {
+    $('#logo').toggleClass('appear', $(document).scrollTop() <= 0);
   });
-  $(window).on("scroll touchmove", function () {
-      $('#logo').toggleClass('tiny', $(document).scrollTop() > 100);
+  $(window).on("scroll touchmove", function() {
+    $('#logo').toggleClass('tiny', $(document).scrollTop() > 100);
   });
+
   //Menu
   $("#menu-close").click(function(e) {
     e.preventDefault();
