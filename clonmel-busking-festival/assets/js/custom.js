@@ -7,7 +7,6 @@ $(document).ready(function() {
   $(window).on("scroll touchmove", function () {
       $('#logo').toggleClass('tiny', $(document).scrollTop() > 100);
   });
-
   //Menu
   $("#menu-close").click(function(e) {
     e.preventDefault();
