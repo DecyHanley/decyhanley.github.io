@@ -116,8 +116,8 @@ hr.small {
 #back-to-top {
   z-index: 1;
   position: fixed;
-  bottom: 1%;
-  right: 1%;
+  bottom: 1.5%;
+  right: 1.5%;
   display: none;
 }
 
@@ -153,16 +153,16 @@ hr.small {
 #logo.appear {
   width: 40%;
   height: 20%;
-  transition: width 1500ms, height 1500ms;
+  transition: width 1000ms, height 1000ms;
 }
 #logo.tiny {
   width: 5%;
   height: 10%;
   z-index: 1;
   position: fixed;
-  top: 1%;
+  top: .5%;
   left: 5%;
-  transition: width 1500ms, height 1500ms;
+  transition: width 1000ms, height 1000ms;
 }
 
 /* Banner */
@@ -185,6 +185,7 @@ hr.small {
 .welcome {
   height: 65%;
   padding-top: 12px;
+  font-size: 1.5em;
 }
 
 /* Festival Info */
