@@ -1,14 +1,5 @@
 # Clonmel Busking Festival.
 
-### Links to pages on the site:
-* [Home Page](http://decyhanley.github.io/clonmel-busking-festival/index.html).
-* [Photo Gallery](http://decyhanley.github.io/clonmel-busking-festival/assets/html/photo-gallery.html).
-* [Music](http://decyhanley.github.io/clonmel-busking-festival/assets/html/music.html).
-* [Events Page](http://decyhanley.github.io/clonmel-busking-festival/assets/html/events.html).
-* [Workshops Page](http://decyhanley.github.io/clonmel-busking-festival/assets/html/workshops.html).
-* [Sponsors Page](http://decyhanley.github.io/clonmel-busking-festival/assets/html/sponsors.html).
-* [Past Link](http://decyhanley.github.io/clonmel-busking-festival/assets/html/past.html).
-
 -----------------------------------------------------------------------------------------------------------------------------
 
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) and [Agency](http://startbootstrap.com/template-overviews/agency/) by [Start Bootstrap](http://startbootstrap.com/).
@@ -18,6 +9,8 @@ Lovelo Inline Font by [Hans Renzler](https://www.behance.net/gallery/6787299/Lov
 [Owl Carousel](http://owlgraphic.com/owlcarousel/Owl Carousel) by [OwlFonk](https://github.com/OwlFonk/OwlCarousel)
 
 [Nice Scroll](http://nicescroll.areaaperta.com/) by [Inuyaksa](https://github.com/inuyaksa/jquery.nicescroll)
+
+[Pace Page Loader](http://github.hubspot.com/pace/docs/welcome/) by [HotSpot](https://github.com/HubSpot), Javascript by [Zack Bloom](https://github.com/zackbloom) and CSS by [Adam Schwartz](https://github.com/adamschwartz).
 
 &copy; 2015 [Clonmel Busking Festival](http://www.clonmelbuskingfestival.com/).
 
