@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+  $(window).load(function() {
+      $(".cover").fadeOut(2000);
+  });
+
   //Animated Logo
   $(window).on("load", function() {
     $('#logo').toggleClass('appear', $(document).scrollTop() <= 0);
