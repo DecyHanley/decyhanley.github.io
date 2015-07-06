@@ -72,6 +72,11 @@
   <link rel="stylesheet" type="text/css" href="assets/libs/owl-carousel/custom/owl.index.css">
   <link rel="stylesheet" type="text/css" href="assets/libs/owl-carousel/custom/owl.index.media.css">
 
+  <!-- Fancy Box CSS-->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/libs/fancy-box/jquery.fancybox.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/libs/fancy-box/helpers/jquery.fancybox-buttons.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/libs/fancy-box/helpers/jquery.fancybox-thumbs.css"/>
+
   <!-- Contact Form CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/contact.form.css">
 
@@ -100,22 +105,22 @@
     <ul class="sidebar-nav">
       <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"> <i class="fa fa-1x fa-times"></i></a>
       <li class="sidebar-brand">
-        <a href="#home" onclick = $("#menu-close").click(); >Home</a>
+        <a href="#home" onclick= $("#menu-close").click();>Home</a>
       </li>
       <li>
-        <a href="#welcome" onclick = $("#menu-close").click(); >Welcome</a>
+        <a href="#welcome" onclick= $("#menu-close").click();>Welcome</a>
       </li>
       <li>
-        <a href="#festival-info" onclick = $("#menu-close").click(); >Festival Info</a>
+        <a href="#festival-info" onclick= $("#menu-close").click();>Festival Info</a>
       </li>
       <li>
-        <a href="#photo-gallery" onclick = $("#menu-close").click(); >Photo Gallery</a>
+        <a href="#photo-gallery" onclick= $("#menu-close").click();>Photo Gallery</a>
       </li>
       <li>
-        <a href="#contact-us" onclick = $("#menu-close").click(); >Contact Us</a>
+        <a href="#contact-us" onclick= $("#menu-close").click();>Contact Us</a>
       </li>
       <li>
-        <a href="#our-info" onclick = $("#menu-close").click(); >Our Info</a>
+        <a href="#our-info" onclick= $("#menu-close").click();>Our Info</a>
       </li>
     </ul>
   </nav>
@@ -123,7 +128,9 @@
   <!-- Header -->
   <header id="home" class="header">
     <div class="text-vertical-center">
-      <a href='#home'><img id="logo" src="assets/img/CBF_Logo.png" alt="New Busking Logo"/></a>
+      <a href='#home'>
+        <img id="logo" src="assets/img/CBF_Logo.png" alt="New Busking Logo" />
+      </a>
       <hr class="small">
       <a href="#welcome" class="btn btn-dark btn-lg">Find Out More<div class="arrow bounce text-center" style="color:#fff"><i class="fa fa-arrow-down"></i></div></a>
     </div>
@@ -182,7 +189,7 @@
               <strong>Music</strong>
             </h2>
             <p>Music is important, heres a taste of whats on offer.</p>
-            <a href="assets/html/music.html" class="btn btn-light">Learn More</a>
+            <a class="btn btn-light" id="iframe" href="assets/html/music.html">Learn More</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -195,41 +202,41 @@
               <strong>Events</strong>
             </h2>
             <p>Events are what make a festival, and here where to find them.</p>
-            <a href="assets/html/events.html" class="btn btn-light">Learn More</a>
+            <a class="btn btn-light" id="iframe" href="assets/html/events.html">Learn More</a>
           </div>
-        </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="festival-info-item">
-            <span class="fa-stack fa-3x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-heart fa-stack-1x text-primary"></i>
-            </span>
-            <h2>
-              <strong>Sponsors</strong>
-            </h2>
-            <p>Click here to check out our Sponsors.</p>
-            <a href="assets/html/sponsors.html" class="btn btn-light">Learn More</a>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="festival-info-item">
-            <span class="fa-stack fa-3x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-archive fa-stack-1x text-primary"></i>
-            </span>
-            <h2>
-              <strong>Past</strong>
-            </h2>
-            <p>Ever wonder what came before, click here to find out.</p>
-            <a href="assets/html/past.html" class="btn btn-light">Learn More</a>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <hr class="small">
-          <a href="#photo-gallery" class="btn btn-light btn-sm">Photo Gallery</a>
         </div>
       </div>
+      <div class="col-lg-6">
+        <div class="festival-info-item">
+          <span class="fa-stack fa-3x">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-heart fa-stack-1x text-primary"></i>
+          </span>
+          <h2>
+            <strong>Sponsors</strong>
+          </h2>
+          <p>Click here to check out our Sponsors.</p>
+            <a class="btn btn-light" id="iframe" href="assets/html/sponsors.html">Learn More</a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="festival-info-item">
+          <span class="fa-stack fa-3x">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-archive fa-stack-1x text-primary"></i>
+          </span>
+          <h2>
+            <strong>Past</strong>
+          </h2>
+          <p>Ever wonder what came before, click here to find out.</p>
+            <a class="btn btn-light" id="iframe" href="assets/html/past.html">Learn More</a>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <hr class="small">
+        <a href="#photo-gallery" class="btn btn-light btn-sm">Photo Gallery</a>
+      </div>
+    </div>
     </div>
   </section>
 
@@ -364,9 +371,18 @@
   <script type="text/javascript" src="assets/libs/nice-scroll/jquery.nicescroll.min.js"></script>
   <script type="text/javascript" src="assets/libs/nice-scroll/jquery.nicescroll.plus.js"></script>
 
+  <!-- Mouse Wheel Javascript-->
+  <script type="text/javascript" src="assets/libs/fancy-box/jquery.mousewheel-3.0.6.pack.js"></script>
+
   <!-- Owl Carousel JavaScript -->
   <script type="text/javascript" src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
   <script type="text/javascript" src="assets/libs/owl-carousel/custom/owl.custom.js"></script>
+
+  <!-- Fancy Box Javascript -->
+  <script type="text/javascript" src="assets/libs/fancy-box/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="assets/libs/fancy-box/helpers/jquery.fancybox-buttons.js"></script>
+  <script type="text/javascript" src="assets/libs/fancy-box/helpers/jquery.fancybox-media.js"></script>
+  <script type="text/javascript" src="assets/libs/fancy-box/helpers/jquery.fancybox-thumbs.js"></script>
 
   <!-- Custom JavaScript -->
   <script type="text/javascript" src="assets/js/custom.js"></script>

@@ -58,4 +58,18 @@ $(document).ready(function() {
     }, 1000);
     return false;
   });
+
+  $("#iframe").fancybox({
+      width: '100%',
+      height: '100%',
+      autoScale: true,
+      transitionIn: 'none',
+      transitionOut: 'none',
+      type: 'iframe',
+      helpers: {
+        overlay: {
+          locked: false
+        }
+      }
+  });
 });
