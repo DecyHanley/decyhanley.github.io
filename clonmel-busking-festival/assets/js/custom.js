@@ -1,7 +1,8 @@
 $(document).ready(function() {
 
+  //Covwe for Pace
   $(window).load(function() {
-      $(".cover").fadeOut(2000);
+      $(".cover").fadeOut(2500);
   });
 
   //Animated Logo
