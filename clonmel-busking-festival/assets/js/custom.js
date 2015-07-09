@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   //Covwe for Pace
   $(window).load(function() {
-      $(".cover").fadeOut(2500);
+      $(".cover").fadeOut(2000);
   });
 
   //Animated Logo
@@ -66,16 +66,18 @@ $(document).ready(function() {
   });
 
   $("#iframe").fancybox({
-      width: '100%',
-      height: '100%',
-      autoScale: false,
-      transitionIn: 'none',
-      transitionOut: 'none',
-      type: 'iframe',
-      helpers: {
-        overlay: {
-          locked: false
-        }
+    'onStart ': function(){ $.fancybox.hideActivity },
+    'onComplete' : function(){ $.fancybox.hideActivity },
+    width: '100%',
+    height: '100%',
+    autoScale: false,
+    transitionIn: 'none',
+    transitionOut: 'none',
+    type: 'iframe',
+    helpers: {
+      overlay: {
+        locked: false
       }
+    }
   });
 });
