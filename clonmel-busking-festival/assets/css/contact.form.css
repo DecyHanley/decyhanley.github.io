@@ -1,5 +1,5 @@
 section#contact-us {
-  background-color: #337ab7;
+  background-color: #FFF;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -16,33 +16,33 @@ section#contact-us .form-group textarea.form-control {
   height: 265px;
 }
 section#contact-us .form-control:focus {
-  border-color: #fed136;
+  border-color: #FED136;
   box-shadow: none;
 }
 section#contact-us::-webkit-input-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lovelo Black";
   font-weight: 700;
-  color: #bbb;
+  color: #BBB;
 }
 section#contact-us:-moz-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lovelo Black";
   font-weight: 700;
-  color: #bbb;
+  color: #BBB;
 }
 section#contact-us::-moz-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lovelo Black";
   font-weight: 700;
-  color: #bbb;
+  color: #BBB;
 }
 section#contact-us:-ms-input-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lovelo Black";
   font-weight: 700;
-  color: #bbb;
+  color: #BBB;
 }
 section#contact-us .text-danger {
-  color: #e74c3c;
+  color: #E74C3C;
 }

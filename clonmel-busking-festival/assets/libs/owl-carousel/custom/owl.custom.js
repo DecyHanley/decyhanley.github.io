@@ -12,7 +12,7 @@ $(document).ready(function()	{
     paginationSpeed : 800,
   });
 
-  $("#podcasts").owlCarousel({
+  $("#music").owlCarousel({
     singleItem: true,
     navigation : true,
     navigationText: [
