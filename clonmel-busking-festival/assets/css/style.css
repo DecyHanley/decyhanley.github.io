@@ -190,7 +190,8 @@ hr.small {
 
 /* Contact Us */
 .contact-us {
-  color: #000;
+  color: #FFF;
+  background-color: #227FBC;
   height: 87%;
 }
 
