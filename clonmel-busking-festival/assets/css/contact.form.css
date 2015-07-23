@@ -1,5 +1,5 @@
 section#contact-us {
-  background-color: #FFF;
+  background-color: rgba(255, 255, 255, 1);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -16,33 +16,33 @@ section#contact-us .form-group textarea.form-control {
   height: 265px;
 }
 section#contact-us .form-control:focus {
-  border-color: #FED136;
+  border-color: rgba(254, 209, 55, 1);
   box-shadow: none;
 }
 section#contact-us::-webkit-input-placeholder {
   text-transform: uppercase;
   font-family: "Lovelo Black";
   font-weight: 700;
-  color: #BBB;
+  color: rgba(187, 187, 187, 1);
 }
 section#contact-us:-moz-placeholder {
   text-transform: uppercase;
   font-family: "Lovelo Black";
   font-weight: 700;
-  color: #BBB;
+  color: rgba(187, 187, 187, 1);
 }
 section#contact-us::-moz-placeholder {
   text-transform: uppercase;
   font-family: "Lovelo Black";
   font-weight: 700;
-  color: #BBB;
+  color: rgba(187, 187, 187, 1);
 }
 section#contact-us:-ms-input-placeholder {
   text-transform: uppercase;
   font-family: "Lovelo Black";
   font-weight: 700;
-  color: #BBB;
+  color: rgba(187, 187, 187, 1);
 }
 section#contact-us .text-danger {
-  color: #E74C3C;
+  color: rgba(231, 76, 60, 1);
 }
