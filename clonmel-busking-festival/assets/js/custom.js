@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  //Covwe for Pace
+  //Cover for Pace
   $(window).load(function() {
       $(".cover").fadeOut(2000);
   });
@@ -71,6 +71,7 @@ $(document).ready(function() {
     width: '100%',
     height: '100%',
     autoScale: false,
+    titlePosition: 'over',
     transitionIn: 'none',
     transitionOut: 'none',
     type: 'iframe',
