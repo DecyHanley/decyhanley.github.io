@@ -48,6 +48,9 @@
 
   <title>Photo Gallery | Clonmel Busking Festival</title>
 
+  <!-- Pace CSS -->
+  <link rel="stylesheet" type="text/css" href="../libs/pace-page-loader/pace.css">
+
   <!-- Normalize CSS -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
 
@@ -83,24 +86,34 @@
 </head>
 
 <body>
+  <!-- Pace Page Loader Cover -->
   <div class="cover"></div>
+
   <!-- Photo Gallery -->
   <section class="photo-gallery">
     <div class="container text-vertical-center">
+      <div class="row">
+        <h2>Photo Gallery</h2>
+        <hr class="small">
+      </div>
       <div class="row">
         <div class="white-box">
           <div id="photo" class="owl-carousel owl-theme">
             <div class="item">
               <img src="../img/image-1.jpg" alt="Image One">
+              <span class="caption">Clonmel Busking Festival | Image 01</span>
             </div>
             <div class="item">
               <img src="../img/image-2.jpg" alt="Image Two">
+              <span class="caption">Clonmel Busking Festival | Image 02</span>
             </div>
             <div class="item">
               <img src="../img/image-3.jpg" alt="Image Three">
+              <span class="caption">Clonmel Busking Festival | Image 03</span>
             </div>
             <div class="item">
               <img src="../img/image-4.jpg" alt="Image Four">
+              <span class="caption">Clonmel Busking Festival | Image 04</span>
             </div>
           </div>
         </div>
@@ -111,13 +124,16 @@
   <!-- jQuery -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
+  <!-- Pace Javascript -->
+  <script type="text/javascript" src="../libs/pace-page-loader/pace.min.js"></script>
+
   <!-- Nice Scroll Javascript -->
   <script type="text/javascript" src="../libs/nice-scroll/jquery.nicescroll.min.js"></script>
   <script type="text/javascript" src="../libs/nice-scroll/jquery.nicescroll.plus.js"></script>
 
   <!-- Mouse Wheel Javascript -->
   <script type="text/javascript" src="../libs/fancy-box/jquery.mousewheel-3.0.6.pack.js"></script>
-  
+
   <!-- Bootstrap Core JavaScript -->
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 

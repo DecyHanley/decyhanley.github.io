@@ -69,25 +69,9 @@ $(document).ready(function() {
     type: 'iframe',
     width: '100%',
     height: '100%',
-    autoScale: true,
+    autoScale: false,
     helpers: {
       overlay: {locked: false}
     },
-    onStart: function() {
-      $('.fancybox-wrap').css({'position':'fixed', 'top':'50px', 'bottom':'auto'});
-      $('.fancybox-title').css({'top':'-40px', 'bottom':'auto'});
-    },
-    onComplete  : function(){
-      $('.fancybox-wrap').css({'position':'fixed', 'top':'50px', 'bottom':'auto'});
-      $('.fancybox-title').css({'top':'-40px', 'bottom':'auto'});
-    },
-    onUpdate: function() {
-      $('.fancybox-wrap').css({'position':'fixed', 'top':'50px', 'bottom':'auto'});
-      $('.fancybox-title').css({'top':'-40px', 'bottom':'auto'});
-    },
-    afterLoad : function() {
-      $('.fancybox-wrap').css({'position':'fixed', 'top':'50px', 'bottom':'auto'});
-      $('.fancybox-title').css({'top':'-40px', 'bottom':'auto'});
-    }
   });
 });

@@ -1,9 +1,9 @@
-#photo .item img {
+#music .item iframe {
   display: block;
-  width: 95%;
-  height: 365px;
+  width: 100%;
+  height: 400px;
 }
-#music .item img {
+#photo .item img {
   display: block;
   width: 100%;
   height: 400px;
@@ -18,11 +18,11 @@
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev {
   left: -75px;
-  top: 100px;
+  top: 150px;
 }
 .owl-theme .owl-controls .owl-buttons .owl-next {
   right: -75px;
-  top: 100px;
+  top: 150px;
 }
 .owl-theme .owl-controls .owl-page span {
   background: #000;
