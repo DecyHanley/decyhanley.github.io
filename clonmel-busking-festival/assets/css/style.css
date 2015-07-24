@@ -179,6 +179,9 @@ hr.small {
   margin-bottom: 20px;
 }
 
+/* FancyBox */
+.fancybox-wrap { position:fixed !important; top: 50px !important; };
+
 /* Contact Us */
 .contact-us {
   height: 87%;
@@ -224,7 +227,7 @@ hr.small {
   background-color: rgba(34, 127, 187, 1);
   width: 100%;
   height: 100%;
-  padding: 3%;
+  padding: 1%;
 }
 .music .white-box {
   background-color: rgba(255, 255, 255, 1);
@@ -258,7 +261,7 @@ hr.small {
   background-color: rgba(34, 127, 187, 1);
   width: 100%;
   height: 100%;
-  padding: 3%;
+  padding: 1%;
 }
 .sponsors .white-box {
   position: absolute;
@@ -283,7 +286,7 @@ hr.small {
   background-color: rgba(34, 127, 187, 1);
   width: 100%;
   height: 100%;
-  padding-top: 3%;
+  padding-top: 1%;
 }
 .photo-gallery .white-box {
   background-color: rgba(255, 255, 255, 1);
