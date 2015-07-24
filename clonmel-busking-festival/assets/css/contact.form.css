@@ -1,48 +1,51 @@
-section#contact-us {
-  background-color: rgba(255, 255, 255, 1);
+/* Contact Us */
+section.contact-us {
+  background-color: rgba(34, 127, 187, 1);
+  color: rgba(255, 255, 255, 1);
   background-position: center;
   background-repeat: no-repeat;
+  height: 87%;
 }
-section#contact-us .form-group {
+section.contact-us .form-group {
   margin-bottom: 20px;
 }
-section#contact-us .form-group input, section#contact-us .form-group textarea {
+section.contact-us .form-group input, section.contact-us .form-group textarea {
   padding: 20px;
 }
-section#contact-us .form-group input.form-control {
+section.contact-us .form-group input.form-control {
   height: 75px;
 }
-section#contact-us .form-group textarea.form-control {
+section.contact-us .form-group textarea.form-control {
   height: 265px;
 }
-section#contact-us .form-control:focus {
+section.contact-us .form-control:focus {
   border-color: rgba(254, 209, 55, 1);
   box-shadow: none;
 }
-section#contact-us::-webkit-input-placeholder {
+section.contact-us::-webkit-input-placeholder {
   text-transform: uppercase;
   font-family: "Lovelo Black";
   font-weight: 700;
   color: rgba(187, 187, 187, 1);
 }
-section#contact-us:-moz-placeholder {
+section.contact-us:-moz-placeholder {
   text-transform: uppercase;
   font-family: "Lovelo Black";
   font-weight: 700;
   color: rgba(187, 187, 187, 1);
 }
-section#contact-us::-moz-placeholder {
+section.contact-us::-moz-placeholder {
   text-transform: uppercase;
   font-family: "Lovelo Black";
   font-weight: 700;
   color: rgba(187, 187, 187, 1);
 }
-section#contact-us:-ms-input-placeholder {
+section.contact-us:-ms-input-placeholder {
   text-transform: uppercase;
   font-family: "Lovelo Black";
   font-weight: 700;
   color: rgba(187, 187, 187, 1);
 }
-section#contact-us .text-danger {
+section.contact-us .text-danger {
   color: rgba(231, 76, 60, 1);
 }

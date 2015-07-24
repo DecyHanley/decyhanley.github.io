@@ -179,36 +179,16 @@ hr.small {
   margin-bottom: 20px;
 }
 
-/* Contact Us */
-.contact-us {
+/* Soical Media */
+.social-media {
   height: 87%;
 }
 
 /* Footer */
 .footer {
-  background-color: rgba(34, 127, 187, 1);
   width: 100%;
   height: 100%;
-  color: rgba(255, 255, 255, 1);
   font-size: 1em;
-}
-.text-muted {
-  color: rgba(255, 255, 255, 1);
-}
-.footer li {
-  color: rgba(255, 255, 255, 1);
-}
-.footer li a {
-  color: rgba(255, 255, 255, 1);
-}
-.footer li a:hover {
-  color: rgba(0, 0, 0, 0.7);
-}
-.footer p a {
-  color: rgba(255, 255, 255, 1);
-}
-.footer p a:hover {
-  color: rgba(0, 0, 0, 0.7);
 }
 
 /* Map */
