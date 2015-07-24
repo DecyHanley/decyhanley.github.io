@@ -13,10 +13,10 @@ section.contact-us .form-group input, section.contact-us .form-group textarea {
   padding: 20px;
 }
 section.contact-us .form-group input.form-control {
-  height: 75px;
+  height: 85px;
 }
 section.contact-us .form-group textarea.form-control {
-  height: 265px;
+  height: 300px;
 }
 section.contact-us .form-control:focus {
   border-color: rgba(254, 209, 55, 1);
