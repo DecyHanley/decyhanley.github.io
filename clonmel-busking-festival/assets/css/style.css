@@ -199,13 +199,13 @@ hr.small {
   color: rgba(255, 255, 255, 1);
 }
 .footer li a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
 }
 .footer li a:hover {
   color: rgba(0, 0, 0, 0.7);
 }
 .footer p a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
 }
 .footer p a:hover {
   color: rgba(0, 0, 0, 0.7);
@@ -216,27 +216,6 @@ hr.small {
   width: 100%;
   height: 225px;
   z-index: 0;
-}
-
-/* Photo Gallery */
-.photo-gallery {
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(34, 127, 187, 1);
-  width: 100%;
-  height: 100%;
-  padding-top: 3%;
-}
-.photo-gallery .white-box {
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 10%;
-  padding-right: 10%;
-  width: 100%;
-  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
-  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
 }
 
 /* Music */
@@ -296,4 +275,34 @@ hr.small {
 .sponsors iframe {
   width: 853px;
   height: 480px;
+}
+
+/* Photo Gallery */
+.photo-gallery {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(34, 127, 187, 1);
+  width: 100%;
+  height: 100%;
+  padding-top: 3%;
+}
+.photo-gallery .white-box {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
+}
+
+/* Previous Years */
+.previous-years {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(34, 127, 187, 1);
+  width: 100%;
+  height: 100%;
+  padding: 1%;
 }
