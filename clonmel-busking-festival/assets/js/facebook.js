@@ -1,7 +1,6 @@
 $(document).ready(function() {
   window.fbAsyncInit = function() {
     FB.init({
-      appId: 'your-app-id',
       xfbml: true,
       version: 'v2.4'
     });
