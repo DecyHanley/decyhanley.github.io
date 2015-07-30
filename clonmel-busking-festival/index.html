@@ -48,22 +48,25 @@
 
   <title>Home | Clonmel Busking Festival</title>
 
-  <!-- Pace CSS -->
-  <link rel="stylesheet" type="text/css" href="assets/libs/pace-page-loader/pace.css">
-
-  <!-- Normalize CSS -->
+  <!-- Normalize CDN-->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
 
-  <!-- Bootstrap Core CSS -->
+  <!-- Bootstrap CDN -->
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-  <!-- Font-Awesome CSS -->
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Bootstrap Theme -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-  <!-- Fancy Box CSS -->
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/libs/fancy-box/jquery.fancybox.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/libs/fancy-box/helpers/jquery.fancybox-buttons.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/libs/fancy-box/helpers/jquery.fancybox-thumbs.css" />
+  <!-- Font-Awesome -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- Pace Page Loader-->
+  <link rel="stylesheet" type="text/css" href="assets/javascript/libs/pace-page-loader/pace.css">
+
+  <!-- Fancy Box -->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/javascript/libs/fancy-box/jquery.fancybox.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/javascript/libs/fancy-box/helpers/jquery.fancybox-buttons.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/javascript/libs/fancy-box/helpers/jquery.fancybox-thumbs.css">
 
   <!-- Custom Fonts -->
   <link rel="stylesheet" type="text/css" href="assets/fonts/lovelo-webfont/lovelo.webfont.css">
@@ -93,12 +96,12 @@
   <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-1x fa-bars"></i></a>
   <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
-      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"> <i class="fa fa-1x fa-times"></i></a>
+      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-1x fa-times"></i></a>
       <li class="sidebar-brand">
         <a href="#home" onclick= $("#menu-close").click();>Home</a>
       </li>
       <li>
-        <a href="#welcome" onclick= $("#menu-close").click();>Welcome</a>
+        <a href="#our-story" onclick= $("#menu-close").click();>Our Story</a>
       </li>
       <li>
         <a href="#festival-info" onclick= $("#menu-close").click();>Festival Info</a>
@@ -119,22 +122,25 @@
   <header id="home" class="header">
     <div class="container text-vertical-center">
       <div class="row">
-        <a href='#home'>
-          <img id="logo" src="assets/img/CBF_Logo.png" alt="New Busking Logo" />
+        <h1 class="txt-title">Welcome to the Clonmel Busking Festival</h1>
+        <hr class="small">
+      </div>
+      <div class="row">
+          <img id="logo" src="assets/images/cbf_logo.png" alt="New Busking Logo" />
         </a>
       </div>
       <div class="row">
         <hr class="small">
-        <a href="#welcome" class="btn btn-dark btn-lg">Find Out More<div class="arrow bounce text-center" style="color:#fff"><i class="fa fa-arrow-down"></i></div></a>
+        <a href="#our-story" class="btn btn-dark btn-lg">Find Out More<div class="arrow bounce text-center" style="color:#fff"><i class="fa fa-arrow-down"></i></div></a>
       </div>
     </div>
   </header>
 
-  <!-- Welcome -->
-  <section  id="welcome" class="welcome">
+  <!-- Our Story -->
+  <section id="our-story" class="our-story">
     <div class="container text-vertical-center">
       <div class="row">
-        <h2>Welcome to the Clonmel Busking Festival</h2>
+        <h2>Our Story</h2>
         <hr class="small">
       </div>
       <div class="row">
@@ -143,13 +149,11 @@
           <br><br><br>
           Busking takes place during the day in Clonmel town centre, while at night a number a concerts take place in various venues throughout the town.
           <br><br><br>
-          The Busking festival is run by a small group of people dedicated to creating a music festival in Clonmel,
-          which in years to come will rival Irelands biggest festivals, while also generating money and tourism for the local economy in Clonmel.
+          The Busking festival is run by a small group of people dedicated to creating a music festival in Clonmel, which in years to come will rival Irelands biggest festivals, while also generating money and tourism for the local economy in Clonmel.
           <br><br><br>
           All the people involved in organizing the event, work on a voluntary basis. All funds raised through sponsorship are put into the running of the festival.
-          <br><br><br>
-          <h2 class="lead">We can't wait to see you!!!</h2>
         </p>
+        <p><h2 class="lead">We can't wait to see you!!!</h2></p>
       </div>
       <div class="row">
         <hr class="small">
@@ -168,69 +172,54 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="festival-info-item">
-            <span class="fa-stack fa-3x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-music fa-stack-1x text-primary"></i>
-            </span>
+            <i class="fa fa-music fa-5x fa-fw text-primary"></i>
             <h2>
               <strong>Music</strong>
             </h2>
             <p>Music is important, heres a taste of whats on offer.</p>
-            <a class="btn btn-light" id="iframe" href="assets/html/music.html">Learn More</a>
+            <a class="btn btn-light" id="iframe" href="assets/html/pages/music.html">Learn More</a>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="festival-info-item">
-            <span class="fa-stack fa-3x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-compass fa-stack-1x text-primary"></i>
-            </span>
+            <i class="fa fa-compass fa-5x fa-fw text-primary"></i>
             <h2>
               <strong>Events Guide</strong>
             </h2>
             <p>Events are what make a festival, and here where to find them.</p>
-            <a class="btn btn-light" id="iframe" href="assets/html/events-guide.html">Learn More</a>
+            <a class="btn btn-light" id="iframe" href="assets/html/pages/events-guide.html">Learn More</a>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="festival-info-item">
-            <span class="fa-stack fa-3x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-heart fa-stack-1x text-primary"></i>
-            </span>
+            <i class="fa fa-heart fa-5x fa-fw text-primary"></i>
             <h2>
               <strong>Sponsors</strong>
             </h2>
             <p>Click here to check out our Sponsors.</p>
-            <a class="btn btn-light" id="iframe" href="assets/html/sponsors.html">Learn More</a>
+            <a class="btn btn-light" id="iframe" href="assets/html/pages/sponsors.html">Learn More</a>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6">
           <div class="festival-info-item">
-            <span class="fa-stack fa-3x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-picture-o fa-stack-1x text-primary"></i>
-            </span>
+            <i class="fa fa-picture-o fa-5x fa-fw text-primary"></i>
             <h2>
               <strong>Photo Gallery</strong>
             </h2>
             <p>Heres a selection of images</p>
-            <a class="btn btn-light" id="iframe" href="assets/html/photo-gallery.html">Learn More</a>
+            <a class="btn btn-light" id="iframe" href="assets/html/pages/photo-gallery.html">Learn More</a>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="festival-info-item">
-            <span class="fa-stack fa-3x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-history fa-stack-1x text-primary"></i>
-            </span>
+            <i class="fa fa-history fa-5x fa-fw text-primary"></i>
             <h2>
               <strong>Previous Years</strong>
             </h2>
             <p>Click here to check out our past festivals</p>
-            <a class="btn btn-light" id="iframe" href="assets/html/previous-years.html">Learn More</a>
+            <a class="btn btn-light" id="iframe" href="assets/html/pages/previous-years.html">Learn More</a>
           </div>
         </div>
       </div>
@@ -260,8 +249,10 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <!-- Twitter -->
+      </div>
+      <div class="col-lg-6">
+        <!-- Twitter -->
+        <div>
           <a class="twitter-timeline" href="https://twitter.com/SuperBoringFool" data-widget-id="624621039306170368">Tweets by @SuperBoringFool</a>
         </div>
       </div>
@@ -333,67 +324,62 @@
       </div>
 
       <div class="row">
-        <i class="fa fa-map-marker fa-fw"></i>
-        <p>8 Sarsfield Street,
-          <br>Clonmel, County Tipperary.</p>
+        <br>
         <ul class="list-unstyled">
-          <li><i class="fa fa-phone fa-fw"></i> <a href="tel:+353872808462">+353 (0) 87 280 8462</a>.</li>
-          <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:buskingfestival@yahoo.ie">buskingfestival@yahoo.ie</a>.</li>
+          <li><p><i class="fa fa-map-marker fa-lg fa-fw"></i><br><br>8 Sarsfield Street, Clonmel, County Tipperary.</p></li>
+          <li><p><i class="fa fa-phone fa-lg fa-fw"></i><br><br><a href="tel:+353872808462">+353 (0) 87 280 8462</a>.</p></li>
+          <li><p><i class="fa fa-envelope fa-lg fa-fw"></i><br><br><a href="mailto:buskingfestival@yahoo.ie">buskingfestival@yahoo.ie</a>.</p></li>
         </ul>
       </div>
       <div class="row">
         <hr class="small">
         <ul class="list-inline">
-          <li>
-            <a href="https://www.facebook.com/clonmelbuskingfestival" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/ClonmelBusking" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-          </li>
+          <li><a href="https://www.facebook.com/clonmelbuskingfestival" target="_blank"><i class="fa fa-facebook fa-3x fa-fw"></i></a></li>
+          <li><a href="https://twitter.com/ClonmelBusking" target="_blank"><i class="fa fa-twitter fa-3x fa-fw"></i></a></li>
         </ul>
       </div>
       <div class="row">
         <hr class="small">
-        <p class="text-muted"><i class="fa fa-copyright fa-fw"></i>2015 <a href="#home">Clonmel Busking Festival</a>.</p>
+        <p class="text-muted"><i class="fa fa-copyright fa-lg fa-fw"></i></i>2015 <a href="#home">Clonmel Busking Festival</a>.</p>
         <p class="text-muted">Website Designed by <a href="https://decyhanley.github.io" target="_blank">Decy Hanley</a> - <a href="http://lit.ie/Courses/LC517/default.aspx" target="_blank">L.S.A.D. Clonmel</a>.</p>
         <p class="text-muted">Please find all relevent information on libraries and assets used in the following <a href="https://github.com/DecyHanley/decyhanley.github.io/blob/master/clonmel-busking-festival/README.md" target="_blank">Github README File</a>.</p>
       </div>
     </div>
   </footer>
 
-  <!-- jQuery -->
+  <!-- jQuery CDN-->
   <script text="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-  <!-- Pace Javascript -->
-  <script type="text/javascript" src="assets/libs/pace-page-loader/pace.min.js"></script>
-
-  <!-- Nice Scroll Javascript -->
-  <script type="text/javascript" src="assets/libs/nice-scroll/jquery.nicescroll.min.js"></script>
-  <script type="text/javascript" src="assets/libs/nice-scroll/jquery.nicescroll.plus.js"></script>
-
-  <!-- Mouse Wheel Javascript -->
-  <script type="text/javascript" src="assets/libs/fancy-box/jquery.mousewheel-3.0.6.pack.js"></script>
-
-  <!-- Bootstrap Core JavaScript -->
+  <!-- Bootstrap CDN-->
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-  <!-- Fancy Box Javascript -->
-  <script type="text/javascript" src="assets/libs/fancy-box/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="assets/libs/fancy-box/helpers/jquery.fancybox-buttons.js"></script>
-  <script type="text/javascript" src="assets/libs/fancy-box/helpers/jquery.fancybox-media.js"></script>
-  <script type="text/javascript" src="assets/libs/fancy-box/helpers/jquery.fancybox-thumbs.js"></script>
+  <!-- Pace Page Loader -->
+  <script type="text/javascript" src="assets/javascript/libs/pace-page-loader/pace.min.js"></script>
 
-  <!-- Facebook Javascript -->
-  <script type="text/javascript" src="assets/js/facebook.js" async></script>
+  <!-- Nice Scroll -->
+  <script type="text/javascript" src="assets/javascript/libs/nice-scroll/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/libs/nice-scroll/jquery.nicescroll.plus.js"></script>
 
-  <!-- Twitter Javascript -->
-  <script type="text/javascript" src="assets/js/twitter.js" async></script>
+  <!-- Mouse Wheel -->
+  <script type="text/javascript" src="assets/javascript/libs/fancy-box/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Fancy Box -->
+  <script type="text/javascript" src="assets/javascript/libs/fancy-box/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="assets/javascript/libs/fancy-box/helpers/jquery.fancybox-buttons.js"></script>
+  <script type="text/javascript" src="assets/javascript/libs/fancy-box/helpers/jquery.fancybox-media.js"></script>
+  <script type="text/javascript" src="assets/javascript/libs/fancy-box/helpers/jquery.fancybox-thumbs.js"></script>
+
+  <!-- Facebook -->
+  <script type="text/javascript" src="assets/javascript/apis/facebook.js" async></script>
+
+  <!-- Twitter -->
+  <script type="text/javascript" src="assets/javascript/apis/twitter.js" async></script>
 
   <!-- Google Analytics -->
-  <script type="text/javascript" src="assets/js/google-analytics.js" async></script>
+  <script type="text/javascript" src="assets/javascript/apis/google-analytics.js" async></script>
 
   <!-- Custom JavaScript -->
-  <script type="text/javascript" src="assets/js/custom.js"></script>
+  <script type="text/javascript" src="assets/javascript/scripts/custom.js"></script>
 </body>
 
 </html>
