@@ -114,6 +114,12 @@ hr.small {
   right: 1%;
   display: none;
 }
+#return {
+  z-index: 1;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+}
 
 /*-----------------------------------------------------------------------------------------------------
                                             Bouncing Arrow Animations
@@ -189,7 +195,7 @@ hr.small {
   position: relative;
   width: 100%;
   height: 100%;
-  background: url(../img/cover.jpg) no-repeat center center scroll;
+  background: url(../images/cover.jpg) no-repeat center center scroll;
   background: opacity: 0.8;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -223,7 +229,7 @@ hr.small {
   font-size: 1.5em;
 }
 .our-story p {
-  margin-bottom: 75px;
+  margin-bottom: 65px;
 }
 .festival-info {
   background-color: rgba(34, 127, 187, 1);
@@ -301,89 +307,31 @@ hr.small {
                                                   Pages
 -----------------------------------------------------------------------------------------------------*/
 
-.music {
+.pages {
   background-color: rgba(34, 127, 187, 1);
   color: rgba(255, 255, 255, 1);
   width: 100%;
   height: 100%;
 }
-.music .white-box {
+.pages p {
+  font-size: 1.5em;
+}
+.pages .white-box {
   background-color: rgba(255, 255, 255, 1);
   width: 100%;
+  height: 500px;
   border-radius: 5%;
-  padding: 1% 7% 1% 7%;
+  padding: 2% 8% 5% 8%;
   -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
   -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
 }
-.music iframe {
-  width: 100%;
-  height: 420px;
+.pages iframe {
+  width: 1000px;
+  height: 450px;
 }
-.events-guide {
-  background-color: rgba(34, 127, 187, 1);
-  color: rgba(255, 255, 255, 1);
-  width: 100%;
-  height: 100%;
-}
-.sponsors {
-  background-color: rgba(34, 127, 187, 1);
-  color: rgba(255, 255, 255, 1);
-  width: 100%;
-  height: 100%;
-}
-.sponsors .white-box {
-  background-color: rgba(255, 255, 255, 1);
-  position: absolute;
-  left: 18%;
-  width: 900px;
-  height: 520px;
-  border-radius: 5%;
-  padding: 1%;
-  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
-  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
-}
-.sponsors iframe {
-  width: 853px;
-  height: 480px;
-}
-.photo-gallery {
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(34, 127, 187, 1);
-  width: 100%;
-  height: 100%;
-}
-.photo-gallery .white-box {
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 5%;
-  padding: 1% 7% 1% 7%;
-  width: 100%;
-  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
-  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
-}
-.previous-years {
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(34, 127, 187, 1);
-  width: 100%;
-  height: 100%;
-}
-.previous-years .white-box {
-  position: absolute;
-  left: 18%;
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 5%;
-  padding: 1%;
-  width: 900px;
-  height: 520px;
-  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
-  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
-}
-.previous-years iframe {
-  width: 853px;
-  height: 480px;
+.pages .temp-text {
+  color: rgba(51, 51, 51, 1);
 }
 
 /*-----------------------------------------------------------------------------------------------------
@@ -392,7 +340,7 @@ hr.small {
 
 .brochure {
   width: 100%;
-  height: 550px;
+  height: 450px;
 }
 
 /*-----------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 # Clonmel Busking Festival.
 
------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) and [Agency](http://startbootstrap.com/template-overviews/agency/) by [Start Bootstrap](http://startbootstrap.com/).
 
@@ -12,6 +12,6 @@ Lovelo Inline Font by [Hans Renzler](https://www.behance.net/gallery/6787299/Lov
 
 [Pace Page Loader](http://github.hubspot.com/pace/docs/welcome/) by [HotSpot](https://github.com/HubSpot), Javascript by [Zack Bloom](https://github.com/zackbloom) and CSS by [Adam Schwartz](https://github.com/adamschwartz).
 
-&copy; 2015 [Clonmel Busking Festival](http://www.clonmelbuskingfestival.com/).
+© 2015 [Clonmel Busking Festival](http://www.clonmelbuskingfestival.com/).
 
 Website designed and devloped by [Decy Hanley](http://decyhanley.github.io/).

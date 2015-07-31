@@ -5,12 +5,12 @@
 #music .item iframe {
   display: block;
   width: 100%;
-  height: 400px;
+  height: 440px;
 }
 #photo .item img {
   display: block;
   width: 100%;
-  height: 400px;
+  height: 440px;
 }
 .caption {
   color: #000;
@@ -22,11 +22,11 @@
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev {
   left: -75px;
-  top: 150px;
+  top: 185px;
 }
 .owl-theme .owl-controls .owl-buttons .owl-next {
   right: -75px;
-  top: 150px;
+  top: 185px;
 }
 .owl-theme .owl-controls .owl-page span {
   background: #000;
@@ -37,27 +37,10 @@
 -----------------------------------------------------------------------------------------------------*/
 
 @media(max-width:768px) {
-  #photo-gallery .item img {
-    display margin: : block;
-    width: 100%;
-    height: 350px;
-  }
-  .owl-theme .owl-controls .owl-buttons div {
-    position: absolute;
-  }
-  .owl-theme .owl-controls .owl-buttons .owl-prev {
-    left: 25px;
-    top: 350px;
-  }
-  .owl-theme .owl-controls .owl-buttons .owl-next {
-    right: 25px;
-    top: 350px;
-  }
-}
-@media(max-width:768px) {
   #music .item img {
-    display: block;
-    width: 100%;
+    height: 400px;
+  }
+  #photo-gallery .item img {
     height: 400px;
   }
   .owl-theme .owl-controls .owl-buttons div {

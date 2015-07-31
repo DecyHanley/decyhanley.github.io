@@ -65,23 +65,8 @@ $(document).ready(function() {
     return false;
   });
 
-  //FancyBox
-  $('#iframe').fancybox({
-    type: 'iframe',
-    width: '100%',
-    height: '100%',
-    autoScale: false,
-    helpers: {
-      overlay: {
-        locked: false
-      }
-    },
-  });
-
-  //jQuery Flip
-  $("#card").flip({
-    axis: 'y',
-    trigger: 'click',
-    reverse: 'true'
+  //Return
+  $('#return').click(function() {
+    window.history.go(-1);
   });
 });
