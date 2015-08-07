@@ -5,14 +5,6 @@ $(document).ready(function() {
     $(".cover").fadeOut(2000);
   });
 
-  //Animated Logo
-  $(window).on("load", function() {
-    $('#logo').toggleClass('appear', $(document).scrollTop() <= 0);
-  });
-  $(window).on("scroll touchmove", function() {
-    $('#logo').toggleClass('tiny', $(document).scrollTop() > 100);
-  });
-
   //Menu
   $("#menu-close").click(function(e) {
     e.preventDefault();
@@ -31,7 +23,6 @@ $(document).ready(function() {
       $('#menu-toggle').fadeOut();
     }
   });
-
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(
@@ -57,7 +48,6 @@ $(document).ready(function() {
       $('#back-to-top').fadeOut();
     }
   });
-
   $('#back-to-top').click(function() {
     $('html, body').animate({
       scrollTop: 0
@@ -65,8 +55,15 @@ $(document).ready(function() {
     return false;
   });
 
-  //Return
+  //Return Button
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('#return').fadeIn();
+    } else {
+      $('#return').fadeOut();
+    }
+  });
   $('#return').click(function() {
-    window.history.go(-1);
+    window.location.href= "index.html";
   });
 });

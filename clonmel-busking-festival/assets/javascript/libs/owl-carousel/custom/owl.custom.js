@@ -1,6 +1,6 @@
 $(document).ready(function() {
   //Owl Carousel
-  $("#music").owlCarousel({
+  $("#podcasts").owlCarousel({
     singleItem: true,
     navigation: true,
     navigationText: [
@@ -10,7 +10,7 @@ $(document).ready(function() {
     slideSpeed: 200,
     paginationSpeed: 800,
   });
-  $("#photo").owlCarousel({
+  $("#photos").owlCarousel({
     singleItem: true,
     navigation: true,
     navigationText: [
