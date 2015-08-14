@@ -1,0 +1,35 @@
+/* ==========================================================================
+   IMPLEMENTATION
+   ========================================================================== */
+
+body {
+  font-family: 'Lovelo Black', sans-serif;
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+
+/* ==========================================================================
+   FONT STACK
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Lovelo Black';
+  src: url('lovelo_black-webfont.eot');
+  src: url('lovelo_black-webfont.eot?#iefix') format('embedded-opentype'), url('lovelo_black-webfont.woff2') format('woff2'), url('lovelo_black-webfont.woff') format('woff'), url('lovelo_black-webfont.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lovelo Line Light';
+  src: url('lovelo_line_light-webfont.eot');
+  src: url('lovelo_line_light-webfont.eot?#iefix') format('embedded-opentype'), url('lovelo_line_light-webfont.woff2') format('woff2'), url('lovelo_line_light-webfont.woff') format('woff'), url('lovelo_line_light-webfont.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lovelo Line Bold';
+  src: url('lovelo_line_bold-webfont.eot');
+  src: url('lovelo_line_bold-webfont.eot?#iefix') format('embedded-opentype'), url('lovelo_line_bold-webfont.woff2') format('woff2'), url('lovelo_line_bold-webfont.woff') format('woff'), url('lovelo_line_bold-webfont.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
