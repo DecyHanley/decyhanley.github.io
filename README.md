@@ -2,7 +2,7 @@
 
 *Repo for Hosting websites.*
 
-#### [Personal Site] (https://github.com/DecyHanley/decyhanley.github.io/tree/master)
+#### [Personal Site] (https://github.com/DecyHanley/decyhanley.github.io/tree/master) - [Site Url] (https://decyhanley.github.io/)
 
 * [Index] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/index.html)
 * [Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/assets)
