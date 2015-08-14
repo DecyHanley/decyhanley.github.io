@@ -2,6 +2,10 @@
 
 *Repo for Hosting websites.*
 
+#### [Personal Site] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/index.html)
+
+* Personal Site
+
 #### [College App Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets)
 
 * Assets for college sites
