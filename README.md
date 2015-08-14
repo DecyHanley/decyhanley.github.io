@@ -5,7 +5,7 @@
 #### [Personal Site] (https://github.com/DecyHanley/decyhanley.github.io/tree/master)
 
 * [Index] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/index.html)
-* [Assets] ((https://github.com/DecyHanley/decyhanley.github.io/tree/master/assets)
+* [Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/assets)
 
 #### [College App Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets)
 
