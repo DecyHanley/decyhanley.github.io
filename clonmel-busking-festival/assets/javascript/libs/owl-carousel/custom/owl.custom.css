@@ -14,6 +14,7 @@
 }
 .caption {
   color: #000;
+  font-size: 0.9em;
 }
 .owl-theme .owl-controls .owl-buttons div {
   color: #FFF;
@@ -22,11 +23,11 @@
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev {
   left: -75px;
-  top: 185px;
+  top: 150px;
 }
 .owl-theme .owl-controls .owl-buttons .owl-next {
   right: -75px;
-  top: 185px;
+  top: 150px;
 }
 .owl-theme .owl-controls .owl-page span {
   background: #000;
