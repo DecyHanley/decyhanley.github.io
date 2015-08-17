@@ -11,7 +11,7 @@ $(document).ready(function() {
     ],
     slideSpeed: 200,
     paginationSpeed: 800,
-    jsonPath: "assets/javacript/libs/owl-carousel/custom/json/podcasts.json",
+    jsonPath: "assets/javascript/libs/owl-carousel/custom/json/podcasts.json",
     jsonSuccess: customDataSuccess
   });
 
@@ -38,7 +38,7 @@ $(document).ready(function() {
     autoPlay: 2500,
     slideSpeed: 200,
     paginationSpeed: 800,
-    jsonPath: "assets/javacript/libs/owl-carousel/custom/json/images.json",
+    jsonPath: "assets/javascript/libs/owl-carousel/custom/json/images.json",
     jsonSuccess: customDataSuccess
   });
 
