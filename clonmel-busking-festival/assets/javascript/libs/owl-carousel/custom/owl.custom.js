@@ -44,9 +44,9 @@ $(document).ready(function() {
 
   function customDataSuccess(data) {
     var content = "";
-    for (var j in data["items"]) {
-      var img = data["items"][j].img;
-      var alt = data["items"][j].alt;
+    for (var i in data["items"]) {
+      var img = data["items"][i].img;
+      var alt = data["items"][i].alt;
       content += "<img src=\"" + img + "\" alt=\"" + alt + "\">"
     }
     $("#photos").html(content);
