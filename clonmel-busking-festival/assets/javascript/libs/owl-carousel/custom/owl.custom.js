@@ -12,7 +12,7 @@ $(document).ready(function() {
   });
 
   $("#photos").owlCarousel({
-    items: 4;
+    items: 4,
     navigation: true,
     navigationText: [
       "<i class='fa  fa-1x fa-arrow-left'></i>",
