@@ -27,9 +27,8 @@ $(document).ready(function() {
     }
     $("#photos").html(content);
   }
-  
+
   $("#photos").owlCarousel({
-    singleItem: true,
     navigation: true,
     navigationText: [
       "<i class='fa  fa-1x fa-arrow-left'></i>",
