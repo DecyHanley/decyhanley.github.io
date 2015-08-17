@@ -18,14 +18,13 @@ $(document).ready(function() {
   function customDataSuccess(data) {
     var content = "";
     for (var i in data["items"]) {
-
-      var url = data["items"][i].url;
-      var params = data["items"][i].params;
       var width = data["items"][i].width;
       var height = data["items"][i].height;
-      var iframe = data["items"][i].iframe;
+      var scrolling = data["items"][i].scrolling;
+      var frameborder = data["items"][i].frameborder;
+      var src = data["items"][i].src;
 
-      content += "[soundcloud url=\"" + url + "\"  params=\"" + params + "\" width=\"" + width + "\" height=\"" + height + "\" iframe=\"" + iframe + "\"/]"
+      content += "<iframe width=\"" + width + "\" height=\"" + height + "\" scrolling=\"" + scrolling + "\" frameborder=\"" + frameborder + "\" src=\"" + src + "\"></iframe>"
     }
     $("#podcasts").html(content);
   }
