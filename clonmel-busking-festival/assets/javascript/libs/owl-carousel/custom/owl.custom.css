@@ -9,6 +9,7 @@
 #photos .owl-item img {
   width: 100%;
   height: 400px;
+  margin: 10px;
 }
 .owl-theme .owl-controls .owl-buttons div {
   color: #FFF;
