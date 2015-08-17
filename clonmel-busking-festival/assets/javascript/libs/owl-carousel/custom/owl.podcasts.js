@@ -4,6 +4,7 @@ $(document).ready(function() {
   $("#podcasts").owlCarousel({
     items: 2,
     navigation: true,
+    pagination: true,
     navigationText: [
       "<i class='fa  fa-1x fa-arrow-left'></i>",
       "<i class='fa  fa-1x fa-arrow-right'></i>"
