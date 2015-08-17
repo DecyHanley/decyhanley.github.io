@@ -32,11 +32,8 @@ $(document).ready(function() {
 
       var img = data["items"][i].img;
       var alt = data["items"][i].alt;
-      var span = data["items"][i].span;
-      class = data["items"][i].class;
-      var caption = data["items"][i].caption;
 
-      content += "<img src=\"" + img + "\" alt=\"" + alt + "\"><br><span class=\"" + class + "\" caption=\"" + caption +"\">"
+      content += "<img src=\"" + img + "\" alt=\"" + alt + "\">""
     }
     $("#photos").html(content);
   }
