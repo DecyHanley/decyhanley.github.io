@@ -2,9 +2,8 @@ $(document).ready(function() {
 
   //Owl Carousel Podcasts
   $("#podcasts").owlCarousel({
-    singleItem: true,
+    items: 2,
     navigation: true,
-    pagination: false,
     navigationText: [
       "<i class='fa  fa-1x fa-arrow-left'></i>",
       "<i class='fa  fa-1x fa-arrow-right'></i>"
@@ -21,7 +20,9 @@ $(document).ready(function() {
       var scrolling = data["items"][i].scrolling;
       var frameborder = data["items"][i].frameborder;
       var src = data["items"][i].src;
-      content += "<iframe scrolling=\"" + scrolling + "\" frameborder=\"" + frameborder + "\" src=\"" + src + "\">"
+      var width = data["items"][i].width;
+      var height = data["items"][i].height;
+      content += "<iframe scrolling=\"" + scrolling + "\" frameborder=\"" + frameborder + "\" width=\"" + width + "\" height=\"" + height + "\" src=\"" + src + "\">"
     }
     $("#podcasts").html(content);
   }
