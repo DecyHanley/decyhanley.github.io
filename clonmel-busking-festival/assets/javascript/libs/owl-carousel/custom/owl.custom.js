@@ -15,7 +15,6 @@ $(document).ready(function() {
     jsonPath: "assets/javascript/libs/owl-carousel/custom/owl.custom.json",
     jsonSuccess: customDataSuccess
   });
-
   function customDataSuccess(data) {
     var content = "";
     for (var i in data["items"]) {
@@ -28,6 +27,7 @@ $(document).ready(function() {
     }
     $("#photos").html(content);
   }
+  
   $("#photos").owlCarousel({
     singleItem: true,
     navigation: true,
