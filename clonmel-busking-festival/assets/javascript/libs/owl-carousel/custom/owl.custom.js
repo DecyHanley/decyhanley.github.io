@@ -31,9 +31,8 @@ $(document).ready(function() {
 
       var img = data["items"][i].img;
       var alt = data["items"][i].alt;
-      var caption = data["items"][i].caption;
 
-      content += "<img src=\"" + img + "\" alt=\"" + alt + "\" caption=\"" + caption + "\">"
+      content += "<img src=\"" + img + "\" alt=\"" + alt + "\">"
     }
     $("#photos").html(content);
   }
