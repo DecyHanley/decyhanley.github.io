@@ -12,7 +12,7 @@ $(document).ready(function() {
   });
 
   $("#photos").owlCarousel({
-    items: 4,
+    items: 2,
     navigation: true,
     pagination: false,
     navigationText: [
