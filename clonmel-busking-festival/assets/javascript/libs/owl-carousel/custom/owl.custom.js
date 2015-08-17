@@ -28,7 +28,6 @@ $(document).ready(function() {
   $("#photos").owlCarousel({
     singleItem: true,
     navigation: true,
-    autoHeight : true,
     navigationText: [
       "<i class='fa  fa-1x fa-arrow-left'></i>",
       "<i class='fa  fa-1x fa-arrow-right'></i>"
