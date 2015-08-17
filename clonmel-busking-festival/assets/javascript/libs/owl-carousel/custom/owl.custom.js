@@ -13,7 +13,6 @@ $(document).ready(function() {
 
   $("#photos").owlCarousel({
     items: 4,
-    navigation: true,
     navigationText: [
       "<i class='fa  fa-1x fa-arrow-left'></i>",
       "<i class='fa  fa-1x fa-arrow-right'></i>"
