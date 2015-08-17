@@ -18,10 +18,13 @@ $(document).ready(function() {
   function customDataSuccess(data) {
     var content = "";
     for (var i in data["items"]) {
-      var src = data["items"][i].src;
       var width = data["items"][i].width;
       var height = data["items"][i].height;
-      content += "<iframe src=\"" + src + "\" width=\"" + width + "\" height=\"" + height + "\">"
+      var scrolling = data["items"][i].scrolling;
+      var frameborder = data["items"][i].frameborder;
+      var src = data["items"][i].src;
+
+      content += "<iframe width=\"" + width + "\" height=\"" + height + "\" scrolling=\"" + scrolling + "\" frameborder=\"" + frameborder + "\" src=\"" + src + "\" >"
     }
     $("#podcasts").html(content);
   }

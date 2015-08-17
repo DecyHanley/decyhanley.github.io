@@ -21,6 +21,7 @@ $(document).ready(function() {
     for (var i in data["items"]) {
       var img = data["items"][i].img;
       var alt = data["items"][i].alt;
+
       content += "<img src=\"" + img + "\" alt=\"" + alt + "\">"
     }
     $("#photos").html(content);
