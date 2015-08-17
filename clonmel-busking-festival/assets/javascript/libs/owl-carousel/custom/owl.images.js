@@ -19,10 +19,10 @@ $(document).ready(function() {
   function customDataSuccess(data) {
     var content = "";
     for (var i in data["items"]) {
-      var img = data["items"][i].img;
+      var src = data["items"][i].src;
       var alt = data["items"][i].alt;
 
-      content += "<img src=\"" + img + "\" alt=\"" + alt + "\">"
+      content += "<img src=\"" + src + "\" alt=\"" + alt + "\">"
     }
     $("#photos").html(content);
   }
