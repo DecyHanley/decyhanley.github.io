@@ -10,6 +10,7 @@ $(document).ready(function() {
     slideSpeed: 200,
     paginationSpeed: 800,
   });
+
   $("#photos").owlCarousel({
     singleItem: true,
     navigation: true,
@@ -31,8 +32,11 @@ $(document).ready(function() {
 
       var img = data["items"][i].img;
       var alt = data["items"][i].alt;
+      var span = data["items"][i].span;
+      var class = data["items"][i].class;
+      var caption = data["items"][i].caption;
 
-      content += "<img src=\"" + img + "\" alt=\"" + alt + "\">"
+      content += "<img src=\"" + img + "\" alt=\"" + alt + "\"><br><span class=\"" + class + "\" caption=\"" + caption +"\">"
     }
     $("#photos").html(content);
   }
