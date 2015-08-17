@@ -3,7 +3,7 @@
     "img": "assets/images/gallery/cbf-01.jpg",
     "alt": "Clonmel Busking Festival | Image 01",
     "span": [{
-      "classname": "caption",
+      "class": "caption",
       "caption": "Clonmel Busking Festival | Image 01"
     }]
   }]
