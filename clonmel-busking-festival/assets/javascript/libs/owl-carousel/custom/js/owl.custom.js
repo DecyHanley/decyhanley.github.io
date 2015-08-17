@@ -1,9 +1,10 @@
 $(document).ready(function() {
-  //Owl Carousel
+
+  //Owl Carousel Podcasts
   $("#podcasts").owlCarousel({
     singleItem: true,
     navigation: true,
-    pagination : false,
+    pagination: false,
     navigationText: [
       "<i class='fa  fa-1x fa-arrow-left'></i>",
       "<i class='fa  fa-1x fa-arrow-right'></i>"
@@ -20,13 +21,12 @@ $(document).ready(function() {
       var scrolling = data["items"][i].scrolling;
       var frameborder = data["items"][i].frameborder;
       var src = data["items"][i].src;
-
       content += "<iframe scrolling=\"" + scrolling + "\" frameborder=\"" + frameborder + "\" src=\"" + src + "\">"
     }
     $("#podcasts").html(content);
   }
 
-
+  // Owl Carousel Photos
   $("#photos").owlCarousel({
     items: 2,
     navigation: true,
@@ -44,9 +44,9 @@ $(document).ready(function() {
 
   function customDataSuccess(data) {
     var content = "";
-    for (var i in data["items"]) {
-      var img = data["items"][i].img;
-      var alt = data["items"][i].alt;
+    for (var j in data["items"]) {
+      var img = data["items"][j].img;
+      var alt = data["items"][j].alt;
       content += "<img src=\"" + img + "\" alt=\"" + alt + "\">"
     }
     $("#photos").html(content);
