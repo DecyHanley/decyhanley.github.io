@@ -20,9 +20,9 @@ $(document).ready(function() {
     var content = "";
     for (var i in data["items"]) {
 
-      var src = data["img"][i].src;
-      var alt = data["img"][i].alt;
-      var caption = data["span"][i].caption;
+      var src = data["items"][i].src;
+      var alt = data["items"][i].alt;
+      var caption = data["items"][i].caption;
 
       content += "<img src=\"" + src + "\" alt=\"" + alt + "\"><br><span>caption=\"" + caption + "\"</span>"
     }
