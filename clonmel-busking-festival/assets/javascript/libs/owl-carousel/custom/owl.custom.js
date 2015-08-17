@@ -10,7 +10,17 @@ $(document).ready(function() {
     slideSpeed: 200,
     paginationSpeed: 800,
   });
-
+  $("#photos").owlCarousel({
+    singleItem: true,
+    navigation: true,
+    navigationText: [
+      "<i class='fa  fa-1x fa-arrow-left'></i>",
+      "<i class='fa  fa-1x fa-arrow-right'></i>"
+    ],
+    autoPlay: 2500,
+    slideSpeed: 200,
+    paginationSpeed: 800,
+  });
   $("#photos").owlCarousel({
     jsonPath: "assets/javascript/libs/owl-carousel/custom/owl.custom.json",
     jsonSuccess: customDataSuccess
@@ -27,16 +37,4 @@ $(document).ready(function() {
     }
     $("#photos").html(content);
   }
-
-  $("#photos").owlCarousel({
-    singleItem: true,
-    navigation: true,
-    navigationText: [
-      "<i class='fa  fa-1x fa-arrow-left'></i>",
-      "<i class='fa  fa-1x fa-arrow-right'></i>"
-    ],
-    autoPlay: 2500,
-    slideSpeed: 200,
-    paginationSpeed: 800,
-  });
 });
