@@ -23,7 +23,7 @@ $(document).ready(function() {
     paginationSpeed: 800,
   });
   $("#photos").owlCarousel({
-    jsonPath: "assets/javascript/libs/owl-carousel/custom/owl.custom.json",
+    jsonPath: "assets/javascript/libs/owl-carousel/custom/owl.custom.images.json",
     jsonSuccess: customDataSuccess
   });
   function customDataSuccess(data) {
