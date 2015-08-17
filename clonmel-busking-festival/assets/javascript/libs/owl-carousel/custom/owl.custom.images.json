@@ -3,84 +3,8 @@
     "img": "assets/images/gallery/cbf-01.jpg",
     "alt": "Clonmel Busking Festival | Image 01",
     "span": [{
-      "class": "caption",
+      "classname": "caption",
       "caption": "Clonmel Busking Festival | Image 01"
     }]
-  }, {
-    "img": "assets/images/gallery/cbf-02.jpg",
-    "alt": "Clonmel Busking Festival | Image 02",
-    "caption": "Clonmel Busking Festival | Image 02"
-  }, {
-    "img": "assets/images/gallery/cbf-03.jpg",
-    "alt": "Clonmel Busking Festival | Image 03",
-    "caption": "Clonmel Busking Festival | Image 03"
-  }, {
-    "img": "assets/images/gallery/cbf-04.jpg",
-    "alt": "Clonmel Busking Festival | Image 04",
-    "caption": "Clonmel Busking Festival | Image 04"
-  }, {
-    "img": "assets/images/gallery/cbf-05.jpg",
-    "alt": "Clonmel Busking Festival | Image 05",
-    "caption": "Clonmel Busking Festival | Image 05"
-  }, {
-    "img": "assets/images/gallery/cbf-06.jpg",
-    "alt": "Clonmel Busking Festival | Image 06",
-    "caption": "Clonmel Busking Festival | Image 06"
-  }, {
-    "img": "assets/images/gallery/cbf-07.jpg",
-    "alt": "Clonmel Busking Festival | Image 07",
-    "caption": "Clonmel Busking Festival | Image 07"
-  }, {
-    "img": "assets/images/gallery/cbf-08.jpg",
-    "alt": "Clonmel Busking Festival | Image 08",
-    "caption": "Clonmel Busking Festival | Image 08"
-  }, {
-    "img": "assets/images/gallery/cbf-09.jpg",
-    "alt": "Clonmel Busking Festival | Image 09",
-    "caption": "Clonmel Busking Festival | Image 09"
-  }, {
-    "img": "assets/images/gallery/cbf-10.jpg",
-    "alt": "Clonmel Busking Festival | Image 10",
-    "caption": "Clonmel Busking Festival | Image 10"
-  }, {
-    "img": "assets/images/gallery/cbf-11.jpg",
-    "alt": "Clonmel Busking Festival | Image 11",
-    "caption": "Clonmel Busking Festival | Image 11"
-  }, {
-    "img": "assets/images/gallery/cbf-12.jpg",
-    "alt": "Clonmel Busking Festival | Image 12",
-    "caption": "Clonmel Busking Festival | Image 12"
-  }, {
-    "img": "assets/images/gallery/cbf-13.jpg",
-    "alt": "Clonmel Busking Festival | Image 13",
-    "caption": "Clonmel Busking Festival | Image 13"
-  }, {
-    "img": "assets/images/gallery/cbf-14.jpg",
-    "alt": "Clonmel Busking Festival | Image 14",
-    "caption": "Clonmel Busking Festival | Image 14"
-  }, {
-    "img": "assets/images/gallery/cbf-15.jpg",
-    "alt": "Clonmel Busking Festival | Image 15",
-    "caption": "Clonmel Busking Festival | Image 15"
-  }, {
-    "img": "assets/images/gallery/cbf-16.jpg",
-    "alt": "Clonmel Busking Festival | Image 16",
-    "caption": "Clonmel Busking Festival | Image 16"
-  }, {
-    "img": "assets/images/gallery/cbf-17.jpg",
-    "alt": "Clonmel Busking Festival | Image 17",
-    "caption": "Clonmel Busking Festival | Image 17"
-  }, {
-    "img": "assets/images/gallery/cbf-18.jpg",
-    "alt": "Clonmel Busking Festival | Image 18",
-    "caption": "Clonmel Busking Festival | Image 18"
-  }, {
-    "img": "assets/images/gallery/cbf-19.jpg",
-    "alt": "Clonmel Busking Festival | Image 19",
-    "caption": "Clonmel Busking Festival | Image 19"
-  }, {
-    "img": "assets/images/gallery/cbf-20.jpg",
-    "alt": "Clonmel Busking Festival | Image 20",
-    "caption": "Clonmel Busking Festival | Image 20"
   }]
 }

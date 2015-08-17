@@ -33,10 +33,10 @@ $(document).ready(function() {
       var img = data["items"][i].img;
       var alt = data["items"][i].alt;
       var span = data["items"][i].span;
-      var class = data["items"][i].class;
+      var classname = data["items"][i].classname;
       var caption = data["items"][i].caption;
 
-      content += "<img src=\"" + img + "\" alt=\"" + alt + "\"><br><span class=\"" + class + "\" caption=\"" + caption +"\">"
+      content += "<img src=\"" + img + "\" alt=\"" + alt + "\"><br><span class=\"" + classname + "\" caption=\"" + caption +"\">"
     }
     $("#photos").html(content);
   }
