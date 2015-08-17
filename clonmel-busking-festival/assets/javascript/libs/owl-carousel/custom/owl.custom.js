@@ -12,17 +12,15 @@ $(document).ready(function() {
   });
 
   $("#photos").owlCarousel({
-    jsonPath: "/images.json",
+    jsonPath: "assets/javascript/libs/owl-carousel/custom/images.json",
     jsonSuccess: customDataSuccess
   });
 
   function customDataSuccess(data) {
     var content = "";
     for (var i in data["items"]) {
-
       var img = data["items"][i].img;
       var alt = data["items"][i].alt;
-
       content += "<img src=\"" + img + "\" alt=\"" + alt + "\">"
     }
     $("#photos").html(content);
