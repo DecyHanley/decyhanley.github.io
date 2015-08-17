@@ -33,7 +33,7 @@ $(document).ready(function() {
       var img = data["items"][i].img;
       var alt = data["items"][i].alt;
 
-      content += "<img src=\"" + img + "\" alt=\"" + alt + "\">""
+      content += "<img src=\"" + img + "\" alt=\"" + alt + "\">"
     }
     $("#photos").html(content);
   }
