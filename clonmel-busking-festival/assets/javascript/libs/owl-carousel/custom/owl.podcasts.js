@@ -18,14 +18,12 @@ $(document).ready(function() {
   function customDataSuccess(data) {
     var content = "";
     for (var j in data["items"]) {
-      var width = data["items"][j].width;
-      var height = data["items"][j].height;
       var scrolling = data["items"][j].scrolling;
       var frameborder = data["items"][j].frameborder;
       var src = data["items"][j].src;
-      var caption = data["item"][j].caption;
+      var caption = data["items"][j].caption;
 
-      content += "<div><iframe width=\"" + width + "\" height=\"" + height + "\" scrolling=\"" + scrolling + "\" frameborder=\"" + frameborder + "\" src=\"" + src + "\"></iframe><br><p>\"" + caption + "\"</p></div>"
+      content += "<div><iframe scrolling=\"" + scrolling + "\" frameborder=\"" + frameborder + "\" src=\"" + src + "\"></iframe><br><p>\"" + caption + "\"</p></div>"
     }
     $("#podcasts").html(content);
   }
