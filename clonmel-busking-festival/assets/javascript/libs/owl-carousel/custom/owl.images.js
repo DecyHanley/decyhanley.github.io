@@ -22,9 +22,9 @@ $(document).ready(function() {
 
       var src = data["items"][i].src;
       var alt = data["items"][i].alt;
-      var text = data["items"][i].text;
+      var caption = data["items"][i].caption;
 
-      content += "<div><img src=\"" + src + "\" alt=\"" + alt + "\"><br><p>\"" + text + "\"</p></div>"
+      content += "<div><img src=\"" + src + "\" alt=\"" + alt + "\"><br><p>\"" + caption + "\"</p></div>"
     }
     $("#photos").html(content);
   }
