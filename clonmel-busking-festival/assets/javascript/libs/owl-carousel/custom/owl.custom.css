@@ -1,54 +1,54 @@
-/*-----------------------------------------------------------------------------------------------------
-                                                  Main CSS
------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+	Custom Owl CSS
+------------------------------------------------------------------------------*/
 
 #podcasts .owl-item iframe {
-  width: 100%;
-  height: 300px;
-  padding: 10px;
+	width: 100%;
+	height: 300px;
+	padding: 10px;
 }
 #photos .owl-item img {
-  width: 100%;
-  height: 300px;
-  padding: 10px;
+	width: 100%;
+	height: 300px;
+	padding: 10px;
 }
 .owl-theme .owl-controls .owl-buttons div {
-  color: #FFF;
-  background-color: #000;
-  position: absolute;
+	color: #FFF;
+	background-color: #000;
+	position: absolute;
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev {
-  left: -75px;
-  top: 150px;
+	left: -75px;
+	top: 150px;
 }
 .owl-theme .owl-controls .owl-buttons .owl-next {
-  right: -75px;
-  top: 150px;
+	right: -75px;
+	top: 150px;
 }
 .owl-theme .owl-controls .owl-page span {
-  background: #000;
+	background: #000;
 }
 
-/*-----------------------------------------------------------------------------------------------------
-                                                  @Media CSS
------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+	Custom Owl @Media CSS
+------------------------------------------------------------------------------*/
 
 @media(max-width:768px) {
-  #podcasts .item img {
-    height: 400px;
-  }
-  #photos .item img {
-    height: 400px;
-  }
-  .owl-theme .owl-controls .owl-buttons div {
-    position: absolute;
-  }
-  .owl-theme .owl-controls .owl-buttons .owl-prev {
-    left: 25px;
-    top: 400px;
-  }
-  .owl-theme .owl-controls .owl-buttons .owl-next {
-    right: 25px;
-    top: 400px;
-  }
+	#podcasts .item img {
+		height: 400px;
+	}
+	#photos .item img {
+		height: 400px;
+	}
+	.owl-theme .owl-controls .owl-buttons div {
+		position: absolute;
+	}
+	.owl-theme .owl-controls .owl-buttons .owl-prev {
+		left: 25px;
+		top: 400px;
+	}
+	.owl-theme .owl-controls .owl-buttons .owl-next {
+		right: 25px;
+		top: 400px;
+	}
 }

@@ -1,465 +1,466 @@
-/*-----------------------------------------------------------------------------------------------------
-                                                Global Styles
------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+	Global Styles
+------------------------------------------------------------------------------*/
 
 html, body {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 .text-vertical-center {
-  á display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+	á display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
 .text-primary {
-  color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
 }
 .btn-dark {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: rgba(255, 255, 255, 1);
-  border-radius: 10;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: rgba(255, 255, 255, 1);
+	border-radius: 10;
 }
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(0, 0, 0, 0.7);
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 0.7);
 }
 .btn-light {
-  background-color: rgba(255, 255, 255, 1);
-  color: rgba(51, 51, 51, 1);
-  border-radius: 10;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(51, 51, 51, 1);
+	border-radius: 10;
 }
 .btn-light:hover, .btn-light:focus, .btn-light:active {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: rgba(51, 51, 51, 1);
+	background-color: rgba(255, 255, 255, 0.8);
+	color: rgba(51, 51, 51, 1);
 }
 hr.small {
-  max-width: 300px;
-  border-top: 1px solid rgba(200, 200, 200, 0.5);
+	max-width: 300px;
+	border-top: 1px solid rgba(200, 200, 200, 0.5);
 }
 
-/*-----------------------------------------------------------------------------------------------------
-                                                MENU
------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+	Menu
+------------------------------------------------------------------------------*/
 
 #sidebar-wrapper {
-  z-index: 1000;
-  position: fixed;
-  left: 0;
-  width: 250px;
-  height: 100%;
-  margin-left: -250px;
-  overflow-y: auto;
-  background: rgba(34, 34, 34, 1);
-  -webkit-transition: all .4s ease 0;
-  -moz-transition: all .4s ease 0;
-  -ms-transition: all .4s ease 0;
-  -o-transition: all .4s ease 0;
-  transition: all .4s ease 0;
+	z-index: 1000;
+	position: fixed;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	margin-left: -250px;
+	overflow-y: auto;
+	background: rgba(34, 34, 34, 1);
+	-webkit-transition: all .4s ease 0;
+	-moz-transition: all .4s ease 0;
+	-ms-transition: all .4s ease 0;
+	-o-transition: all .4s ease 0;
+	transition: all .4s ease 0;
 }
 .sidebar-nav {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+	position: absolute;
+	top: 0;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 .sidebar-nav li {
-  text-indent: 20px;
-  line-height: 40px;
+	text-indent: 20px;
+	line-height: 40px;
 }
 .sidebar-nav li a {
-  display: block;
-  color: rgba(153, 153, 153, 1);
-  text-decoration: none;
+	display: block;
+	color: rgba(153, 153, 153, 1);
+	text-decoration: none;
 }
 .sidebar-nav li a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 1);
-  text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
 }
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
-  text-decoration: none;
+	text-decoration: none;
 }
 .sidebar-nav > .sidebar-brand {
-  height: 55px;
-  font-size: 2em;
-  line-height: 55px;
+	height: 55px;
+	font-size: 2em;
+	line-height: 55px;
 }
 .sidebar-nav > .sidebar-brand a {
-  color: rgba(153, 153, 153, 1);
+	color: rgba(153, 153, 153, 1);
 }
 .sidebar-nav > .sidebar-brand a:hover {
-  color: rgba(255, 255, 255, 1);
-  background: none;
+	color: rgba(255, 255, 255, 1);
+	background: none;
 }
 #menu-toggle {
-  z-index: 1;
-  position: fixed;
-  top: 1%;
-  left: 1%;
-  display: none;
+	z-index: 1;
+	position: fixed;
+	top: 1%;
+	left: 1%;
+	display: none;
 }
 #sidebar-wrapper.active {
-  left: 250px;
-  width: 250px;
-  -webkit-transition: all .4s ease 0;
-  -moz-transition: all .4s ease 0;
-  -ms-transition: all .4s ease 0;
-  -o-transition: all .4s ease 0;
-  transition: all .4s ease 0;
+	left: 250px;
+	width: 250px;
+	-webkit-transition: all .4s ease 0;
+	-moz-transition: all .4s ease 0;
+	-ms-transition: all .4s ease 0;
+	-o-transition: all .4s ease 0;
+	transition: all .4s ease 0;
 }
 .toggle {
-  margin: 5px 5px 0 0;
+	margin: 5px 5px 0 0;
 }
 
-/*-----------------------------------------------------------------------------------------------------
-                                        Back To Top and Return Buttons
------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+	Back To Top and Return Buttons
+------------------------------------------------------------------------------*/
 
 #back-to-top {
-  z-index: 1;
-  position: fixed;
-  bottom: 1%;
-  right: 1%;
-  display: none;
+	z-index: 1;
+	position: fixed;
+	bottom: 1%;
+	right: 1%;
+	display: none;
 }
 #return {
-  z-index: 1;
-  position: fixed;
-  top: 1.8%;
-  left: 5%;
-  display: none;
+	z-index: 1;
+	position: fixed;
+	top: 1.85%;
+	left: 5%;
+	display: none;
 }
 
-/*-----------------------------------------------------------------------------------------------------
-                                            Bouncing Arrow Animations
------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+	Bouncing Arrow Animations
+------------------------------------------------------------------------------*/
 
 @-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
+	0%, 20%, 50%, 80%, 100% {
+		-moz-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-moz-transform: translateY(-30px);
+		transform: translateY(-30px);
+	}
+	60% {
+		-moz-transform: translateY(-15px);
+		transform: translateY(-15px);
+	}
 }
 @-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
+	0%, 20%, 50%, 80%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		transform: translateY(-30px);
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		transform: translateY(-15px);
+	}
 }
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
+	0%, 20%, 50%, 80%, 100% {
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-moz-transform: translateY(-30px);
+		-ms-transform: translateY(-30px);
+		-webkit-transform: translateY(-30px);
+		transform: translateY(-30px);
+	}
+	60% {
+		-moz-transform: translateY(-15px);
+		-ms-transform: translateY(-15px);
+		-webkit-transform: translateY(-15px);
+		transform: translateY(-15px);
+	}
 }
 .arrow {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  margin-left: -20px;
-  font-size: 2em;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -20px;
+	font-size: 2em;
 }
 .bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
 }
 
-/*-----------------------------------------------------------------------------------------------------
-                                                    Home
------------------------------------------------------------------------------------------------------*/
-
+/*------------------------------------------------------------------------------
+	Main Content - Home
+------------------------------------------------------------------------------*/
 
 /* Header */
 
 .header {
-  display: table;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: url(../images/cbf/cbf-header.jpg) no-repeat center center scroll;
-  background: opacity: 0.8;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(../images/cbf/cbf-header.jpg) no-repeat center center scroll;
+	background: opacity: 0.8;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 .txt-title {
-  color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
 }
 .logo {
-  width: 80%;
-  height: 80%;
+	width: 80%;
+	height: 80%;
 }
 
 /* Our Story */
 
 .our-story {
-  width: 100%;
-  height: 87%;
+	width: 100%;
+	height: 87%;
 }
 
 /* Festival Info */
 
 .festival-info {
-  background-color: rgba(34, 127, 187, 1);
-  color: rgba(255, 255, 255, 1);
-  width: 100%;
-  height: 87%;
+	background-color: rgba(34, 127, 187, 1);
+	color: rgba(255, 255, 255, 1);
+	width: 100%;
+	height: 87%;
 }
 .festival-info-item {
-  margin: 10px 0 10px 0;
+	margin: 10px 0 10px 0;
 }
 
 /* Social Media */
 
 .social-media {
-  width: 100%;
-  height: 87%;
+	width: 100%;
+	height: 87%;
 }
 
 /* Contact Us */
 
 .contact-us {
-  background-color: rgba(34, 127, 187, 1);
-  color: rgba(255, 255, 255, 1);
-  width: 100%;
-  height: 87%;
+	background-color: rgba(34, 127, 187, 1);
+	color: rgba(255, 255, 255, 1);
+	width: 100%;
+	height: 87%;
 }
 .contact-us .form-group {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 .contact-us .form-group input, section.contact-us .form-group textarea {
-  padding: 20px;
+	padding: 20px;
 }
 .contact-us .form-group input.form-control {
-  height: 85px;
+	height: 85px;
 }
 .contact-us .form-group textarea.form-control {
-  height: 300px;
+	height: 300px;
 }
 .contact-us .form-control:focus {
-  border-color: rgba(254, 209, 55, 1);
-  box-shadow: none;
+	border-color: rgba(254, 209, 55, 1);
+	box-shadow: none;
 }
 .contact-us::-webkit-input-placeholder {
-  text-transform: uppercase;
-  font-family: "Lovelo Black";
-  font-weight: 700;
-  color: rgba(187, 187, 187, 1);
+	text-transform: uppercase;
+	font-family: "Lovelo Black";
+	font-weight: 700;
+	color: rgba(187, 187, 187, 1);
 }
 .contact-us:-moz-placeholder {
-  text-transform: uppercase;
-  font-family: "Lovelo Black";
-  font-weight: 700;
-  color: rgba(187, 187, 187, 1);
+	text-transform: uppercase;
+	font-family: "Lovelo Black";
+	font-weight: 700;
+	color: rgba(187, 187, 187, 1);
 }
 .contact-us::-moz-placeholder {
-  text-transform: uppercase;
-  font-family: "Lovelo Black";
-  font-weight: 700;
-  color: rgba(187, 187, 187, 1);
+	text-transform: uppercase;
+	font-family: "Lovelo Black";
+	font-weight: 700;
+	color: rgba(187, 187, 187, 1);
 }
 .contact-us:-ms-input-placeholder {
-  text-transform: uppercase;
-  font-family: "Lovelo Black";
-  font-weight: 700;
-  color: rgba(187, 187, 187, 1);
+	text-transform: uppercase;
+	font-family: "Lovelo Black";
+	font-weight: 700;
+	color: rgba(187, 187, 187, 1);
 }
 .contact-us .text-danger {
-  color: rgba(231, 76, 60, 1);
+	color: rgba(231, 76, 60, 1);
 }
 
 /* Footer */
 
 .footer {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 /* Map */
 
 .map iframe {
-  width: 100%;
-  height: 250px;
-  z-index: 0;
+	width: 100%;
+	height: 250px;
+	z-index: 0;
 }
 
-/*-----------------------------------------------------------------------------------------------------
-                                                  Festival Info
------------------------------------------------------------------------------------------------------*/
-
+/*------------------------------------------------------------------------------
+	Main Content - Festival Info
+------------------------------------------------------------------------------*/
 
 /* Top */
 
 .top {
-  background-color: rgba(34, 127, 187, 1);
-  color: rgba(255, 255, 255, 1);
-  width: 100%;
-  height: 35%;
+	background-color: rgba(34, 127, 187, 1);
+	color: rgba(255, 255, 255, 1);
+	width: 100%;
+	height: 35%;
 }
 .top small {
-  color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
 }
 
 /* Music */
 
 .music {
-  background-color: rgba(255, 255, 255, 1);
-  color: rgba(51, 51, 51, 1);
-  width: 100%;
-  height: 87%;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(51, 51, 51, 1);
+	width: 100%;
+	height: 87%;
 }
 
 /* Events Guide */
 
 .events-guide {
-  background-color: rgba(34, 127, 187, 1);
-  color: rgba(255, 255, 255, 1);
-  width: 100%;
-  height: 87%;
+	background-color: rgba(34, 127, 187, 1);
+	color: rgba(255, 255, 255, 1);
+	width: 100%;
+	height: 87%;
 }
 
 /* Sponsors */
 
 .sponsors {
-  background-color: rgba(255, 255, 255, 1);
-  color: rgba(51, 51, 51, 1);
-  width: 100%;
-  height: 87%;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(51, 51, 51, 1);
+	width: 100%;
+	height: 87%;
 }
 .sponsors iframe {
-  width: 640px;
-  height: 360px;
+	width: 640px;
+	height: 360px;
 }
 
 /* Photo Gallery */
 
 .photo-gallery {
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(34, 127, 187, 1);
-  width: 100%;
-  height: 100%;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(34, 127, 187, 1);
+	width: 100%;
+	height: 100%;
 }
 
 /* Previous Years */
 
 .previous-years {
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(34, 127, 187, 1);
-  width: 100%;
-  height: 100%;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(34, 127, 187, 1);
+	width: 100%;
+	height: 100%;
 }
 .previous-years iframe {
-  width: 853;
-  height: 480;
+	width: 853;
+	height: 480;
 }
 .previous-years .text {
-  color: rgba(51, 51, 51, 1);
+	color: rgba(51, 51, 51, 1);
 }
 
-/*-----------------------------------------------------------------------------------------------------
-                                                  jQuery Flip CSS
------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+	jQuery Flip CSS
+------------------------------------------------------------------------------*/
 
 .brochure {
-  width: 75%;
-  height: 75%;
+	width: 100%;
+	height: 300px;
 }
 
-/*-----------------------------------------------------------------------------------------------------
-                                                  @Media CSS
------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+	@Media - Home
+------------------------------------------------------------------------------*/
 
 @media(max-width: 768px) {
-  #menu-toggle {
-    top: 1%;
-    left: 1%;
-  }
-  #back-to-top {
-    bottom: 5%;
-    right: 10%;
-  }
-  #logo {
-    width: 0%;
-    height: 0%;
-  }
-  #logo.appear {
-    width: 100%;
-    height: 100%;
-    transition: width 1000ms, height 1000ms;
-  }
-  #logo.tiny {
-    width: 15.5%;
-    height: 9.5%;
-    z-index: 1;
-    position: fixed;
-    top: 1%;
-    right: 10%;
-    transition: width 1000ms, height 1000ms;
-  }
-  .welcome {
-    height: 100%;
-    width: 100%;
-  }
-  .welcome p {
-    margin-bottom: 10px;
-  }
-  .festival-info {
-    height: 200%;
-    width: 100%;
-  }
-  .festival-info-item {
-    padding: 1%
-  }
-  .contact-us {
-    height: 100%;
-    width: 100%;
-  }
-  section#contact-us .form-group input.form-control {
-    height: 15px;
-  }
-  section#contact-us .form-group textarea.form-control {
-    height: 85px;
-  }
-  .footer {
-    height: 100%;
-    width: 100%;
-  }
-  .map {
-    height: 75%;
-    width: 100%;
-  }
+	#menu-toggle {
+		top: 1%;
+		left: 1%;
+	}
+	#back-to-top {
+		bottom: 5%;
+		right: 10%;
+	}
+	#logo {
+		width: 0%;
+		height: 0%;
+	}
+	#logo.appear {
+		width: 100%;
+		height: 100%;
+		transition: width 1000ms, height 1000ms;
+	}
+	#logo.tiny {
+		width: 15.5%;
+		height: 9.5%;
+		z-index: 1;
+		position: fixed;
+		top: 1%;
+		right: 10%;
+		transition: width 1000ms, height 1000ms;
+	}
+	.welcome {
+		height: 100%;
+		width: 100%;
+	}
+	.welcome p {
+		margin-bottom: 10px;
+	}
+	.festival-info {
+		height: 200%;
+		width: 100%;
+	}
+	.festival-info-item {
+		padding: 1%
+	}
+	.contact-us {
+		height: 100%;
+		width: 100%;
+	}
+	section#contact-us .form-group input.form-control {
+		height: 15px;
+	}
+	section#contact-us .form-group textarea.form-control {
+		height: 85px;
+	}
+	.footer {
+		height: 100%;
+		width: 100%;
+	}
+	.map {
+		height: 75%;
+		width: 100%;
+	}
 }
+/*------------------------------------------------------------------------------
+	@Media - Home
+------------------------------------------------------------------------------*/
