@@ -23,7 +23,7 @@ $(document).ready(function() {
       var scrolling = data["items"][j].scrolling;
       var frameborder = data["items"][j].frameborder;
       var src = data["items"][j].src;
-      var caption = data["item"][i].caption;
+      var caption = data["item"][j].caption;
 
       content += "<div><iframe width=\"" + width + "\" height=\"" + height + "\" scrolling=\"" + scrolling + "\" frameborder=\"" + frameborder + "\" src=\"" + src + "\"></iframe><br><p>\"" + caption + "\"</p></div>"
     }
