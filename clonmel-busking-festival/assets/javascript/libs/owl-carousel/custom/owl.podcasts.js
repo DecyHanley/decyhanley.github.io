@@ -23,7 +23,7 @@ $(document).ready(function() {
       var src = data["items"][j].src;
       var caption = data["items"][j].caption;
 
-      content += "<div><iframe scrolling=\"" + scrolling + "\" frameborder=\"" + frameborder + "\" src=\"" + src + "\"></iframe><br><p>\" + caption \"</p></div>"
+      content += "<div><iframe scrolling=\"" + scrolling + "\" frameborder=\"" + frameborder + "\" src=\"" + src + "\"></iframe><br><p>/\"" + caption + "\"/</p></div>"
     }
     $("#podcasts").html(content);
   }
