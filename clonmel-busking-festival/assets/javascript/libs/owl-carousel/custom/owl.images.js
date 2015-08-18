@@ -24,7 +24,7 @@ $(document).ready(function() {
       var alt = data["items"][i].alt;
       var text = data["items"][i].text;
 
-      content += "<img src=\"" + src + "\" alt=\"" + alt + "\"><br><p>\"" + text + "\"</p>"
+      content += "<div><img src=\"" + src + "\" alt=\"" + alt + "\"><br><p>\"" + text + "\"</p></div>"
     }
     $("#photos").html(content);
   }
