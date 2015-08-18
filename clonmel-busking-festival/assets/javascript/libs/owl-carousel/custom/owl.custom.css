@@ -3,13 +3,13 @@
 -----------------------------------------------------------------------------------------------------*/
 
 #podcasts .owl-item iframe {
-  width: 100%;
-  height: 300px;
+  width: 80%;
+  height: 80%;
   padding: 10px;
 }
 #photos .owl-item img {
-  width: 85%;
-  height: 85%;
+  width: 80%;
+  height: 80%;
   padding: 10px;
 }
 .owl-theme .owl-controls .owl-buttons div {
