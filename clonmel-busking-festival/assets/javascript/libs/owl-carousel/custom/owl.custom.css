@@ -12,6 +12,9 @@
 	height: 300px;
 	padding: 10px;
 }
+#photos .owl-item p {
+	font-size: 1.25em;
+}
 .owl-theme .owl-controls .owl-buttons div {
 	color: #FFF;
 	background-color: #000;
