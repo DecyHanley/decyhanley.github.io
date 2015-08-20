@@ -127,7 +127,7 @@ hr.small {
 #return {
 	z-index: 1;
 	position: fixed;
-	top: 1%;
+	top: 1.2%;
 	left: 5%;
 	display: none;
 }
