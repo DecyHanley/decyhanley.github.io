@@ -361,7 +361,7 @@ hr.small {
 	background-color: rgba(255, 255, 255, 1);
 	color: rgba(51, 51, 51, 1);
 	width: 100%;
-	height: 100%;
+	height: 90%;
 }
 
 /* Previous Years */
@@ -370,7 +370,7 @@ hr.small {
 	background-color: rgba(34, 127, 187, 1);
 	color: rgba(255, 255, 255, 1);
 	width: 100%;
-	height: 200%;
+	height: 215%;
 }
 .previous-years iframe {
 	width: 960px;
