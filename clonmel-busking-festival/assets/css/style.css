@@ -96,7 +96,7 @@ hr.small {
 #menu-toggle {
 	z-index: 1;
 	position: fixed;
-	top: 1.5%;
+	top: 1%;
 	left: 1%;
 	display: none;
 }
@@ -127,7 +127,7 @@ hr.small {
 #return {
 	z-index: 1;
 	position: fixed;
-	top: 1.5%;
+	top: 1%;
 	left: 5%;
 	display: none;
 }
@@ -370,7 +370,7 @@ hr.small {
 	background-color: rgba(34, 127, 187, 1);
 	color: rgba(255, 255, 255, 1);
 	width: 100%;
-	height: 215%;
+	height: 200%;
 }
 .previous-years iframe {
 	width: 960px;
