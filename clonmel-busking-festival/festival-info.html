@@ -102,9 +102,6 @@
 		<ul class="sidebar-nav">
 			<a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-1x fa-times"></i></a>
 			<li class="sidebar-brand">
-				<a href="#top" onclick= $("#menu-close").click();>Top</a>
-			</li>
-			<li>
 				<a href="#music" onclick= $("#menu-close").click();>Music</a>
 			</li>
 			<li>
@@ -112,9 +109,6 @@
 			</li>
 			<li>
 				<a href="#events-card" onclick= $("#menu-close").close();>Events Card</a>
-			</li>
-			<li>
-				<a href="#festival-2015" onclick= $("#menu-close").click();>Festival 2015</a>
 			</li>
 			<li>
 				<a href="#sponsors" onclick= $("#menu-close").click();>Sponsors</a>
@@ -131,53 +125,49 @@
 		</ul>
 	</nav>
 
-	<!-- Top -->
-	<header id="top" class="top">
-		<div class="container text-vertical-center">
-			<div class="row">
-				<h1 class="txt-title">Festival Info</h1>
-				<hr class="small">
-			</div>
-			<div class="row">
-				<h6>Here's all the info you need about the Festival.</h6>
-			</div>
-			<div class="row">
-				<hr class="small">
-				<a href="#music" class="btn btn-dark btn-sm">Music</a>
-			</div>
-		</div>
-	</header>
-
 	<!-- Music -->
 	<section id="music" class="music">
 		<div class="container text-vertical-center">
 			<div class="row">
-				<h1>Music</h1>
-				<hr class="small">
+				<div class="col-lg-12">
+					<h1>Music</h1>
+					<hr class="small">
+				</div>
 			</div>
 			<div class="row">
-				<h6>Here's a selection of Music and Podcasts, brought to you from <a href="https://soundcloud.com/clonmelbuskingpodcast">The Clonmel Busking Festival Podcast</a>.</h6>
-				<hr class="small">
+				<div class="col-lg-12">
+					<h6>Here's a selection of Music and Podcasts, brought to you from <a href="https://soundcloud.com/clonmelbuskingpodcast" class="link">The Clonmel Busking Festival Podcast</a>.</h6>
+					<hr class="small">
+				</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div id="podcasts" class="owl-carousel owl-theme"></div>
+				</div>
 			</div>
 			<div class="row">
-				<div id="podcasts" class="owl-carousel owl-theme"></div>
-			</div>
-			<div class="row">
-				<hr class="small">
-				<a href="#events-guide" class="btn btn-dark btn-sm">Events Guide</a>
+				<div class="col-lg-12">
+					<hr class="small">
+					<a href="#events-guide" class="btn btn-light btn-sm">Events Guide</a>
+				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Events Guide  -->
+	<!-- Events Guide	-->
 	<section id="events-guide" class="events-guide">
 		<div class="container text-vertical-center">
 			<div class="row">
-				<h1>Events Guide</h1>
-				<hr class="small">
+				<div class="col-lg-12">
+					<h1>Events Guide</h1>
+					<hr class="small">
+				</div>
 			</div>
 			<div class="row">
-				<h6>Event Change(s)</h6>
+				<div class="col-lg-12">
+					<h6>Event Change(s)</h6>
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-lg-4">
 					<h6>Friday Night</h6>
 					<h6>Venue - The Coachman</h6>
@@ -194,28 +184,34 @@
 					<h6>Act - Paddy Ryan</h6>
 					<h6>Time - 10:30</h6>
 				</div>
-				<a href="#events-card" class="btn btn-light btn-sm">Events Card</a>
+				<a href="#events-card" class="btn btn-dark btn-sm">Events Card</a>
 			</div>
 			<div class="row" id="events-card">
-				<hr class="small">
-				<h5>Click to flip to checkout the Events Guide.</h5>
-				<div class="front">
-					<img class="brochure" src="assets/images/brochure/cbf-brochure-front.png" alt="Front of Brochure" />
-				</div>
-				<div class="back">
-					<img class="brochure" src="assets/images//brochure/cbf-brochure-back.png" alt="Back of Brochure" />
+				<div class="col-lg-12">
+					<hr class="small">
+					<h5>Click to flip to checkout the Events Guide.</h5>
+					<div class="front">
+						<img class="brochure" src="assets/images/brochure/cbf-brochure-front.png" alt="Front of Brochure" />
+					</div>
+					<div class="back">
+						<img class="brochure" src="assets/images//brochure/cbf-brochure-back.png" alt="Back of Brochure" />
+					</div>
 				</div>
 			</div>
 			<div class="row">
-				<br><br><br><br><br><br><br><br>
-				<br><br><br><br><br><br><br><br>
-				<br><br><br><br><br><br><br><br>
-				<br><br><br><br><br><br><br><br>
-				<br><br>
+				<div class="col-lg-12">
+					<br><br><br><br><br><br><br><br>
+					<br><br><br><br><br><br><br><br>
+					<br><br><br><br><br><br><br><br>
+					<br><br><br><br><br><br><br><br>
+					<br><br>
+				</div>
 			</div>
 			<div class="row">
-				<hr class="small">
-				<a href="#sponsors" class="btn btn-light btn-sm">Sponsors</a>
+				<div class="col-lg-12">
+					<hr class="small">
+					<a href="#sponsors" class="btn btn-dark btn-sm">Sponsors</a>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -224,19 +220,27 @@
 	<section id="sponsors" class="sponsors">
 		<div class="container text-vertical-center">
 			<div class="row">
-				<h1>Sponsors</h1>
-				<hr class="small">
+				<div class="col-lg-12">
+					<h1>Sponsors</h1>
+					<hr class="small">
+				</div>
 			</div>
 			<div class="row">
-				<h6>Here's this years sponsors, shown in a fantastic anminated short.</h6>
-				<hr class="small">
+				<div class="col-lg-12">
+					<h6>Here's this years sponsors, shown in a fantastic anminated short.</h6>
+					<hr class="small">
+				</div>
 			</div>
 			<div class="row">
-				<iframe width="1280" height="720" src="https://www.youtube.com/embed/GJgUGT25x78?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				<div class="col-lg-12">
+					<iframe width="1280" height="720" src="https://www.youtube.com/embed/GJgUGT25x78?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</div>
 			<div class="row">
-				<hr class="small">
-				<a href="#photo-gallery" class="btn btn-dark btn-sm">Photo Gallery</a>
+				<div class="col-lg-12">
+					<hr class="small">
+					<a href="#photo-gallery" class="btn btn-light btn-sm">Photo Gallery</a>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -245,19 +249,108 @@
 	<section id="photo-gallery" class="photo-gallery">
 		<div class="container text-vertical-center">
 			<div class="row">
-				<h1>Photo Gallery</h1>
-				<hr class="small">
+				<div class="col-lg-12">
+					<h1>Photo Gallery</h1>
+					<hr class="small">
+				</div>
 			</div>
 			<div class="row">
-				<h6>Here's a selection images of our festival.</h6>
-				<hr class="small">
+				<div class="col-lg-12">
+					<h6>Here's a selection images of our festival.</h6>
+					<hr class="small">
+				</div>
 			</div>
 			<div class="row">
-				<div id="photos" class="owl-carousel owl-theme"></div>
+				<div class="col-lg-12">
+					<div id="photos" class="owl-carousel owl-theme"></div>
+				</div>
 			</div>
 			<div class="row">
-				<hr class="small">
-				<a href="#previous-years" class="btn btn-light btn-sm">Previous Years</a>
+				<div class="col-lg-12">
+					<hr class="small">
+					<a href="#previous-years" class="btn btn-dark btn-sm">Previous Years</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Previous Years -->
+	<section id="previous-years" class="previous-years">
+		<div class="container text-vertical-center">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Previous Years</h1>
+					<hr class="small">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<p>Checkout what we have fone over the past few years</p>
+					<hr class="small">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<h4>2014</h4>
+					<hr class="small">
+					<iframe width="1920" height="1080" src="https://www.youtube-nocookie.com/embed/R5aDPw6JdJQ?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<h4>2013</h4>
+					<hr class="small">
+					<h5>OUR BIGGEST YEAR TO DATE</h5>
+					<p>
+						SEAMUS HENNESSEY, BILLY FITZGERALD, T.R. DALLAS, SOUND AFFAIR, MIND AT RISK, RADIO CAROLINE, GRACE WILDE (BAND), ANDY BELL, PAVEMENT KINGS, SIMON FLEURY, ALIAS FOLK, JOHNNY MCEVOY, DOM O’DRISCOLL, JIMMY CROWLEY, NIALL POWELL, DAVE WILLIAMS, THE BRADLEY
+						SISTERS, JOHN O’CONNOR, CHAIN REACTION, TRUDI LALOR, IRELAND’S OWN, MONORAIL, TWO TIME POLKA, THE FUZZY DUCKS, VON TRAPP, THE BUACHAILLS GLEESONS, THEY LOOKED LIKE GIANTS, MAD PATSY, THE MEADE MOB, KELLY AND THE SCRUFFS, JIMMY WILLIAMS,
+						JUKEBOX GYPSY, RIA BURKE, THE LOST BROTHERS, FAIR EXCHANGE, MARY STOKES BAND, THE MAN IN BLACK, SINEAD O’MEARA, MONGOOSE, RADIO CAROLINE, 31, BOOGIE NIGHTS, THE STRANGERS, THE 68’S (FOLLOWED BY DJ), SHIN A BHFUIL.
+					</p>
+					<p>
+						PETE MCGOWAN AND BREEGE PHELAN, VINTAGE, TIPPERARY RAMBLERS, FINBAR HORGAN, THE MAN IN BLACK, MORRISSEY AND DANIELS, AILEEN AND TOMMY, DIVIL THE BIT, GRACE WILDE, THE BEN REEL BAND, BAKER STREET, LOUDEST WHISPER AND BARRY CLUSKY, ANDY BELL, AQUARIUS,
+						PA O’DONNELL, SUPER SOUL MACHINE, HAM SANDWICH, U-TURN, NICK MCCARTHY, FRAN GARRY, ASHLEY TUBRIDY, RIA BURKE, ASHLEY TUBRIDY, JOHN SPILLANE, MIND AT RISK, FRANK AND WALTERS, BANNA CLUAIN MEALA AND GUESTS INCL. BRIAN O’REILLY, AVI, DAKODA,
+						RICHIE AND MAC, TURNING IN CIRCLES, NEW VALLEY WOLVES, THE STRANGERS, ROB STRONG BAND, MICHAEL HUMPHRIES, IRELAND’S OWN, HOOLEY, THE SOGGIE WELLIE BOYS, NIALL TONER.
+					</p>
+					<p>
+						THE RYANS, THE SHEEHANS, LUCHIE, CLIVE BARNES, SHAUN LONERGAN, MAD PATSY, BAGATELLE, THE WOEBEGONES, THE NIALL TONER BAND, MARC TOBIN, AVI AND SPECIAL GUESTS, TIPPERARY RAMBLERS, BAKER STREET, THE BEN REEL BAND, THE MODERN SOULS, LOUDEST WHISPER, RECLAIM
+						FEATURING GLEN BRADY,RED MELODY, PETE MCGOWAN AND GUESTS, THE LEGENDS, MAGS AND KATE, THE BUSINESS, BRENDAN DOHERTY, ROBIN JAMES HURT, GROOVE PATROL, KEYWEST, NEILL BOURKE, BIG GENERATOR, LINDA CULLEN, HANK WEDEL, THE SOGGIE, W0LLIE
+						BOYS, FORTUNATE SONS, TRADITIONAL SESSION, LIVE MUSIC SHOWCASE, CEILI WORKSHOP, MATT CUNNINGHAM OUTDOOR CEILI.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<h4>2012</h4>
+					<hr class="small">
+					<h5>THE 2012 LINE-UP INCLUDED HUNDREDS OF BUSKERS,WITH OVER 100 FREE NIGHT-TIME CONCERTS. THE LINE-UP INCLUDED:</h5>
+					<p>
+						THE 4 OF US, JULIET TURNER, BIPOLAR EMPIRE, CHARLIE MCGETTIGAN, DUBLIN CITY RAMBLERS, DON BAKER, JIMMY CROWLEY, JOHN SPILLANE, ROB STRONG FT. NIAMH STRONG, MORRISSEY AND DANIELS, DAVE PRIMM BAND RICHIE KAVANAGH, DENIS ALLEN, OUTDOOR CÉILÍ WITH THE MATT
+						CUNNINGHAM CÉILÍ BAND, THE LOST BROTHERS, RAY LYNAM, STOMPIN DAVE ALLEN, LOUDEST WHISPER, THE WAHEYS, FOUL PLAY, JEZZEBELLE, SUPER SOUL MACHINE, CAFE FOLK BAND, THE PAPA ZITAS, BROKEN GLASS ON BROADWAY.
+					</p>
+					<p>
+						RADIO CAROLINE, FORTUNATE SON, RESPONSIBLE LOOKING FREAKS, MONORAIL, LOOSE CANNONS FAIR EXCHANGE, DIVIL THE BIT, BAKER STREET, POLLY BARRETT, IRELAND’S OWN, U-TURN, BOOZE BROTHERS, SINEAD MCNALLY, ROBIN JAMES HURT AND SHARON HUSSEY, BARRY MCGIVERN BAND,
+						LEGENDS, THE TIPPERARY RAMBLERS, FRAN GARRY, ALIAS FOLK SYNERGY, CASEY LEIGH, THE WATERCATS.
+					</p>
+				</div>
+				<div class="col-lg-6">
+					<div class="text">
+						<h4>2011</h4>
+						<hr class="small">
+						<h5>WAS THE FIRST YEAR WE RAN THE FESTIVAL AS A THREE DAY EVENT: THE LINEUP INCLUDED THE FOLLOWING ACTS:</h5>
+						<p>
+							JACK L, MICK HANLY, BEN REEL BAND, LOUDEST WHISPER, TIR NA NOG, ROB STRONG, JOHN SPILLANE, DON BAKER
+						</p>
+						<p>
+							AS WELL AS THE ABOVE THERE WAS A WEALTH OF LOCAL TALENTED MUSICIANS WHO WORKED DAY AND NIGHT TO MAKE THE FESTIVAL A SUCCESS!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<hr class="small">
+					<a href="#our-info" class="btn btn-light btn-sm">Our Info</a>
+				</div>
 			</div>
 		</div>
 	</section>
