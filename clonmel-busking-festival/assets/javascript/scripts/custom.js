@@ -9,6 +9,11 @@ $(document).ready(function() {
 		$(".cover").fadeOut(2000);
 	});
 
+	//Nice Scroll
+	$(window).load(function()	{
+		$("html").niceScroll();
+	});
+
 	//Menu
 	$("#menu-close").click(function(e) {
 		e.preventDefault();

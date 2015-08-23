@@ -1,0 +1,68 @@
+/*------------------------------------------------------------------------------
+	@media (max-width: 768px) - Home
+------------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  #menu-toggle {
+    top: 1%;
+    left: 1%;
+  }
+  #back-to-top {
+    bottom: 1%;
+    right: 1%;
+  }
+  .header {
+    width: 100%;
+    height: 100%;
+  }
+  .header .logo {
+    width: 120%;
+    height: 120%;
+  }
+  .our-story {
+    font-size: 0.875em;
+    width: 100%;
+    height: 100%;
+  }
+  .our-story .crumlin-logo-1 {
+    width: 100%;
+    height: 100%;
+  }
+  .our-story .crumlin-logo-2 {
+    width: 100%;
+    height: 100%;
+  }
+  .festival-info {
+    width: 100%;
+    height: 87%;
+  }
+  .festival-info-item {
+    margin: 10px 0 10px 0;
+  }
+  .social-media {
+    width: 100%;
+    height: 87%;
+  }
+  .contact-us {
+    width: 100%;
+    height: 87%;
+  }
+  .contact-us .form-group input.form-control {
+    height: 15px;
+  }
+  .contact-us .form-group textarea.form-control {
+    height: 85px;
+  }
+  .footer {
+    width: 100%;
+    height: 100%;
+  }
+  .map iframe {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+/*------------------------------------------------------------------------------
+	@media (max-width: 768px) - Festival Info
+------------------------------------------------------------------------------*/
