@@ -10,6 +10,11 @@
 #podcasts .owl-item p caption {
 	font-size: 1.25em;
 }
+#podcast .owl-theme .owl-controls .owl-buttons div {
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(255, 255, 255, 1);
+	position: absolute;
+}
 #photos .owl-item img {
 	width: 100%;
 	height: 300px;
@@ -18,9 +23,9 @@
 #photos .owl-item p caption {
 	font-size: 1.25em;
 }
-.owl-theme .owl-controls .owl-buttons div {
-	color: #FFF;
-	background-color: #000;
+#photo .owl-theme .owl-controls .owl-buttons div {
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 1); 
 	position: absolute;
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev {
@@ -33,6 +38,9 @@
 }
 .owl-theme .owl-controls .owl-page span {
 	background: #000;
+}
+.owl-theme .owl-controls .owl-page span:hover {
+	opacity: 0.5;
 }
 
 /*------------------------------------------------------------------------------
