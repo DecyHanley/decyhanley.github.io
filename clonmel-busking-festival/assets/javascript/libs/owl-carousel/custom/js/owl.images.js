@@ -4,7 +4,7 @@
 
 $(document).ready(function() {
 	$("#photos").owlCarousel({
-		singleItem: true,
+		items: 2,
 		navigation: true,
 		pagination: true,
 		navigationText: [
