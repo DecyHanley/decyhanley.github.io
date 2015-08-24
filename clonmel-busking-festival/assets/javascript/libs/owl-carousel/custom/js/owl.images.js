@@ -7,7 +7,7 @@ $(document).ready(function() {
 		items: 2,
 		navigation: true,
 		pagination: true,
-		transtionStyle: scaleUp;
+		transtionStyle: scaleUp,
 		navigationText: [
 			"<i class='fa	fa-1x fa-arrow-left'></i>",
 			"<i class='fa	fa-1x fa-arrow-right'></i>"
