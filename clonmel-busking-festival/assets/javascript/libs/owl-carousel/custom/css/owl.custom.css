@@ -33,9 +33,6 @@
 	right: 75px;
 	top: 250px;
 }
-.owl-theme .owl-controls .owl-buttons .owl-next div:hover {
-	opacity: 0.5;
-}
 .owl-theme .owl-controls .owl-page span {
 	background: #000;
 }
