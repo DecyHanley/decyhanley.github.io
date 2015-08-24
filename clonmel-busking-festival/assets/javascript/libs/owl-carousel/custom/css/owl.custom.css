@@ -21,12 +21,12 @@
 	position: absolute;
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev {
-	left: 50px;
-	top: 250px;
+	left: 75px;
+	top: 300px;
 }
 .owl-theme .owl-controls .owl-buttons .owl-next {
-	right: 50px;
-	top: 250px;
+	right: 75px;
+	top: 300px;
 }
 .owl-theme .owl-controls .owl-page span {
 	background: #000;
