@@ -262,7 +262,7 @@ Return and Back To Top Buttons
   text-decoration: underline;
 }
 #prev, #next {
-  margin: -4.5% 10% 0 10%;
+  margin: -2.5% 10% 0 10%;
 }
 .events-guide {
   background-color: rgba(255, 255, 255, 1);
