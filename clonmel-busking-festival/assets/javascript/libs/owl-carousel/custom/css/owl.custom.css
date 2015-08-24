@@ -16,30 +16,10 @@
 	position: absolute;
 }
 .owl-prev {
-	left: 10%;
-	top: 325px;
-	background-color: rgba(0, 0, 0, 1);
-	color: rgba(255, 255, 255, 1);
-}
-.owl-prev:hover {
-	background-color: rgba(0, 0, 0, 0.5);
-	color: rgba(255, 255, 255, 0.5);
+	left: 30%;
+	top: 75%;
 }
 .owl-next {
-	right: 10%;
-	top: 325px;
-	background-color: rgba(0, 0, 0, 1);
-	color: rgba(255, 255, 255, 1);
-}
-.owl-next:hover {
-	background-color: rgba(0, 0, 0, 0.5);
-	color: rgba(255, 255, 255, 0.5);
-}
-.owl-page span {
-	background: rgba(0, 0, 0, 1);
-	color: rgba(255, 255, 255, 1);
-}
-.owl-page span:hover {
-	background: rgba(0, 0, 0, 0.5);
-	color: rgba(255, 255, 255, 0.5);
+	right: 30%;
+	top: 75%;
 }
