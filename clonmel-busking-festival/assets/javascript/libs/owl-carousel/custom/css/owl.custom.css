@@ -21,22 +21,8 @@ Custom Owl CSS
 .owl-prev {
   left: 40%;
   top: 90%;
-  opacity: 0.5;
 }
 .owl-next {
   right: 40%;
   top: 90%;
-  opacity: 0.5;
-}
-.owl-prev:hover, .owl-next:hover {
-  opacity: 1;
-}
-.owl-controls .owl-page {
-  display: inline-block;
-}
-.owl-controls .owl-page span {
-  opacity: 1;
-}
-.owl-controls .owl-page.active span, .owl-controls .owl-page:hover span {
-  opacity: 0.5;
 }
