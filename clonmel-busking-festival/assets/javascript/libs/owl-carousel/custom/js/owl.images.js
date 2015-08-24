@@ -14,7 +14,7 @@ $(document).ready(function() {
 		autoPlay: 2500,
 		slideSpeed: 200,
 		paginationSpeed: 800,
-		jsonPath: "assets/javascript/libs/owl-carousel/custom/json/images.json",
+		jsonPath: "../json/images.json",
 		jsonSuccess: customDataSuccess
 	});
 	function customDataSuccess(data) {

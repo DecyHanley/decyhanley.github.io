@@ -13,7 +13,7 @@ $(document).ready(function() {
 		],
 		slideSpeed: 200,
 		paginationSpeed: 800,
-		jsonPath: "assets/javascript/libs/owl-carousel/custom/json/podcasts.json",
+		jsonPath: "../json/podcasts.json",
 		jsonSuccess: customDataSuccess
 	});
 	function customDataSuccess(data) {
