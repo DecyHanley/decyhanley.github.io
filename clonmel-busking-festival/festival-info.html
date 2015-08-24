@@ -106,7 +106,7 @@
 			<li class="sidebar-brand"><a href="#top" onclick= $("#menu-close").click();>Top</a></li>
 			<li><a href="#music" onclick= $("#menu-close").click();>Music</a></li>
 			<li><a href="#events-guide" onclick= $("#menu-close").click();>Events Guide</a></li>
-			<li><a href="#events-card" onclick= $("#menu-close").close();>Events Card</a></li>
+			<li><a href="#events-changes" onclick= $("#menu-close").close();>Events Change(s)</a></li>
 			<li><a href="#sponsors" onclick= $("#menu-close").click();>Sponsors</a></li>
 			<li><a href="#photo-gallery" onclick= $("#menu-close").click();>Photo Gallery</a></li>
 			<li><a href="#previous-years" onclick= $("#menu-close").click();>Previous Years</a></li>
@@ -180,42 +180,9 @@
 					<hr class="small">
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<p>Event Change(s)</p>
-					<hr class="small">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4">
-					<span>
-						<p>Friday Night</p>
-						<p>Venue - The Coachman</p>
-						<p>Act - Don Baker and Band w/ Claire Rose</p>
-						<p>Time - 10:30</p>
-					</span>
-				</div>
-				<div class="col-lg-4">
-					<span>
-						<br><br>
-						<p>Changed To</p>
-					</span>
-				</div>
-				<div class="col-lg-4">
-					<span>
-						<p>Friday Night</p>
-						<p>Venue - The Coachman</p>
-						<p>Act - Paddy Ryan</p>
-						<p>Time - 10:30</p>
-					</span>
-				</div>
-				<a href="#events-card" class="btn btn-dark btn-sm">Events Card</a>
-			</div>
 			<div class="row" id="events-card">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<hr class="small">
 					<p>Click to flip to checkout the Events Guide.</p>
-					<br>
 					<div class="row">
 						<div class="front">
 							<img class="brochure" src="assets/images/brochure/cbf-brochure-front.png" alt="Front of Brochure" />
@@ -233,45 +200,25 @@
 				<br><br><br><br><br><br><br><br>
 				<br><br><br><br><br><br>
 			</div>
+			<div class="row" id="event-changes">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<hr class="small">
+					<p>Event Change(s)</p>
+					<p>Friday Night | Venue - The Coachman | Act - Don Baker and Band w/ Claire Rose | Time - 10:30</p>
+					<p>Changed To</p>
+					<p>Friday Night | Venue - The Coachman | Act - Paddy Ryan | Time - 10:30</p>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<hr class="small">
-					<a href="#sponsors" class="btn btn-dark btn-sm">Sponsors</a>
+					<a href="#photo-gallery" class="btn btn-dark btn-sm">Photo Gallery</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Sponsors
-	<section id="sponsors" class="sponsors">
-		<div class="container-fluid text-vertical-center">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h1>Sponsors</h1>
-					<hr class="small">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<p>Here's this years sponsors, shown in a fantastic anminated short.</p>
-					<hr class="small">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<iframe width="1280" height="720" src="https://www.youtube.com/embed/GJgUGT25x78?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<hr class="small">
-					<a href="#photo-gallery" class="btn btn-light btn-sm">Photo Gallery</a>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
-	<!-- Photo Gallery
+	<!-- Photo Gallery -->
 	<section id="photo-gallery" class="photo-gallery">
 		<div class="container-fluid text-vertical-center">
 			<div class="row">
@@ -294,13 +241,42 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<hr class="small">
+					<a href="#sponsors" class="btn btn-light btn-sm">Sponsors</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sponsors -->
+	<section id="sponsors" class="sponsors">
+		<div class="container-fluid text-vertical-center">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h1>Sponsors</h1>
+					<hr class="small">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<p>Here's this years sponsors, shown in a fantastic anminated short.</p>
+					<hr class="small">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<iframe width="1280" height="720" src="https://www.youtube.com/embed/GJgUGT25x78?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<hr class="small">
 					<a href="#previous-years" class="btn btn-dark btn-sm">Previous Years</a>
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 
-	<!-- Previous Years
+	<!-- Previous Years -->
 	<section id="previous-years" class="previous-years">
 		<div class="container-fluid text-vertical-center">
 			<div class="row">
@@ -344,7 +320,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 					<hr class="small">
 					<p>2012</p>
 					<p>THE 2012 LINE-UP INCLUDED HUNDREDS OF BUSKERS,WITH OVER 100 FREE NIGHT-TIME CONCERTS. THE LINE-UP INCLUDED:</p>
@@ -357,9 +333,7 @@
 						LEGENDS, THE TIPPERARY RAMBLERS, FRAN GARRY, ALIAS FOLK SYNERGY, CASEY LEIGH, THE WATERCATS.
 					</p>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 					<hr class="small">
 					<p>2011</p>
 					<p>WAS THE FIRST YEAR WE RAN THE FESTIVAL AS A THREE DAY EVENT: THE LINEUP INCLUDED THE FOLLOWING ACTS:</p>
@@ -378,9 +352,9 @@
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 
-	<!-- Footer
+	<!-- Footer -->
 	<footer id="our-info" class="footer">
 		<div class="container-fluid text-vertical-center">
 			<div class="row">
@@ -424,7 +398,7 @@
 				</div>
 			</div>
 		</div>
-	</footer> -->
+	</footer>
 
 	<!-- jQuery CDN-->
 	<script text="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
