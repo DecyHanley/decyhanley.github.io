@@ -5,7 +5,6 @@
 $(document).ready(function() {
 	$("#photos").owlCarousel({
 		items: 2,
-		navigation: true,
 		pagination: true,
 		//transtionStyle: "scaleUp",
 		autoPlay: 2500,

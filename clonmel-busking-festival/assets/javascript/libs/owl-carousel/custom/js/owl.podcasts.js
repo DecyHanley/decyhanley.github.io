@@ -5,7 +5,6 @@
 $(document).ready(function() {
 	$("#podcasts").owlCarousel({
 		singleItem: true,
-		navigation: true,
 		pagination: true,
 		//transtionStyle: "backSlide",
 		slideSpeed: 200,
