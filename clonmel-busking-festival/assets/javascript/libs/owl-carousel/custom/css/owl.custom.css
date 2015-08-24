@@ -25,3 +25,11 @@
 	right: 40%;
 	top: 90%;
 }
+.owl-controls .owl-page {
+  display: inline-block;
+}
+.owl-controls .owl-page span {
+  opacity: 1;
+}
+.owl-controls .owl-page.active span, .owl-controls .owl-page:hover span {
+  opacity: 0.5;
