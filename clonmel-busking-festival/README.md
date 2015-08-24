@@ -1,4 +1,4 @@
-# Clonmel Busking Festival.
+# Redevelopment of Clonmel Busking Festival Website.
 
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) and [Agency](http://startbootstrap.com/template-overviews/agency/) by [Start Bootstrap](http://startbootstrap.com/).
 
