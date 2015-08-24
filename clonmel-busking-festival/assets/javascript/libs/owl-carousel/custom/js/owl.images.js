@@ -24,7 +24,6 @@ $(document).ready(function() {
 		}
 		$("#photos").html(content);
 	}
-	// Custom Navigation Events
 	$(".next").click(function(){
 		owl.trigger('owl.next');
 	})
