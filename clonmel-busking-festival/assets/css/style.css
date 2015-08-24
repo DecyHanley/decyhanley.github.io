@@ -275,6 +275,9 @@ Return and Back To Top Buttons
   width: 100%;
   height: 137%;
 }
+.events-guide span {
+  font-size: 0.813em;
+}
 .sponsors {
   background-color: rgba(34, 127, 187, 1);
   color: rgba(255, 255, 255, 1);
