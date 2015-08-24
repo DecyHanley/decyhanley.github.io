@@ -7,40 +7,37 @@
 	height: 300px;
 	padding: 10px;
 }
-#podcasts .owl-item p caption {
-	font-size: 1.25em;
-}
 #podcast .owl-theme .owl-controls .owl-buttons div {
 	color: rgba(0, 0, 0, 1);
 	background-color: rgba(255, 255, 255, 1);
 	position: absolute;
-}
-#podcast .owl-theme .owl-controls .owl-buttons div:hover {
-	opacity: 0.5;
 }
 #photos .owl-item img {
 	width: 100%;
 	height: 300px;
 	padding: 10px;
 }
-#photos .owl-item p caption {
-	font-size: 1.25em;
-}
 #photo .owl-theme .owl-controls .owl-buttons div {
 	color: rgba(255, 255, 255, 1);
 	background-color: rgba(0, 0, 0, 1);
 	position: absolute;
 }
-#photo .owl-theme .owl-controls .owl-buttons div:hover {
-	opacity: 0.5;
+.owl-item p caption {
+	font-size: 1.25em;
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev {
 	left: 75px;
-	top: 300px;
+	top: 250px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev div:hover {
+	opacity: 0.5;
 }
 .owl-theme .owl-controls .owl-buttons .owl-next {
 	right: 75px;
-	top: 300px;
+	top: 250px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next div:hover {
+	opacity: 0.5;
 }
 .owl-theme .owl-controls .owl-page span {
 	background: #000;
