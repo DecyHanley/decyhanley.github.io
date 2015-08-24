@@ -18,7 +18,7 @@
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.5;
 }
-.owl-prev.active .owl-prev:hover, .owl-next.active .owl-next:hover {
+.owl-prev:hover, .owl-next:hover {
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 }
