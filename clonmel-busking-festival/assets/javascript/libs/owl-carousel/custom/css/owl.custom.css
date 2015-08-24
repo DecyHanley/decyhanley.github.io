@@ -15,14 +15,21 @@ Custom Owl CSS
 .owl-item p caption {
   font-size: 1.25em;
 }
-.owl-buttons div {
-  position: absolute;
-}
-.owl-prev {
-  left: 40%;
+.owl-prev, .owl-next {
+	position: absolute;
   top: 90%;
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+.owl-prev:hover, .owl-next:hover {
+    filter: Alpha(Opacity=50);/*IE7 fix*/
+    opacity: 0.5;
+}
+.owl-prev{
+	position: absolute;
+	left: 40%;
 }
 .owl-next {
+	position: absolute;
   right: 40%;
-  top: 90%;
 }
