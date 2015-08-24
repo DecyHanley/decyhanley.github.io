@@ -7,11 +7,7 @@ $(document).ready(function() {
 		items: 2,
 		navigation: true,
 		pagination: true,
-		transtionStyle: "scaleUp",
-		navigationText: [
-			"<i class='fa	fa-1x fa-arrow-left'></i>",
-			"<i class='fa	fa-1x fa-arrow-right'></i>"
-		],
+		//transtionStyle: "scaleUp",
 		autoPlay: 2500,
 		slideSpeed: 200,
 		paginationSpeed: 800,
@@ -28,4 +24,11 @@ $(document).ready(function() {
 		}
 		$("#photos").html(content);
 	}
+	// Custom Navigation Events
+	$(".next").click(function(){
+		owl.trigger('owl.next');
+	})
+	$(".prev").click(function(){
+		owl.trigger('owl.prev');
+	})
 });

@@ -7,11 +7,7 @@ $(document).ready(function() {
 		singleItem: true,
 		navigation: true,
 		pagination: true,
-		transtionStyle: "backSlide",
-		navigationText: [
-			"<i class='fa	fa-1x fa-arrow-left'></i>",
-			"<i class='fa	fa-1x fa-arrow-right'></i>"
-		],
+		//transtionStyle: "backSlide",
 		slideSpeed: 200,
 		paginationSpeed: 800,
 		jsonPath: "assets/javascript/libs/owl-carousel/custom/json/podcasts.json",
@@ -28,4 +24,11 @@ $(document).ready(function() {
 		}
 		$("#podcasts").html(content);
 	}
+	// Custom Navigation Events
+	$(".next").click(function(){
+		owl.trigger('owl.next');
+	})
+	$(".prev").click(function(){
+		owl.trigger('owl.prev');
+	})
 });
