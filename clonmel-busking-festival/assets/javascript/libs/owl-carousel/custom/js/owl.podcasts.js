@@ -7,7 +7,7 @@ $(document).ready(function() {
 		singleItem: true,
 		navigation: true,
 		pagination: true,
-		transtionStyle: backSlide,
+		transtionStyle: "backSlide",
 		navigationText: [
 			"<i class='fa	fa-1x fa-arrow-left'></i>",
 			"<i class='fa	fa-1x fa-arrow-right'></i>"
