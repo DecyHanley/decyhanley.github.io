@@ -15,18 +15,7 @@
 	background-color: rgba(255, 255, 255, 1);
 	position: absolute;
 }
-#podcast .owl-theme .owl-controls .owl-buttons .owl-prev {
-	left: 75px;
-	top: 325px;
-}
-#podcast .owl-theme .owl-controls .owl-buttons .owl-next {
-	right: 75px;
-	top: 325px;
-}
-#podcast .owl-theme .owl-controls .owl-page span {
-	background: #000;
-}
-#podcast .owl-theme .owl-controls .owl-page span:hover {
+#podcast .owl-theme .owl-controls .owl-buttons div:hover {
 	opacity: 0.5;
 }
 #photos .owl-item img {
@@ -42,17 +31,17 @@
 	background-color: rgba(0, 0, 0, 1);
 	position: absolute;
 }
-#photos .owl-theme .owl-controls .owl-buttons .owl-prev {
-	left: 75px;
-	top: 325px;
-}
-#photos .owl-theme .owl-controls .owl-buttons .owl-next {
-	right: 75px;
-	top: 325px;
-}
-#photos .owl-theme .owl-controls .owl-page span {
-	background: #000;
-}
-#photos .owl-theme .owl-controls .owl-page span:hover {
+#photo .owl-theme .owl-controls .owl-buttons div:hover {
 	opacity: 0.5;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+	left: 75px;
+	top: 300px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+	right: 75px;
+	top: 300px;
+}
+.owl-theme .owl-controls .owl-page span {
+	background: #000;
 }
