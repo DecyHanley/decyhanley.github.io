@@ -262,11 +262,11 @@ Return and Back To Top Buttons
   text-decoration: underline;
 }
 .music .buttons .btn {
-  margin: -2.5% 10% 0 10%;
+  margin: -2.5% 7% 0 7%;
   vertical-align: middle;
-  font-size: 2em;
-  width: 50px;
-  height: 50px;
+  font-size: 1.25em;
+  width: 40px;
+  height: 40px;
   border-radius: 25px;
 }
 .events-guide {
