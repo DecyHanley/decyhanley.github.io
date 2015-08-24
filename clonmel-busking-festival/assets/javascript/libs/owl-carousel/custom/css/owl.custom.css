@@ -1,29 +1,35 @@
 /*------------------------------------------------------------------------------
-	Custom Owl CSS
+Custom Owl CSS
 ------------------------------------------------------------------------------*/
+
 .owl-item iframe {
-	width: 100%;
-	height: 300px;
-	padding: 0 2.5% 0 2.5%;
+  width: 100%;
+  height: 300px;
+  padding: 0 2.5% 0 2.5%;
 }
 .owl-item img {
-	width: 100%;
-	height: 300px;
-	padding: 0 2.5% 0 2.5%
+  width: 100%;
+  height: 300px;
+  padding: 0 2.5% 0 2.5%
 }
-.owl-item p caption{
-	font-size: 1.25em;
+.owl-item p caption {
+  font-size: 1.25em;
 }
 .owl-buttons div {
-	position: absolute;
+  position: absolute;
 }
 .owl-prev {
-	left: 40%;
-	top: 90%;
+  left: 40%;
+  top: 90%;
+  opacity: 0.5;
 }
 .owl-next {
-	right: 40%;
-	top: 90%;
+  right: 40%;
+  top: 90%;
+  opacity: 0.5;
+}
+.owl-prev:hover, .owl-next:hover {
+  opacity: 1;
 }
 .owl-controls .owl-page {
   display: inline-block;
@@ -33,3 +39,4 @@
 }
 .owl-controls .owl-page.active span, .owl-controls .owl-page:hover span {
   opacity: 0.5;
+}
