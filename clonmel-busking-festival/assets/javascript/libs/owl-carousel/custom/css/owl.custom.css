@@ -4,22 +4,24 @@
 .owl-item iframe {
 	width: 100%;
 	height: 300px;
+	padding: 0 2.5% 0 2.5%;
 }
 .owl-item img {
 	width: 100%;
 	height: 300px;
+	padding: 0 2.5% 0 2.5%
 }
-.owl-item p {
+.owl-item p caption{
 	font-size: 1.25em;
 }
 .owl-buttons div {
 	position: absolute;
 }
 .owl-prev {
-	left: 30%;
-	top: 75%;
+	left: 40%;
+	top: 85%;
 }
 .owl-next {
-	right: 30%;
-	top: 75%;
+	right: 40%;
+	top: 85%;
 }
