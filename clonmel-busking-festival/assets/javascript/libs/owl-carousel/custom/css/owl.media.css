@@ -1,0 +1,23 @@
+/*------------------------------------------------------------------------------
+	Custom Owl @Media CSS
+------------------------------------------------------------------------------*/
+
+@media(max-width:768px) {
+	#podcasts .item img {
+		height: 400px;
+	}
+	#photos .item img {
+		height: 400px;
+	}
+	.owl-theme .owl-controls .owl-buttons div {
+		position: absolute;
+	}
+	.owl-theme .owl-controls .owl-buttons .owl-prev {
+		left: 25px;
+		top: 400px;
+	}
+	.owl-theme .owl-controls .owl-buttons .owl-next {
+		right: 25px;
+		top: 400px;
+	}
+}

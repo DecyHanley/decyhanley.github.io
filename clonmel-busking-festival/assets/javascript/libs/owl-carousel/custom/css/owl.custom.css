@@ -15,6 +15,20 @@
 	background-color: rgba(255, 255, 255, 1);
 	position: absolute;
 }
+#podcast .owl-theme .owl-controls .owl-buttons .owl-prev {
+	left: 75px;
+	top: 325px;
+}
+#podcast .owl-theme .owl-controls .owl-buttons .owl-next {
+	right: 75px;
+	top: 325px;
+}
+#podcast .owl-theme .owl-controls .owl-page span {
+	background: #000;
+}
+#podcast .owl-theme .owl-controls .owl-page span:hover {
+	opacity: 0.5;
+}
 #photos .owl-item img {
 	width: 100%;
 	height: 300px;
@@ -25,44 +39,20 @@
 }
 #photo .owl-theme .owl-controls .owl-buttons div {
 	color: rgba(255, 255, 255, 1);
-	background-color: rgba(0, 0, 0, 1); 
+	background-color: rgba(0, 0, 0, 1);
 	position: absolute;
 }
-.owl-theme .owl-controls .owl-buttons .owl-prev {
+#photos .owl-theme .owl-controls .owl-buttons .owl-prev {
 	left: 75px;
 	top: 325px;
 }
-.owl-theme .owl-controls .owl-buttons .owl-next {
+#photos .owl-theme .owl-controls .owl-buttons .owl-next {
 	right: 75px;
 	top: 325px;
 }
-.owl-theme .owl-controls .owl-page span {
+#photos .owl-theme .owl-controls .owl-page span {
 	background: #000;
 }
-.owl-theme .owl-controls .owl-page span:hover {
+#photos .owl-theme .owl-controls .owl-page span:hover {
 	opacity: 0.5;
-}
-
-/*------------------------------------------------------------------------------
-	Custom Owl @Media CSS
-------------------------------------------------------------------------------*/
-
-@media(max-width:768px) {
-	#podcasts .item img {
-		height: 400px;
-	}
-	#photos .item img {
-		height: 400px;
-	}
-	.owl-theme .owl-controls .owl-buttons div {
-		position: absolute;
-	}
-	.owl-theme .owl-controls .owl-buttons .owl-prev {
-		left: 25px;
-		top: 400px;
-	}
-	.owl-theme .owl-controls .owl-buttons .owl-next {
-		right: 25px;
-		top: 400px;
-	}
 }
