@@ -3,7 +3,9 @@
 ------------------------------------------------------------------------------*/
 
 $(document).ready(function() {
-	$("#photos").owlCarousel({
+	var owl = $("#photos");
+
+	owl.owlCarousel	({
 		items: 2,
 		pagination: true,
 		//transtionStyle: "scaleUp",
@@ -12,6 +14,12 @@ $(document).ready(function() {
 		paginationSpeed: 800,
 		jsonPath: "assets/javascript/libs/owl-carousel/custom/json/images.json",
 		jsonSuccess: customDataSuccess
+	});
+	$("#next").click(function(){
+		owl.trigger('owl.next');
+	});
+	$("#prev").click(function(){
+		owl.trigger('owl.prev');
 	});
 	function customDataSuccess(data) {
 		var content = "";
@@ -23,10 +31,4 @@ $(document).ready(function() {
 		}
 		$("#photos").html(content);
 	}
-	$(".next").click(function(){
-		owl.trigger('owl.next');
-	})
-	$(".prev").click(function(){
-		owl.trigger('owl.prev');
-	})
 });

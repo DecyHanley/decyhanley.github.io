@@ -3,7 +3,9 @@
 ------------------------------------------------------------------------------*/
 
 $(document).ready(function() {
-	$("#podcasts").owlCarousel({
+	var owl = $("#podcasts");
+
+	owl.owlCarousel	({
 		singleItem: true,
 		pagination: true,
 		//transtionStyle: "backSlide",
@@ -11,6 +13,12 @@ $(document).ready(function() {
 		paginationSpeed: 800,
 		jsonPath: "assets/javascript/libs/owl-carousel/custom/json/podcasts.json",
 		jsonSuccess: customDataSuccess
+	});
+	$(".next").click(function(){
+		owl.trigger('owl.next');
+	});
+	$(".prev").click(function(){
+		owl.trigger('owl.prev');
 	});
 	function customDataSuccess(data) {
 		var content = "";
@@ -23,10 +31,4 @@ $(document).ready(function() {
 		}
 		$("#podcasts").html(content);
 	}
-	$(".next").click(function(){
-		owl.trigger('owl.next');
-	})
-	$(".prev").click(function(){
-		owl.trigger('owl.prev');
-	})
 });
