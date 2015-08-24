@@ -4,7 +4,7 @@
 
 $(document).ready(function() {
 	$("#podcasts").owlCarousel({
-		items: 2,
+		singleItem: true,
 		navigation: true,
 		pagination: true,
 		navigationText: [

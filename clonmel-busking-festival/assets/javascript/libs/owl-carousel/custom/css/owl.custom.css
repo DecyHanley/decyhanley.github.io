@@ -5,20 +5,21 @@
 #podcasts .owl-item iframe {
 	width: 100%;
 	height: 300px;
-	padding: 10px;
 }
 #photos .owl-item img {
 	width: 100%;
 	height: 300px;
-	padding: 10px;
-}
-#photos .owl-item p caption {
-	font-size: 1.25em;
 }
 .owl-theme .owl-controls .owl-buttons div {
-	color: #FFF;
-	background-color: #000;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 1);
 	position: absolute;
+}
+.owl-theme .owl-controls .owl-buttons div:hover {
+	opacity: 0.5;
+}
+.owl-item p caption {
+	font-size: 1.25em;
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev {
 	left: 75px;
@@ -29,5 +30,5 @@
 	top: 325px;
 }
 .owl-theme .owl-controls .owl-page span {
-	background: #000;
+	background: rgba(0, 0, 0, 1);
 }

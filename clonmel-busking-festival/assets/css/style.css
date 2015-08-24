@@ -94,10 +94,10 @@ hr.small {
   background: none;
 }
 #menu-toggle {
-  z-index: 1;
+  z-index: 4;
   position: fixed;
-  top: 2%;
-  left: 2%;
+  top: 1%;
+  left: 1%;
   display: none;
 }
 #sidebar-wrapper.active {
@@ -114,21 +114,21 @@ hr.small {
 }
 
 /*------------------------------------------------------------------------------
-	Back To Top and Return Buttons
+Return and Back To Top Buttons
 ------------------------------------------------------------------------------*/
 
-#back-to-top {
-  z-index: 1;
+#return {
+  z-index: 3;
   position: fixed;
-  bottom: 2%;
-  right: 2%;
+  top: 1.75%;
+  left: 5%;
   display: none;
 }
-#return {
-  z-index: 1;
+#back-to-top {
+  z-index: 2;
   position: fixed;
-  top: 2%;
-  left: 5%;
+  bottom: 1%;
+  right: 1%;
   display: none;
 }
 
@@ -142,7 +142,7 @@ hr.small {
   width: 100%;
   height: 100%;
   background: url(../images/cbf/cbf-header.jpg) no-repeat center center scroll;
-  background: opacity: 0.8;
+  background: opacity: 0.5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -199,7 +199,7 @@ hr.small {
   height: 85px;
 }
 .contact-us .form-group textarea.form-control {
-  height: 300px;
+  height: 295px;
 }
 .contact-us .form-control:focus {
   border-color: rgba(254, 209, 55, 1);
@@ -238,14 +238,19 @@ hr.small {
 }
 .map iframe {
   width: 100%;
-  height: 250px;
-  z-index: 0;
+  height: 225px;
 }
 
 /*------------------------------------------------------------------------------
 	Festival Info
 ------------------------------------------------------------------------------*/
 
+.top {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(51, 51, 51, 1);
+  width: 100%;
+  height: 35%;
+}
 .music {
   background-color: rgba(34, 127, 187, 1);
   color: rgba(255, 255, 255, 1);
