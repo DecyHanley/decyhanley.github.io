@@ -1,11 +1,11 @@
 .owl-item iframe {
 	width: 100%;
-	height: auto;
+	height: 300px;
+  padding: 0 2.5% 0 2.5%;
 }
 .owl-prev, .owl-next {
 	position: absolute;
-	top: 50%;
-	margin-top: -50px;
+	top: 90%;
 	width: 50px;
 	height: 50px;
 	text-align: center;
@@ -17,9 +17,13 @@
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 }
-.owl-next {
-	right: 0px;
+.owl-prev {
+	left: 40%
 }
+.owl-next {
+	right: 40%;
+}
+
 .owl-controls {
 	text-align: center;
 }
