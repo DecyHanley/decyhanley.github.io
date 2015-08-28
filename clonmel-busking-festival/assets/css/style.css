@@ -144,7 +144,7 @@ Return and Back To Top Buttons
   position: relative;
   width: 100%;
   height: 100%;
-  padding: 0 1.5% 1.5% 1.5%;
+  padding: 0 2% 2% 2%;
   background: url(../images/cbf/cbf-header.jpg) no-repeat center center scroll;
   background: opacity: 0.5;
   -webkit-background-size: cover;
@@ -162,7 +162,7 @@ Return and Back To Top Buttons
 .our-story {
   width: 100%;
   height: auto;
-  padding: 0 1.5% 1.5% 1.5%;
+  padding: 0 2% 2% 2%;
 }
 .our-story .crumlin-logo-1 {
   width: 40%;
@@ -180,19 +180,28 @@ Return and Back To Top Buttons
   color: rgba(255, 255, 255, 1);
   width: 100%;
   height: auto;
-  padding: 0 1.5% 1.5% 1.5%;
+  padding: 0 2% 2% 2%;
+}
+.festival-info-item {
+  margin: 2% 0 2% 0;
 }
 .social-media {
   width: 100%;
   height: auto;
-  padding: 0 1.5% 1.5% 1.5%;
+  padding: 0 2% 2% 2%;
+}
+.social-media #facebook, #twittter {
+  padding: 0 2% 0 2%;
 }
 .contact-us {
   background-color: rgba(34, 127, 187, 1);
   color: rgba(255, 255, 255, 1);
   width: 100%;
   height: auto;
-  padding: 0 1.5% 1.5% 1.5%;
+  padding: 0 2% 2% 2%;
+}
+.contact-us #the-count1, #the-count2, #the-count3, #the-count4 {
+  float: right;
 }
 .contact-us .form-group {
   margin-bottom: 20px;
@@ -204,7 +213,7 @@ Return and Back To Top Buttons
   height: 85px;
 }
 .contact-us .form-group textarea.form-control {
-  height: 295px;
+  height: 85px;
 }
 .contact-us .form-control:focus {
   border-color: rgba(254, 209, 55, 1);
@@ -240,7 +249,7 @@ Return and Back To Top Buttons
 .footer {
   width: 100%;
   height: 100%;
-  padding: 0 1.5% 0 1.5%;
+  padding: 0 2% 0 2%;
 }
 .map iframe {
   width: 100%;
@@ -256,7 +265,7 @@ Return and Back To Top Buttons
   color: rgba(255, 255, 255, 1);
   width: 100%;
   height: auto;
-  padding: 0 1.5% 1.5% 1.5%;
+  padding: 0 2% 2% 2%;
 }
 .music .link {
   color: rgba(255, 255, 255, 1);
@@ -271,21 +280,21 @@ Return and Back To Top Buttons
   color: rgba(51, 51, 51, 1);
   width: 100%;
   height: auto;
-  padding: 0 1.5% 1.5% 1.5%;
+  padding: 0 2% 2% 2%;
 }
 .photo-gallery {
   background-color: rgba(34, 127, 187, 1);
   color: rgba(255, 255, 255, 1);
   width: 100%;
   height: auto;
-  padding: 0 1.5% 1.5% 1.5%;
+  padding: 0 2% 2% 2%;
 }
 .sponsors {
   background-color: rgba(255, 255, 255, 1);
   color: rgba(51, 51, 51, 1);
   width: 100%;
   height: auto;
-  padding: 0 1.5% 1.5% 1.5%;
+  padding: 0 2% 2% 2%;
 }
 .sponsors iframe {
   width: 640px;
@@ -296,7 +305,7 @@ Return and Back To Top Buttons
   color: rgba(255, 255, 255, 1);
   width: 100%;
   height: auto;
-  padding: 0 1.5% 1.5% 1.5%;
+  padding: 0 2% 2% 2%;
 }
 .previous-years iframe {
   width: 640px;
