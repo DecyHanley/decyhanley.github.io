@@ -298,9 +298,6 @@ Return and Back To Top Buttons
   height: auto;
   padding: 0 1.5% 1.5% 1.5%;
 }
-.previous-years span p {
-  font-size: 0.875em;
-}
 .previous-years iframe {
   width: 640px;
   height: 360px;
