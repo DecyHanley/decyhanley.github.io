@@ -10,8 +10,8 @@
 
 * [RMP I App Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/rmp-one/)
 
-  * [01 Class Apps Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/rmp-one/01_Class_Apps_Assets/)
+  * [01 Class Apps Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/rmp-one/01_class_apps_assets/)
   
-  * [01 Project Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/rmp-one/02_Project_Assets/)
+  * [01 Project Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/rmp-one/02_project_assets/)
 
 * [README.md] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/README.md)
