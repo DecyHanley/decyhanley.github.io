@@ -10,9 +10,9 @@
 
 #### [College App Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets)
 
-* [Heroku CoolApp] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/cool-app)
-* [Ionic podacstApp] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/ionic-app/podcast-app)
-* [RMP I App Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/rich-media-programming-one)
+* [Heroku] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/heroku)
+* [Ionic] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/ionic)
+* [RMP One Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/rmp-one-assets)
 * [README.md] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/README.md)
 
 #### [Clonmel Busking Festival site] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/clonmel-busking-festival)  - [Site Url] (https://decyhanley.github.io/clonmel-busking-festival/)
