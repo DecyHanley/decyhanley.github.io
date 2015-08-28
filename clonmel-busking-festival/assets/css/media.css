@@ -10,6 +10,9 @@
   .our-story {
     font-size: 0.813em;
   }
+  .our-story #note {
+    font-size: 1.5em;
+  }
   .our-story .crumlin-logo-1 {
     width: 50%;
     height: 50%;

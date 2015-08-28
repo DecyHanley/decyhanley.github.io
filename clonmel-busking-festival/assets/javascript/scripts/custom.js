@@ -65,32 +65,39 @@ $(document).ready(function() {
     window.location.href = "index.html";
   });
 
-  $('#the-name').keyup(function() {
+  $('#the-f-name').keyup(function() {
     var characterCount1 = $(this).val().length,
       current1 = $('#current1'),
       maximum1 = $('#maximum1'),
       theCount1 = $('#the-count1');
     current1.text(characterCount1);
   });
-	$('#the-email').keyup(function() {
+	$('#the-s-name').keyup(function() {
 		var characterCount2 = $(this).val().length,
 			current2 = $('#current2'),
 			maximum2 = $('#maximum2'),
 			theCount2 = $('#the-count2');
 		current2.text(characterCount2);
 	});
-	$('#the-phone').keyup(function() {
+	$('#the-email').keyup(function() {
 		var characterCount3 = $(this).val().length,
 			current3 = $('#current3'),
 			maximum3 = $('#maximum3'),
 			theCount3 = $('#the-count3');
 		current3.text(characterCount3);
 	});
-	$('#the-message').keyup(function() {
+	$('#the-phone').keyup(function() {
 		var characterCount4 = $(this).val().length,
 			current4 = $('#current4'),
 			maximum4 = $('#maximum4'),
 			theCount4 = $('#the-count4');
 		current4.text(characterCount4);
+	});
+	$('#the-message').keyup(function() {
+		var characterCount5 = $(this).val().length,
+			current5 = $('#current5'),
+			maximum5 = $('#maximum5'),
+			theCount5 = $('#the-count5');
+		current5.text(characterCount5);
 	});
 });

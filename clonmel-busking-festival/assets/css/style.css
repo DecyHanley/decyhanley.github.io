@@ -175,6 +175,9 @@ Return and Back To Top Buttons
 .our-story img:hover {
   opacity: 0.5;
 }
+.our-story #note {
+  font-size: 2em;
+}
 .festival-info {
   background-color: rgba(34, 127, 187, 1);
   color: rgba(255, 255, 255, 1);
@@ -200,7 +203,7 @@ Return and Back To Top Buttons
   height: auto;
   padding: 0 2% 2% 2%;
 }
-.contact-us #the-count1, #the-count2, #the-count3, #the-count4 {
+.contact-us #the-count1, #the-count2, #the-count3, #the-count4, #the-count5 {
   float: right;
 }
 .contact-us .form-group {
@@ -210,7 +213,7 @@ Return and Back To Top Buttons
   padding: 20px;
 }
 .contact-us .form-group input.form-control {
-  height: 85px;
+  height: 75px;
 }
 .contact-us .form-group textarea.form-control {
   height: 85px;
