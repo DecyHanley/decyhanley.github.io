@@ -8,7 +8,7 @@
 
  * [podcastApp] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/ionic/podcastApp)
 
-* [RMP I App Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/rmp-one-assets/)
+* [RMP One Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/rmp-one-assets/)
 
   * [01 Class Apps Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/rmp-one-assets/01_class_apps_assets/)
   
