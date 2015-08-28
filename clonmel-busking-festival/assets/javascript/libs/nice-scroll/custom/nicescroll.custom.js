@@ -1,11 +1,10 @@
 /*------------------------------------------------------------------------------
-	jQuery Flip Javascript
+	Custom Nice Scroll Javascript
 ------------------------------------------------------------------------------*/
 
 $(document).ready(function() {
-	$("#events-card").flip({
-		axis: 'y',
-		trigger: 'click',
-		reverse: 'true'
+
+	$(window).load(function()	{
+		$("html").niceScroll();
 	});
 });

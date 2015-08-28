@@ -1,0 +1,50 @@
+/*------------------------------------------------------------------------------
+	Custom @font-face CSS for Lovelo Font
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+	Setup
+------------------------------------------------------------------------------*/
+
+body {
+  font-family: 'Lovelo Black', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.250em;
+  line-height: 1.5;
+}
+
+/*------------------------------------------------------------------------------
+	Lovelo Black
+------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Lovelo Black';
+  src: url('..fonts/lovelo.black.webfont.eot');
+  src: url('../fonts/lovelo.black.webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lovelo.black.webfont.woff2') format('woff2'), url('../fonts/lovelo.black.webfont.woff') format('woff'), url('../fonts/lovelo.black.webfont.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+/*------------------------------------------------------------------------------
+	Lovelo Line Light
+------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Lovelo Line Light';
+  src: url('../fonts/lovelo.line.light.webfont.eot');
+  src: url('../fonts/lovelo.line.light.webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lovelo.line.light.webfont.woff2') format('woff2'), url('../fonts/lovelo.line.light-webfont.woff') format('woff'), url('../fonts/lovelo.line.light.webfont.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*------------------------------------------------------------------------------
+	Lovelo Line Bold
+------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Lovelo Line Bold';
+  src: url('../fonts/lovelo.line.bold.webfont.eot');
+  src: url('../fonts/lovelo.line.bold.webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lovelo.line.bold.webfont.woff2') format('woff2'), url('../fonts/lovelo.line.bold.webfont.woff') format('woff'), url('../fonts/lovelo.line.bold.webfont.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}

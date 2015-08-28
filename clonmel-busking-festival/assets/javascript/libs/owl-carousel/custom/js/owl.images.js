@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------
-	Custom Owl Javascript for Photo Gallery
+	Custom Owl Carousel Javascript for Photo Gallery
 ------------------------------------------------------------------------------*/
 
 $(document).ready(function() {

@@ -1,18 +1,7 @@
 /*------------------------------------------------------------------------------
 	Custom Javascript
 ------------------------------------------------------------------------------*/
-
 $(document).ready(function() {
-
-	//Cover for Pace
-	$(window).load(function() {
-		$(".cover").fadeOut(2000);
-	});
-
-	//Nice Scroll
-	$(window).load(function()	{
-		$("html").niceScroll();
-	});
 
 	//Menu
 	$("#menu-close").click(function(e) {

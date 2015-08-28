@@ -1,8 +1,9 @@
 /*------------------------------------------------------------------------------
-	jQuery Flip CSS
+	Custom Pace Javascript
 ------------------------------------------------------------------------------*/
+$(document).ready(function() {
 
-.brochure {
-	width: 90%;
-	height: 425px;
-}
+  $(window).load(function() {
+    $(".custom-cover").fadeOut(1000);
+  });
+});

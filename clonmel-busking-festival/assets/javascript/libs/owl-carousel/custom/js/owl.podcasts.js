@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------
-	Custom Owl Javascript for Podcasts
+	Custom Owl Carousel Javascript for Podcasts
 ------------------------------------------------------------------------------*/
 
 $(document).ready(function() {
