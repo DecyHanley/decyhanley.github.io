@@ -1,8 +1,9 @@
 # College App Assets
 
-* [Heroku CoolApp] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/heroku/coolApp)
+* [Heroku Apps] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/heroku/)
+  *[coolApp] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/heroku/coolApp)
 
-* [Ionic podacstApp] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/ionic/podcastApp)
+* [Ionic Apps] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/ionic/)
 
 * [RMP I App Assets] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/college-app-assets/rmp-one/)
 
