@@ -1,4 +1,7 @@
 /*------------------------------------------------------------------------------
+	Custom CSS
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
 	Global Styles
 ------------------------------------------------------------------------------*/
 
@@ -24,28 +27,31 @@ hr.small {
 	background-color: rgba(34, 187, 104, 1);
 	color: rgba(255, 255, 255, 1);
 	width: 100%;
-	height: 10%;
+	height: auto;
 }
 .section {
 	background-color: rgba(34, 187, 104, 1);
 	color: rgba(255, 255, 255, 1);
 	width: 100%;
-	height: 40%;
-}
-.section a {
-	color: rgba(255, 255, 255, 1);
-}
-.section a:hover {
-	color: rgba(140, 140, 140, 1);
+	height: auto;
 }
 .footer {
 	background-color: rgba(255, 255, 255, 1);
 	width: 100%;
-	height: 50%;
+	height: auto;
 }
 .footer a {
 	color: rgba(34, 187, 104, 1);
 }
 .footer a:hover {
 	color: rgba(143, 121, 217, 1);
+}
+footer .facebook a:hover {
+	color: rgba(59, 89, 152, 1);
+}
+.footer .twitter a:hover {
+	color: rgba(85, 172, 238, 1);
+}
+.footer .github a:hover {
+	color: rgba(51, 51, 51, 1);
 }
