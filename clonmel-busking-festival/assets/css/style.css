@@ -186,7 +186,7 @@ Return and Back To Top Buttons
   padding: 0 2% 2% 2%;
 }
 .festival-info-item {
-  margin: 2% 0 2% 0;
+  padding: 2% 0 2% 0;
 }
 .social-media {
   width: 100%;
@@ -256,12 +256,20 @@ Return and Back To Top Buttons
 }
 .map iframe {
   width: 100%;
-  height: 275px;
+  height: 250px;
 }
 
 /*------------------------------------------------------------------------------
 	Festival Info
 ------------------------------------------------------------------------------*/
+
+.top {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(51, 51, 51, 1);
+  width: 100%;
+  height: auto;
+  padding: 0 2% 2% 2%;
+}
 
 .music {
   background-color: rgba(34, 127, 187, 1);
@@ -273,10 +281,6 @@ Return and Back To Top Buttons
 .music .link {
   color: rgba(255, 255, 255, 1);
   text-decoration: underline;
-}
-.music iframe {
-  width: 640px;
-  height: 360px;
 }
 .events-guide {
   background-color: rgba(255, 255, 255, 1);

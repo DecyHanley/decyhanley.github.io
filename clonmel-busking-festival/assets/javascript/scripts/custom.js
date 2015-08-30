@@ -65,6 +65,7 @@ $(document).ready(function() {
     window.location.href = "index.html";
   });
 
+  // Character Counters For Form Inputs
   $('#the-f-name').keyup(function() {
     var characterCount1 = $(this).val().length,
       current1 = $('#current1'),

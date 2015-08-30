@@ -95,9 +95,9 @@
 			<ul class="sidebar-nav">
 				<a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-1x fa-times"></i></a>
 				<li class="sidebar-brand"><a href="#top" onclick= $("#menu-close").click();>Top</a></li>
+				<li><a href="#top" onclick= $("#menu-close").click();>Top</a></li>
 				<li><a href="#music" onclick= $("#menu-close").click();>Music</a></li>
 				<li><a href="#events-guide" onclick= $("#menu-close").click();>Events Guide</a></li>
-				<li><a href="#events-changes" onclick= $("#menu-close").close();>Events Change(s)</a></li>
 				<li><a href="#sponsors" onclick= $("#menu-close").click();>Sponsors</a></li>
 				<li><a href="#photo-gallery" onclick= $("#menu-close").click();>Photo Gallery</a></li>
 				<li><a href="#previous-years" onclick= $("#menu-close").click();>Previous Years</a></li>
@@ -105,8 +105,31 @@
 			</ul>
 		</nav>
 
+		<!-- Festival Info -->
+		<section id="top" class="top">
+			<div class="container-fluid text-vertical-center">
+				<div class="row">
+					<div class="col-sm-12 col-md-12">
+						<h1>Festival Info</h1>
+						<hr class="small">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-12">
+						<p>Here's all the essential info about the festival</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-12">
+						<hr class="small">
+						<a href="#music" class="btn btn-dark btn-sm">Music</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<!-- Music -->
-		<section id="top" id="music" class="music">
+		<section id="music" class="music">
 			<div class="container-fluid text-vertical-center">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -179,8 +202,6 @@
 				<br><br><br><br><br><br><br><br>
 				<br><br><br><br><br><br><br><br>
 				<br><br><br><br><br><br><br><br>
-				<br><br><br><br><br><br><br>
-				<br>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<p style="color: rgba(221, 61, 61, 1)">Event Change(s)</p>
@@ -381,9 +402,9 @@
 		</footer>
 
 		<!-- jQuery 1.11.3, Bootstrap Core 3.3.5 & jQuery Flip Javascript CDNs -->
-		<script text="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="https://cdn.rawgit.com/nnattawat/flip/v1.0.16/dist/jquery.flip.min.js"></script>
+		<script text="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js" async></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" async></script>
+		<script type="text/javascript" src="https://cdn.rawgit.com/nnattawat/flip/v1.0.16/dist/jquery.flip.min.js" async></script>
 
 		<!-- My Custom JavaScript -->
 		<script type="text/javascript" src="assets/javascript/scripts/custom.js"></script>
@@ -401,6 +422,6 @@
 		<script type="text/javascript" src="assets/javascript/libs/jquery-flip/custom/jquery.flip.js"></script>
 
 		<!-- Google Analytics Javascript API-->
-		<script type="text/javascript" src="assets/javascript/apis/google-analytics.js" async></script>
+		<script type="text/javascript" src="assets/javascript/api/google-analytics.js" async></script>
 	</body>
 </html>
