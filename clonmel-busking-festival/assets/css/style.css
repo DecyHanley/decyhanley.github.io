@@ -143,7 +143,7 @@ Return and Back To Top Buttons
   display: table;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 0 2% 2% 2%;
   background: url(../images/cbf/cbf-header.jpg) no-repeat center center scroll;
   background: opacity: 0.5;
@@ -207,16 +207,13 @@ Return and Back To Top Buttons
   float: right;
 }
 .contact-us .form-group {
-  margin-bottom: 20px;
-}
-.contact-us .form-group input, section.contact-us .form-group textarea {
-  padding: 20px;
+  padding: 0 0 1.5% 0;
 }
 .contact-us .form-group input.form-control {
-  height: 75px;
+  height: 50px;
 }
 .contact-us .form-group textarea.form-control {
-  height: 85px;
+  height: 50px;
 }
 .contact-us .form-control:focus {
   border-color: rgba(254, 209, 55, 1);
@@ -251,12 +248,12 @@ Return and Back To Top Buttons
 }
 .footer {
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 0 2% 0 2%;
 }
 .map iframe {
   width: 100%;
-  height: 250px;
+  height: 300px;
 }
 
 /*------------------------------------------------------------------------------
