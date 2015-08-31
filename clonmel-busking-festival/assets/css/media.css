@@ -21,6 +21,9 @@
     width: 50%;
     height: 50%;
   }
+  .social-media #facebook, #twittter {
+    padding: 0 0 2% 0;
+  }
   .contact-us .form-group input.form-control {
     height: 30px;
   }
@@ -38,5 +41,5 @@
 ------------------------------------------------------------------------------*/
 
 @media (max-width: 768px) {
-    
+
 }
