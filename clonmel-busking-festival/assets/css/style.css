@@ -164,12 +164,12 @@ Return and Back To Top Buttons
   padding: 0 2% 2% 2%;
 }
 .our-story .crumlin-logo-1 {
-  width: 40%;
-  height: 40%;
+  width: 50%;
+  height: 50%;
 }
 .our-story .crumlin-logo-2 {
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
 }
 .our-story img:hover {
   opacity: 0.5;
@@ -185,7 +185,7 @@ Return and Back To Top Buttons
   padding: 0 2% 2% 2%;
 }
 .festival-info-item {
-  padding: 2% 0 2% 0;
+  padding: 4% 0 4% 0;
 }
 .social-media {
   width: 100%;
