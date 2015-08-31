@@ -2,7 +2,7 @@
 
 [jQuery 1.11.3](https://jquery.com/download/) by [jQuery](https://jquery.com/).
 
-[Bootstrap 3.3.5](http://getbootstrap.com/getting-started/#download) by [Twitter Bootstrap](http://getbootstrap.com/).
+[Bootstrap 3.3.5](http://getbootstrap.com/getting-started/#download) by [Bootstrap](http://getbootstrap.com/).
 
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) and [Agency](http://startbootstrap.com/template-overviews/agency/) by [Start Bootstrap](http://startbootstrap.com/).
 
