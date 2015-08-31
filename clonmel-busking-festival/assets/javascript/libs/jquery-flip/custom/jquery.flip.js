@@ -9,7 +9,6 @@ $(document).ready(function() {
 		reverse: 'true',
 		speed: 500,
 		forceWidth: true,
-		forceHeight: true,
-		autoSize: true
+		forceHeight: true
 	});
 });
