@@ -22,10 +22,10 @@
     height: 50%;
   }
   .social-media #facebook {
-  padding: 10% 2% 10% 2%;
+  padding: 0 2% 0 2%;
   }
   .social-media #twittter {
-    padding: 10% 2% 10% 2%;
+    padding: 10% 2% 0 2%;
   }
   .contact-us .form-group input.form-control {
     height: 30px;
