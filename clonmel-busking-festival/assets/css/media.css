@@ -28,10 +28,10 @@
     padding: 10% 2% 0 2%;
   }
   .contact-us .form-group input.form-control {
-    height: 30px;
+    height: 40px;
   }
   .contact-us .form-group textarea.form-control {
-    height: 100px;
+    height: 40px;
   }
   .map iframe {
     width: 100%;
