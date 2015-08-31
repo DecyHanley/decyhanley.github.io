@@ -153,10 +153,14 @@ Return and Back To Top Buttons
   background-size: cover;
   -o-background-size: cover;
 }
-.txt-title {
+.header .txt-title {
   color: rgba(255, 255, 255, 1);
 }
-.logo {
+.header .logo-1 img {
+  width: 70%;
+  height: 70%;
+}
+.header .logo-2 img {
   width: 70%;
   height: 70%;
 }
@@ -165,11 +169,11 @@ Return and Back To Top Buttons
   height: auto;
   padding: 0 2% 2% 2%;
 }
-.our-story .crumlin-logo-1 {
+.our-story .crumlin-logo-1 img {
   width: 50%;
   height: 50%;
 }
-.our-story .crumlin-logo-2 {
+.our-story .crumlin-logo-2 img {
   width: 70%;
   height: 70%;
 }
