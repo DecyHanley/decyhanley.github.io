@@ -4,6 +4,6 @@
 $(document).ready(function() {
 
   $(window).load(function() {
-    $(".custom-cover").fadeOut(2000);
+    $(".custom-cover").fadeOut(1000);
   });
 });
