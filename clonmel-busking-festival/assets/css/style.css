@@ -142,10 +142,9 @@ Return and Back To Top Buttons
   display: table;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 0 2% 2% 2%;
   background: url(../images/cbf/cbf-header.jpg) no-repeat center center scroll;
-  background: opacity: 0.5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
