@@ -142,7 +142,7 @@ Return and Back To Top Buttons
   display: table;
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 0 2% 2% 2%;
   background: url(../images/cbf/cbf-header.jpg) no-repeat center center scroll;
   background: opacity: 0.5;
@@ -185,7 +185,7 @@ Return and Back To Top Buttons
   padding: 0 2% 2% 2%;
 }
 .festival-info-item {
-  padding: 4% 0 4% 0;
+  padding: 5% 0 5% 0;
 }
 .social-media {
   width: 100%;
@@ -212,7 +212,7 @@ Return and Back To Top Buttons
   height: 50px;
 }
 .contact-us .form-group textarea.form-control {
-  height: 50px;
+  height: 85px;
 }
 .contact-us .form-control:focus {
   border-color: rgba(254, 209, 55, 1);
@@ -247,7 +247,7 @@ Return and Back To Top Buttons
 }
 .footer {
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 0 2% 0 2%;
 }
 .map iframe {
