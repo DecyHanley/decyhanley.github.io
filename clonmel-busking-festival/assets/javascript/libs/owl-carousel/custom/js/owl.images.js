@@ -8,7 +8,6 @@ $(document).ready(function() {
 	owl.owlCarousel	({
 		items: 2,
 		pagination: true,
-		//transtionStyle: "scaleUp",
 		autoPlay: 2500,
 		slideSpeed: 200,
 		paginationSpeed: 800,

@@ -8,7 +8,6 @@ $(document).ready(function() {
 	owl.owlCarousel	({
 		singleItem: true,
 		pagination: true,
-		//transtionStyle: "backSlide",
 		slideSpeed: 200,
 		paginationSpeed: 800,
 		jsonPath: "assets/javascript/libs/owl-carousel/custom/json/podcasts.json",
