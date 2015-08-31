@@ -21,7 +21,10 @@
     width: 50%;
     height: 50%;
   }
-  .social-media #facebook, #twittter {
+  .social-media #facebook {
+  padding: 10% 2% 10% 2%;
+  }
+  .social-media #twittter {
     padding: 10% 2% 10% 2%;
   }
   .contact-us .form-group input.form-control {
