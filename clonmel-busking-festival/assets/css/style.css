@@ -10,7 +10,6 @@ html, body {
   height: 100%;
 }
 .text-vertical-center {
-  á display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
@@ -156,8 +155,8 @@ Return and Back To Top Buttons
   color: rgba(255, 255, 255, 1);
 }
 .logo {
-  width: 65%;
-  height: 65%;
+  width: 70%;
+  height: 70%;
 }
 .our-story {
   width: 100%;

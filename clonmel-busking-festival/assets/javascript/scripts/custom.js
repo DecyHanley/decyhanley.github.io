@@ -38,6 +38,18 @@ $(document).ready(function() {
     });
   });
 
+  //Return Button
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('#return').fadeIn();
+    } else {
+      $('#return').fadeOut();
+    }
+  });
+  $('#return').click(function() {
+    window.location.href = "index.html";
+  });
+
   //Back to top Button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -51,18 +63,6 @@ $(document).ready(function() {
       scrollTop: 0
     }, 1000);
     return false;
-  });
-
-  //Return Button
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('#return').fadeIn();
-    } else {
-      $('#return').fadeOut();
-    }
-  });
-  $('#return').click(function() {
-    window.location.href = "index.html";
   });
 
   // Character Counters For Form Inputs
