@@ -1,5 +1,9 @@
 # Redevelopment of Clonmel Busking Festival Website.
 
+[jQuery 1.11.3](https://jquery.com/download/) by [jQuery](https://jquery.com/).
+
+[Bootstrap 3.3.5](http://getbootstrap.com/getting-started/#download) by [Twitter Bootstrap](http://getbootstrap.com/).
+
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) and [Agency](http://startbootstrap.com/template-overviews/agency/) by [Start Bootstrap](http://startbootstrap.com/).
 
 [Lovelo Inline Font](https://www.behance.net/gallery/6787299/Lovelo-Inline-Font) by [Hans Renzler](https://www.behance.net/renzler) and [Lovelo Font](http://fontfabric.com/lovelo-font/) by [FontFabric](http://www.fontfabric.com/) with [Web Font Generated](http://www.fontsquirrel.com/tools/webfont-generator) by [FontSquirrel](http://www.fontsquirrel.com/).
