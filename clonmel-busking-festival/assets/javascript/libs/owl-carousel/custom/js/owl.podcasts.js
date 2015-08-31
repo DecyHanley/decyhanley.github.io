@@ -13,10 +13,10 @@ $(document).ready(function() {
 		jsonPath: "assets/javascript/libs/owl-carousel/custom/json/podcasts.json",
 		jsonSuccess: customDataSuccess
 	});
-	$("#next").click(function(){
+	$("#pod-next").click(function(){
 		owl.trigger('owl.next');
 	});
-	$("#prev").click(function(){
+	$("#pod-prev").click(function(){
 		owl.trigger('owl.prev');
 	});
 	function customDataSuccess(data) {

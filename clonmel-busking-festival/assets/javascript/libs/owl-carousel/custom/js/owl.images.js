@@ -14,10 +14,10 @@ $(document).ready(function() {
 		jsonPath: "assets/javascript/libs/owl-carousel/custom/json/images.json",
 		jsonSuccess: customDataSuccess
 	});
-	$("#next").click(function(){
+	$("#img-next").click(function(){
 		owl.trigger('owl.next');
 	});
-	$("#prev").click(function(){
+	$("#img-prev").click(function(){
 		owl.trigger('owl.prev');
 	});
 	function customDataSuccess(data) {
