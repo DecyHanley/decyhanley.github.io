@@ -192,7 +192,10 @@ Return and Back To Top Buttons
   height: auto;
   padding: 0 2% 2% 2%;
 }
-.social-media #facebook, #twittter {
+.social-media #facebook {
+  padding: 0 2% 0 2%;
+}
+.social-media #twittter {
   padding: 0 2% 0 2%;
 }
 .contact-us {
