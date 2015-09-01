@@ -3,14 +3,37 @@
 ------------------------------------------------------------------------------*/
 
 @media (max-width: 768px) {
-	.events-guide .front img {
-		width: 50%;
-		height: 100%;
-		padding: 0 0 0 1.5%;
+	.card {
+		display: block;
+		text-align: center;
+		vertical-align: middle;
+		width: 300px;
+		height: 300px;
+		perspective: 600px;
+		position: relative;
+		transform-style: preserve-3d;
 	}
-	.events-guide .back img {
-		width: 50%;
+	.card .front {
+		width: 300px;
+		height: 300px;
+		backface-visibility: hidden;
+		transform-style: preserve-3d;
+		position: absolute;
+		z-index: 1;
+		transition: all 0.5s ease-out;
+	}
+	.card .back {
+		transform: rotateY(-180deg);
+		width: 300px;
+		height: 300px;
+		backface-visibility: hidden;
+		transform-style: preserve-3d;
+		position: absolute;
+		z-index: 0;
+		transition: all 0.5s ease-out;
+	}
+	.card img {
+		width: 100%;
 		height: 100%;
-		padding: 0 0 0 1.5%;
 	}
 }

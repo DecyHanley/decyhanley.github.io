@@ -3,7 +3,7 @@
 ------------------------------------------------------------------------------*/
 
 $(document).ready(function() {
-	$("#events-card").flip({
+	$("#card").flip({
 		axis: 'y',
 		trigger: 'click',
 		reverse: 'true',
