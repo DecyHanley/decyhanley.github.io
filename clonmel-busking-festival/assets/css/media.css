@@ -49,9 +49,9 @@
 
 @media (max-width: 768px) {
   .music #pod-prev {
-    padding: 0 10% 5% 0;
+    padding: 0 0 20% 0;
   }
   .music #pod-next {
-    padding: 5% 0 0 10%;
+    padding: 20% 0 0 0;
   }
 }
