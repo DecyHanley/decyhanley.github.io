@@ -1,8 +1,8 @@
 /*------------------------------------------------------------------------------
 	Custom Pace Javascript
 ------------------------------------------------------------------------------*/
-$(document).ready(function() {
 
+$(document).ready(function() {
   $(window).load(function() {
     $(".custom-cover").fadeOut(1000);
   });
