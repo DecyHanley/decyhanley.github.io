@@ -307,7 +307,7 @@ Return and Back To Top Buttons
   height: auto;
   padding: 0 2% 2% 2%;
 }
-.sponsors iframe {
+.sponsors .video-1 iframe {
   width: 640px;
   height: 360px;
 }
@@ -318,7 +318,7 @@ Return and Back To Top Buttons
   height: auto;
   padding: 0 2% 2% 2%;
 }
-.previous-years iframe {
-  width: 640px;
-  height: 360px;
+.previous-years .video-2 iframe {
+  width: 960px;
+  height: 540px;
 }

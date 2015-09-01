@@ -48,5 +48,24 @@
 ------------------------------------------------------------------------------*/
 
 @media (max-width: 768px) {
-
+  .music #pod-prev {
+    margin: 0 30% 0 0;
+  }
+  .music #pod-next {
+    margin: -15% 0 0 30%;
+  }
+  .photo-gallery #img-prev {
+    margin: 0 30% 0 0;
+  }
+  .photo-gallery #img-next {
+    margin: -15% 0 0 30%;
+  }
+  .sponsors .video-1 iframe {
+    width: 320px;
+    height: 180px;
+  }
+  .previous-years .video-2 iframe {
+    width: 320px;
+    height: 180px;
+  }
 }
