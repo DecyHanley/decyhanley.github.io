@@ -1,4 +1,4 @@
-# GitHub Pages sites.
+# GitHub.io assets
 
 * [Personal Site] (https://github.com/DecyHanley/decyhanley.github.io/tree/master) - [Site Url] (https://decyhanley.github.io/)
   * [Index] (https://github.com/DecyHanley/decyhanley.github.io/tree/master/index.html)
