@@ -1,0 +1,905 @@
+<!doctype html>
+<html><head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>OneMinuteKitchen</title>
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+	<link href="bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="navbar.css" rel="stylesheet" media="screen">
+    
+	<!--<script src="jquery-1.6.1.min.js"></script>-->
+    	<script src="bootstrap.min.js"></script>
+    <script src="jquery-1.11.1.js"></script>
+    <script src="jquery-1.9.1.js"></script>
+	<script src="init.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+
+
+	<style type="text/css">
+	html,body {
+		
+		background-color:;
+		
+	}
+	.stirfryimg1{
+	position:relative;
+	left:0%;	
+		
+		
+	}
+	#StartPg{ 
+			background-color:#F00;
+			height: auto;  
+			margin: 0 auto; 
+		    width: 97%; 
+			left:.3%;
+		    position: relative; 
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 5px;
+			 border: 2px solid;
+    border-radius: 5px;
+		}
+		#intro { 
+			background:url(images/bgblack.jpg) 100% 0 fixed; 
+			height: auto;  
+			margin: 0 auto; 
+		    width: 97%; 
+			left:0.3%; 
+		    position: relative; 
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 0;
+			
+		}
+		h1{
+			text-align:center;
+			
+		}
+				#photos { 
+			background:url(images/bgblack.jpg) 100% 0 fixed; 
+			height: 600px;  
+			margin: 0 auto; 
+		    width: 97%; 
+			left:0.3%; 
+		    position: relative; 
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 0;
+		}
+
+		#home { 
+			background-color:#DDDDDD;/*#5C7A43;*/ 
+			height: auto;  
+			margin: 0 auto; 
+		    width: 97%; 
+			left:0.3%; 
+		    position: relative; 
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 0;
+		}
+		#pageSep { 
+			background:url(images/bgblack.jpg) 100% 0 fixed; 
+			height: 2%;  
+			margin: 0 auto; 
+		    width: 97%; 
+			left:0.3%; 
+		    position: relative; 
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 0;
+		}
+		#about { 
+			background-color:#CCC; 
+			height: auto;
+			margin: 0 auto; 
+		    width: 97%; 
+			left:0.3%; 
+		    position: relative; 
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 0;
+		    color: #fff;
+		}
+
+		/* Non-essential demo stuff */
+		.hero-unit {
+			background-color: #fff;
+		    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+
+		}
+
+		.chickenStirFryImg{
+			position:relative;
+			border-width:10px;
+			border-style:solid;
+			border-color:green;
+			margin:15px;
+			width:85%;
+			height:60%;
+			left:40%;
+		}
+				.slideshow{
+			position:relative;
+			border-width:10px;
+			border-style:solid;
+			border-color:green;
+			margin:15px;
+			width:85%;
+			height:60%;
+			left:0%;
+		}
+		.titleContainer{
+			position:relative;
+			width:100%;
+			height:30%;
+			text-align:center;
+		}
+		.footerContent{
+	left:0.5;
+	position:relative;
+	color:#000000;
+	
+}
+.FooterSeperatorLine{
+	position:relative;
+	left:17%;
+	top:2%;
+	width:70%;
+}
+.videosTitleContainer{
+	position:relative;
+	margin:auto;
+	background-color:#FFF;
+	width:41%;
+	padding:20px;
+	
+	line-height: 15px;
+	text-align:center;
+	margin-bottom:75px;
+		margin-top:-30px;
+	top:-3%;
+}
+#videosTitle{
+	position:relative;
+	width:100%;
+
+}
+iframe{
+	width:100%;
+	height:380px;
+	
+}
+.twitterLink{
+	position:relative;
+	width:10%;
+	height:10%;
+	
+	
+}
+.youtubeLink{
+	position:relative;
+	width:10%;
+	height:10%;
+
+}
+.instagramLink{
+	position:relative;
+	width:10%;
+	height:10%;
+	
+}
+.googlePlayLink{
+	position:relative;
+	width:10%;
+	height:10%;
+	
+}
+h1{
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+}
+.video1{
+	position:absolute;
+	width:100%;
+	height:10%;
+	/*border-width:20px;
+	border-style:solid;
+	border-color:white;
+	*/
+	top:13%;
+	z-index:2;
+}
+#vid1{
+	position:relative;
+	left:0%;
+	height:250px; 
+	width:90%;
+	outline:#7b2e00 solid 15px;
+}
+
+#vid3{
+	position:relative;
+	left:6%;
+	height:220px; 
+	width:90%;
+	outline:#7b2e00 solid 15px;
+}
+
+#vid4{
+	position:relative;
+	
+	height:220px; 
+	width:90%;
+	outline:#7b2e00 solid 15px;
+}
+#infographic1{
+	position:relative;
+	left:6%;
+	height:520px;
+	width:30%;
+}
+
+#video2{
+	position:relative;
+	width:90%;
+	height:260px;
+	left:7%;
+	outline:#7b2e00 solid 15px;
+}
+
+/*#section1Image1Cont{
+	position:relative;
+	width:20%;
+	height:20%;
+	
+	
+}*/
+#infog2{
+	position:relative;
+	width:97%;
+	height:420px;	
+}
+#infoGraphic_1{
+	
+	position:relative;
+	
+	width:100%;
+	height:100%;
+}
+/*#infoGraphic_1{
+	
+	position:relative;
+	left:30%;
+	border-width:20px;
+	border-style:solid;
+	border-color:white;
+	width:40%;
+	height:55%;
+}*/
+.line{
+width:1500px;
+height:2px;
+padding:5%;
+left:10%;
+position:relative;
+z-index:3;
+}
+.line-sep{
+width:1500px;
+height:2px;
+padding:5%;
+left:10%;
+position:relative;
+z-index:3;
+}
+
+.chicken_rice_veg_banner1{
+	position:relative;
+	top:-20px;
+	z-index:3;
+	
+	
+}
+.chicken_noodles_banner1{
+	position:relative;
+	top:-20px;
+	z-index:3;
+	left:-5%;
+	
+}
+.pastacarbonaraBanner{
+	position:relative;
+	top:-20px;
+	z-index:3;
+	left:-5%;
+	
+}
+.chicken_rice_veg_banner1{
+	position:relative;
+	top:-20px;
+	z-index:3;
+	
+	
+}
+
+.chicken_rice_veg_banner2{
+	position:relative;
+	top:-3%;
+	z-index:3;
+	
+	
+}
+.carousel-caption{
+		position:relative;
+	top:-3%;
+	z-index:3;
+	width:50%;
+	
+	}
+	    .arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent; 
+	
+	border-right:60px solid  #FF0004; 
+}
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	
+	border-left: 60px solid #FF0004;
+}
+#carouselButtons {
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+.carousalbgImg{
+width:95%;
+position:relative;
+left:3%;
+margin-top:-2%;
+z-index:-1;
+}
+.carousalcontainer{
+width:94%;
+height:1100px;
+background-image:url(images/fruitdesert/picbg.png);
+padding:50px;
+margin-top:-10px;
+
+}
+.carousel{
+    margin: 0 auto;
+	
+}
+.container {
+width:100%;
+position:relative;
+height:100%;
+
+}
+.carousel-indicators{
+
+position:relative;
+top:800px;
+	left:50%;
+	background-color:#FFFFFF;
+	
+}
+.left carousel-control{
+	position:relative;
+	top:500px;
+	
+	
+}
+.right carousel-control{
+	position:relative;
+	top:500px;
+	
+	
+}
+.carousel{width:900px;
+       height:290px;
+	   }
+	  #carouselButtons{
+		  top:800px;
+		  left:12%;
+		  
+	  }
+	  .movebuttons{
+		  position:relative;
+		  top:350px;
+		  
+	  }
+	  .photographTitle{
+		  padding:4%;;
+		  left:20%;
+		  
+	  }
+	  li{
+		  font-size:24px;
+		  
+		  
+	  }
+	  ul
+{
+    list-style-type: none;
+}
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:16px;
+    }
+	#vid1{
+	position:relative;
+	left:-1%;
+	
+	
+}
+
+
+
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+   /* CSS overrides for mobile here */
+   .carousel{width:100%;
+       height:290px;
+	   left:-2%;
+	   }
+	   .movebuttons{
+		 left:-3%;  
+		   top:260px;
+	   }
+	   li{
+		   font-size:15px;
+		   
+	   }
+	   h2{
+		   font-size:20px;
+		   
+	   }
+	   .twitterLink{
+		  width:17%; 
+		   height:30%;
+		   
+	   }
+	   .youtubelink{
+		     width:17%; 
+		    height:30%x;
+		   position:relative;
+	   }
+	   .instagramLink{
+		     width:17%; 
+		    height:30%;
+		   
+	   }
+	   .footerContent{
+		   width:100%;
+		   
+		   
+	   }
+	   iframe{
+	width:100%;
+	height:270px;
+	
+}
+	   .carousalcontainer{
+width:210px;
+height:600px;
+background-image:url(images/fruitdesert/picbg.png);
+padding:50px;
+margin-top:-10px;
+left:20px;
+}
+}
+	</style>
+
+
+<script type="text/javascript">
+$(document).ready(function () { 
+$(function () {
+    $('#homeCarousel').carousel({
+        interval:5000,
+        pause: "false"
+    });
+    $('#playButton').click(function () {
+        $('#homeCarousel').carousel('cycle');
+    });
+    $('#pauseButton').click(function () {
+        $('#homeCarousel').carousel('pause');
+    });
+});
+$(".twitterLink").mouseenter(function () {
+	
+	
+	$(".twitterLink").animate({width:"12%"},'fast');
+	$(".twitterLink").animate({height:"12%"},'fast');
+	
+});
+
+$(".twitterLink").mouseleave(function () {
+	
+	
+	$(".twitterLink").animate({width:"10%"},'fast');
+	$(".twitterLink").animate({height:"10%"},'fast');
+	
+});
+$(".youtubeLink").mouseenter(function () {
+	
+	
+	$(".youtubeLink").animate({width:"12%"},'fast');
+	$(".youtubeLink").animate({height:"12%"},'fast');
+	
+});
+
+$(".youtubeLink").mouseleave(function () {
+	
+	
+	$(".youtubeLink").animate({width:"10%"},'fast');
+	$(".youtubeLink").animate({height:"10%"},'fast');
+	
+});
+$(".instagramLink").mouseenter(function () {
+	
+	
+	$(".instagramLink").animate({width:"12%"},'fast');
+	$(".instagramLink").animate({height:"12%"},'fast');
+	
+});
+
+$(".instagramLink").mouseleave(function () {
+	
+	
+	$(".instagramLink").animate({width:"10%"},'fast');
+	$(".instagramLink").animate({height:"10%"},'fast');
+	
+});
+$(".googlePlayLink").mouseenter(function () {
+	
+	
+	$(".googlePlayLink").animate({width:"12%"},'fast');
+	$(".googlePlayLink").animate({height:"12%"},'fast');
+	
+});
+
+$(".googlePlayLink").mouseleave(function () {
+	
+	
+	$(".googlePlayLink").animate({width:"10%"},'fast');
+	$(".googlePlayLink").animate({height:"10%"},'fast');
+	
+});
+
+});/*$(document).scroll(function() {
+if ($(document).scrollTop() >= 4000) {
+		$("h3").css({ 'color': 'red'});
+		$("h3").css({ 'color': 'white'}),2000;
+}
+});*/
+</script>
+
+</head>
+<body>
+<div ></div>
+<!--	<div class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="navbar-inner">
+	  	<div class="container">
+		    <a class="brand" href="#">Healthy Meals</a>
+		    <ul class="nav">
+		      <li class="active"><a href="#">Wealthy Meals</a></li>
+		      <li><a href="#">Saver Meals</a></li>
+		      <li><a href="#">Fast Meals</a></li>
+		    </ul>
+		</div>
+	  </div>
+	</div>-->
+    
+<!--      <header>
+            <div class="navbar navbar-default navbar-fixed-top">
+              <div class="navbar-inner">
+                <div class="container-fluid">
+ 
+                  <!-- .btn-navbar is used as the toggle for collapsed navbar content
+                  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>                
+                  </a>
+ -->
+                  <!--Brand
+                  <a class="brand" ><img src="images/1minuteKitchenfixedfav.png" alt="oneminutekitchen" /></a>-->
+
+                  <!-- Everything you want hidden at 940px or less, place within here -->
+                  
+                   <!-- <div class="nav-collapse collapse">
+                      <ul class="nav pull-right" id="customNavbar">
+                          <li><a href="parralexScrolling.html">Home</a></li>
+
+                      </ul>
+                  </div> 
+                                     
+                </div>
+              </div>
+            </div>
+        </header>-->
+
+
+	<section id="StartPg" data-speed="2" data-type="background">
+		<div class="container">
+			
+           <h1 class="titleContainer"><img src="images/oneMinuteKitchen2.png" alt="oneminutekitchen title" /></h1>
+
+	    	
+	   </div>
+	    </div>
+	</section>
+	<!-- Section #1 -->
+	<section id="intro" data-speed="2" data-type="background">
+		<div class="container">
+			<div class="row-fluid">
+
+		        <div class="span6 text-center">
+		        
+		        </div>
+	    	</div>
+	    	<div class="hero-unit text-center">
+	    		<h2>About OneMinuteKitchen</h2>
+	    		
+ <ul class="list-group"><li class="list-group-item">A Series of Videos</li><li class="list-group-item">Basic Steps of cooking</li>
+    <li class="list-group-item">How to cook a meal within approx. 1 minute</li>
+    <li class="list-group-item">Overlayed kinetic typography, music</li>
+    <li class="list-group-item">InfoGraphics</li>
+  </ul>
+	    	</div>
+	    </div>
+	</section>
+
+
+	<section id="photos" data-speed="2" data-type="background">
+
+
+
+<!--$('.carousel-indicators li').click(function(e){
+  	e.stopPropagation();
+	$('#myCarousel').carousel($(this).data('slide-to')-1); 
+});-->
+<div class="carousalcontainer">
+<div class="container">
+<!-- Carousel --><h1 class="photographTitle">Photographs</h1>
+<div id="homeCarousel" class="carousel slide">
+  <!-- Menu -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active" max-height="300px"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+    
+  <!-- Items -->
+  <div class="carousel-inner">
+      
+      <!-- Item 1 -->
+    <div class="item active">
+        <img src="images/fruitdesert/brownbg_oneminkitchen.png"/>
+      <div class="container">
+       
+      
+    </div>
+      </div>
+      <!-- Item 2 -->
+    <div class="item">
+        <img src="images/SteakDinner/DSCN2095.png"/>
+      <div class="container">
+
+      </div>
+    </div>
+      
+      <!-- Item 3 -->
+    <div class="item">
+        <img src="images/SteakDinner/DSCN2086.JPG" />
+      <div class="container">
+      
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <div class="movebuttons">
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>  </div>
+  <div id="carouselButtons">
+      <button id="playButton" type="button" class="btn btn-default btn-xs">
+          <span class="glyphicon glyphicon-play">play</span>
+       </button>
+      <button id="pauseButton" type="button" class="btn btn-default btn-xs">
+          <span class="glyphicon glyphicon-pause">pause</span>
+      </button>
+  </div>
+</div>
+
+
+</div>
+
+</div>
+</section>
+<section>
+<img src="images/bgblack.jpg"class="carousalbgImg"/>
+<!--		<div class="container">
+			<div class="row-fluid">
+
+		        <div class="span12 text-center">
+		          <img src="images/ChickenStirFryNoodles.jpg" class="slideshow" position: relative; margin: 0 auto; width: 980px; height: 380px; overflow: hidden;">
+		        </div>
+	    	</div>
+
+	    </div>-->
+	</section>
+
+
+
+	<section id="home" data-speed="6" data-type="background"><div class="videosTitleContainer"><h1 id="videosTitle" class="page-header">Latest Featured Episode</h1></div>
+		<div class="row-fluid">
+		       <!-- /.span4 -->
+		        <div class="span6 well2">
+		        <h2>Greek Style Desert</h2>
+<div class="embed-responsive embed-responsive-16by9">
+ <iframe width="520" height="315" src="https://www.youtube.com/embed/EDN4ySBbKu0" frameborder="0" allowfullscreen></iframe>
+		         
+		        <!-- /.span4 -->
+	    	</div>
+	    	</div><div class="span6 well2" id="weirdEvent">
+
+<img src="images/fruitdesert/fruitdesertinfog6.png" class="img-responsive" alt="Responsive image"/></div>
+	    </div>
+	</section></div>
+    <section id="pageSep" data-speed="6" data-type="background">
+	
+	</section>
+	<!-- Section #2 -->
+	<section id="home" data-speed="6" data-type="background"><div class="videosTitleContainer"><h1 id="videosTitle" class="page-header" text-center>Episodes</h1></div>
+		
+			<div class="row-fluid">
+<!-- /.span5 -->
+		        <div class="span6 well1 col-md-4">
+		       <img src="images/SteakDinner/chickenno.png" alt="" class="chicken_rice_veg_banner2"/>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.youtube.com/embed/jrC90tsxdIw" frameborder="0" allowfullscreen></iframe>
+	  </div>	       <!-- /.span4 -->
+                     <!-- /.span5 -->
+	
+                </div>
+                
+               <div class="span6 well1 col-md-4">
+
+<img src="images/chickennoodles4.png" id="infoGraphic_1" class="img-responsive" alt="Responsive image"/></div>  	      
+		        </div>
+		      
+          
+              <div class="line-sep"><img src="images/linesep.png" alt="" class="line"/></div>  
+<div class="row-fluid">
+<!-- /.span5 -->
+		        <div class="span6 well1 col-md-4">
+		       <img src="images/chickenricevegBanner2.png" alt="" class="chicken_rice_veg_banner2"/>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.youtube.com/embed/C6XEES0lU5I" frameborder="0" allowfullscreen></iframe>
+	  </div>	       <!-- /.span4 -->
+                     <!-- /.span5 -->
+	
+                </div>
+                
+               <div class="span6 well1 col-md-4">
+
+<img src="images/infog2_7.png" id="infoGraphic_1" class="img-responsive" alt="Responsive image"/></div>  	      
+		        </div>
+		      
+          
+                
+                    <div class="line-sep"><img src="images/linesep.png" alt="" class="line"/></div>
+      
+        <div class="row-fluid">
+<!-- /.span5 -->
+		        <div class="span6 well1 col-md-4">
+		       <img src="images/SteakDinner/Greekstuleflag.png" alt="" class="Greekstuleflag"/>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.youtube.com/embed/EDN4ySBbKu0" frameborder="0" allowfullscreen></iframe>
+	  </div>	       <!-- /.span4 -->
+                     <!-- /.span5 -->
+	
+                </div>
+                
+               <div class="span6 well1 col-md-4">
+
+<img src="images/fruitdesert/fruitdesertinfog6.png" id="infoGraphic_1" class="img-responsive" alt="Responsive image"/></div>  	      
+		        </div>
+		       <div class="line-sep"><img src="images/linesep.png" alt="" class="line"/></div> 
+          
+                <div class="row-fluid">
+<!-- /.span5 -->
+		        <div class="span6 well1 col-md-4">
+		       <img src="images/SteakDinner/steakdinnerflag.png" alt="" class="chicken_rice_veg_banner2"/>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.youtube.com/embed/Xu30S1k5zTg" frameborder="0" allowfullscreen></iframe>
+	  </div>	       <!-- /.span4 -->
+                     <!-- /.span5 --> 
+	
+                </div>
+                
+               <div class="span6 well1 col-md-4">
+
+<img src="images/SteakDinner/STEAKDINNERINFOGRAPHIC3.png" id="infoGraphic_1" class="img-responsive" alt="Responsive image"/></div>  	      
+		        </div>
+		      
+          
+        
+	</section></div>
+	<section id="intro" data-speed="2" data-type="background">
+
+	    	<div class="hero-unit">
+	    		<h2>Food Events of this Month</h2>
+	    		
+<table>
+
+<th>May is Barbeque / Hamburger Month</th><tbody>
+<tr><td><a href="https://www.daysoftheyear.com/days/roast-leg-of-lamb-day/">Roast leg of lamb day, 7th May 2015</a></td></tr>
+<tr><a href="#weirdEvent"><td<a href="https://www.daysoftheyear.com/days/eat-what-you-want-day">Eat anything you want, 11th May 2015</td></a></tr>
+
+
+<tr><td><a href="https://www.daysoftheyear.com/days/nutty-fudge-day/">Nutty Fudge day , 12th may 2015</a></td></tr>
+
+<!--<tr><th>June is Soul Food Month</th></tr>
+<tr><td>Fudge Day, June 16th 2015</td></tr>
+<tr><td>Eat youre Vegetable Day, June 16th 2015</td></tr>
+<tr><td>Onion Rings Day, June 22th 2015</td></tr>
+<tr><td>CatFish Day, June 16th 2015</td></tr>
+<tr><td>Onion Rings Day, June 22th 2015</td></tr>
+<tr><td>Creative Ice Cream Flavours Day, July 1st 2015</td></tr>
+<tr><td>Sugar Cookie Day Day, July 9th 2015</td></tr>-->
+</tbody>
+</table>
+<!--use u="" with ajax to load images from days oftheyear.com-->
+	    	</div>
+	    </div>
+	</section>
+	<!-- Section #3 -->
+	<section id="about" data-speed="1" data-type="background">
+		<div class="container">
+         <!--blow hre-->
+        
+
+<hr />
+<div class="footerContent">
+  <div class="col-sm-8 col-sm-offset-2 text-center">
+  
+  <h3>One Minute Kitchen</h3>
+  <div class="FooterSeperatorLine"><hr /></div>
+    <a onclick="window.open('https://twitter.com/1MinuteKitchen')"><img src="images/twitterButton.png" alt="" class="twitterLink"/></a>
+     <a onclick="window.open('https://www.youtube.com/channel/UCJBS65fzUUoj-gh0N-8kWRg')"><img src="images/youtube_icon.png" alt="youtube" class="youtubeLink"/></a>
+    <img src="images/instagramButton.png" alt="instagram" class="instagramLink"/>
+   
+</div></div></div>
+
+        <!--abve hre-->
+		
+	</section>
+<!--changes made to bootstrap min.css-->
+<!--I changed "well" to "well1" and changed the background color" i added a well2 which has a background color of white like the original"-->
+</body>
+
+</html>

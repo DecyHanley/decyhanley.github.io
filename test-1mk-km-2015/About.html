@@ -1,0 +1,544 @@
+<!doctype html>
+<html><head>
+	<meta charset="utf-8">
+	<title>OneMinuteKitchen</title>
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+	<link href="bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="navbar.css" rel="stylesheet" media="screen">
+    
+	<!--<script src="jquery-1.6.1.min.js"></script>-->
+    	<script src="bootstrap.min.js"></script>
+    <script src="jquery-1.11.1.js"></script>
+    <script src="jquery-1.9.1.js"></script>
+	<script src="init.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+
+
+	<style type="text/css">
+	html,body {
+		
+		background-color:;
+		
+	}
+	.stirfryimg1{
+	position:relative;
+	left:0%;	
+		
+		
+	}
+	#StartPg{ 
+			background-color:#F00;
+			height: auto;  
+			margin: 0 auto; 
+		    width: 95%; 
+			left:.5%;
+		    position: relative; 
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 0;
+		}
+		#intro { 
+			background:url(images/bgblack.jpg) 100% 0 fixed; 
+			height: auto;  
+			margin: 0 auto; 
+		    width: 95%; 
+			left:0.5%; 
+		    position: relative; 
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 0;
+		}
+		#home { 
+			background-color:#DDDDDD;/*#5C7A43;*/ 
+			height: auto;  
+			margin: 0 auto; 
+		    width: 95%; 
+			left:0.5%; 
+		    position: relative; 
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 200px 0;
+		}
+		#pageSep { 
+			background:url(images/bgblack.jpg) 100% 0 fixed; 
+			height: 2%;  
+			margin: 0 auto; 
+		    width: 95%; 
+			left:0.5%; 
+		    position: relative; 
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 200px 0;
+		}
+		#about { 
+			background-color:#CCC; 
+			height: auto;
+			margin: 0 auto; 
+		    width: 95%; 
+			left:0.5%; 
+		    position: relative; 
+		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		    padding: 100px 0;
+		    color: #fff;
+		}
+
+		/* Non-essential demo stuff */
+		.hero-unit {
+			background-color: #fff;
+		    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+
+		}
+
+		.chickenStirFryImg{
+			position:relative;
+			border-width:10px;
+			border-style:solid;
+			border-color:green;
+			margin:15px;
+			width:85%;
+			height:60%;
+			left:40%;
+		}
+				.slideshow{
+			position:relative;
+			border-width:10px;
+			border-style:solid;
+			border-color:green;
+			margin:15px;
+			width:85%;
+			height:60%;
+			left:0%;
+		}
+		.titleContainer{
+			position:relative;
+			width:100%;
+			height:30%;
+			left:25%;
+		}
+		.footerContent{
+	left:0.5;
+	position:relative;
+	color:#000000;
+	
+}
+.FooterSeperatorLine{
+	position:relative;
+	left:17%;
+	top:2%;
+	width:70%;
+}
+.videosTitleContainer{
+	position:relative;
+	left:27.5%;
+	background-color:#FFF;
+	width:41%;
+	padding:20px;
+	
+	line-height: 15px;
+	text-align:center;
+	margin-bottom:75px;
+		margin-top:-30px;
+	top:-3%;
+}
+#videosTitle{
+	position:relative;
+	width:100%;
+
+}
+
+.twitterLink{
+	position:relative;
+	width:10%;
+	height:10%;
+	
+	
+}
+.youtubeLink{
+	position:relative;
+	width:10%;
+	height:10%;
+
+}
+.instagramLink{
+	position:relative;
+	width:10%;
+	height:10%;
+	
+}
+.googlePlayLink{
+	position:relative;
+	width:10%;
+	height:10%;
+	
+}
+h1{
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+}
+.video1{
+	position:absolute;
+	width:100%;
+	height:10%;
+	/*border-width:20px;
+	border-style:solid;
+	border-color:white;
+	*/
+	top:13%;
+	z-index:2;
+}
+#vid1{
+	position:relative;
+	left:0%;
+	height:250px; 
+	width:90%;
+	outline:#7b2e00 solid 15px;
+}
+
+#vid3{
+	position:relative;
+	left:6%;
+	height:220px; 
+	width:90%;
+	outline:#7b2e00 solid 15px;
+}
+
+#vid4{
+	position:relative;
+	
+	height:220px; 
+	width:90%;
+	outline:#7b2e00 solid 15px;
+}
+#infographic1{
+	position:relative;
+	left:6%;
+	height:520px;
+	width:30%;
+}
+
+#video2{
+	position:relative;
+	width:90%;
+	height:260px;
+	left:7%;
+	outline:#7b2e00 solid 15px;
+}
+
+/*#section1Image1Cont{
+	position:relative;
+	width:20%;
+	height:20%;
+	
+	
+}*/
+#infog2{
+	position:relative;
+	width:97%;
+	height:420px;	
+}
+#infoGraphic_1{
+	
+	position:relative;
+	
+	width:100%;
+	height:100%;
+}
+/*#infoGraphic_1{
+	
+	position:relative;
+	left:30%;
+	border-width:20px;
+	border-style:solid;
+	border-color:white;
+	width:40%;
+	height:55%;
+}*/
+.line-sep{
+width:1500px;
+height:2px;
+padding:5%;
+left:7%;
+position:relative;
+}
+
+
+.chicken_rice_veg_banner1{
+	position:relative;
+	top:-20px;
+	z-index:3;
+	
+	
+}
+.chicken_noodles_banner1{
+	position:relative;
+	top:-20px;
+	z-index:3;
+	left:-5%;
+	
+}
+.pastacarbonaraBanner{
+	position:relative;
+	top:-20px;
+	z-index:3;
+	left:-5%;
+	
+}
+.chicken_rice_veg_banner1{
+	position:relative;
+	top:-20px;
+	z-index:3;
+	
+	
+}
+
+.chicken_rice_veg_banner2{
+	position:relative;
+	top:-3%;
+	z-index:3;
+	
+	
+}
+.carousel-caption{
+		position:relative;
+	top:-3%;
+	z-index:3;
+	width:50%;
+	
+	}
+	    .arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent; 
+	
+	border-right:60px solid  #FF0004; 
+}
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	
+	border-left: 60px solid #FF0004;
+}
+#carouselButtons {
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+.carousalbgImg{
+width:95%;
+position:relative;
+left:3%;
+margin-top:-2%;
+z-index:-1;
+}
+.carousalcontainer{
+width:90%;
+height:1000px;
+background-color:#F8F8F8;
+padding:50px;
+margin-top:10px;
+}
+.container {
+width:100%;
+position:relative;
+height:100%;
+
+}
+.carousel-indicators{
+
+position:relative;
+top:800px;
+	left:50%;
+	background-color:#FFFFFF;
+	
+}
+.left carousel-control{
+	position:relative;
+	top:500px;
+	
+	
+}
+.right carousel-control{
+	position:relative;
+	top:500px;
+	
+	
+}
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:16px;
+    }
+	#vid1{
+	position:relative;
+	left:-1%;
+	
+	
+}
+
+
+
+}
+	</style>
+
+
+<script type="text/javascript">
+$(document).ready(function () { 
+$(function () {
+    $('#homeCarousel').carousel({
+        interval:5000,
+        pause: "false"
+    });
+    $('#playButton').click(function () {
+        $('#homeCarousel').carousel('cycle');
+    });
+    $('#pauseButton').click(function () {
+        $('#homeCarousel').carousel('pause');
+    });
+});
+$(".twitterLink").mouseenter(function () {
+	
+	
+	$(".twitterLink").animate({width:"12%"},'fast');
+	$(".twitterLink").animate({height:"12%"},'fast');
+	
+});
+
+$(".twitterLink").mouseleave(function () {
+	
+	
+	$(".twitterLink").animate({width:"10%"},'fast');
+	$(".twitterLink").animate({height:"10%"},'fast');
+	
+});
+$(".youtubeLink").mouseenter(function () {
+	
+	
+	$(".youtubeLink").animate({width:"12%"},'fast');
+	$(".youtubeLink").animate({height:"12%"},'fast');
+	
+});
+
+$(".youtubeLink").mouseleave(function () {
+	
+	
+	$(".youtubeLink").animate({width:"10%"},'fast');
+	$(".youtubeLink").animate({height:"10%"},'fast');
+	
+});
+$(".instagramLink").mouseenter(function () {
+	
+	
+	$(".instagramLink").animate({width:"12%"},'fast');
+	$(".instagramLink").animate({height:"12%"},'fast');
+	
+});
+
+$(".instagramLink").mouseleave(function () {
+	
+	
+	$(".instagramLink").animate({width:"10%"},'fast');
+	$(".instagramLink").animate({height:"10%"},'fast');
+	
+});
+$(".googlePlayLink").mouseenter(function () {
+	
+	
+	$(".googlePlayLink").animate({width:"12%"},'fast');
+	$(".googlePlayLink").animate({height:"12%"},'fast');
+	
+});
+
+$(".googlePlayLink").mouseleave(function () {
+	
+	
+	$(".googlePlayLink").animate({width:"10%"},'fast');
+	$(".googlePlayLink").animate({height:"10%"},'fast');
+	
+});
+
+});/*$(document).scroll(function() {
+if ($(document).scrollTop() >= 4000) {
+		$("h3").css({ 'color': 'red'});
+		$("h3").css({ 'color': 'white'}),2000;
+}
+});*/
+</script>
+
+</head>
+<body>
+<div ></div>
+<!--	<div class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="navbar-inner">
+	  	<div class="container">
+		    <a class="brand" href="#">Healthy Meals</a>
+		    <ul class="nav">
+		      <li class="active"><a href="#">Wealthy Meals</a></li>
+		      <li><a href="#">Saver Meals</a></li>
+		      <li><a href="#">Fast Meals</a></li>
+		    </ul>
+		</div>
+	  </div>
+	</div>-->
+    
+      <header>
+            <div class="navbar navbar-default navbar-fixed-top">
+              <div class="navbar-inner">
+                <div class="container-fluid">
+ 
+                  <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>                
+                  </a>
+
+                  <!--Brand-->
+                  <a class="brand" ><img src="images/1minuteKitchenfixedfav.png" alt="oneminutekitchen" /></a>
+
+                  <!-- Everything you want hidden at 940px or less, place within here -->
+                  
+                    <div class="nav-collapse collapse">
+                      <ul class="nav pull-right" id="customNavbar">
+                          <li><a>Home</a></li>
+                          <li><a>About</a></li>
+                          <li><a>Contact</a></li>
+                      </ul>
+                  </div> 
+                                     
+                </div>
+              </div>
+            </div>
+        </header>
+
+
+	<section id="StartPg" data-speed="2" data-type="background">
+		<div class="container">
+			<div class="span8">
+           <div class="titleContainer"><img src="images/oneMinuteKitchen2.png" alt="oneminutekitchen title" /></div>
+
+	    	</div>
+	   </div>
+	    </div>
+	</section>
+	<!-- Section #1 -->
+<section id="Home" data-speed="2" data-type="background">
+        <!--abve hre-->
+		
+	</section>
+<!--changes made to bootstrap min.css-->
+<!--I changed "well" to "well1" and changed the background color" i added a well2 which has a background color of white like the original"-->
+</body>
+
+</html>
