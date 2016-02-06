@@ -15,7 +15,7 @@ w2MusicCollection.controller('w2MusicCollectionCtrl', function($scope) {
     name: "Heroes",
     year: "1977"
   },{
-    image: "img/springsteen1.jpg",
+    image: "img/springsteen1.JPG",
     name: "Born in the USA",
     artist: "Bruce Springsteen",
     year: "1984"
