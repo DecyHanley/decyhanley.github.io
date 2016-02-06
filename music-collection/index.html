@@ -35,17 +35,17 @@
           <br>
           <div class="row">
             <div class="col-lg-6">
+              Sort By: <br>
               <select data-ng-model="orderAlbum">
-                <option value="" disabled selected>Sort By:</option>
-                <option value="name">Alphabetical (Album)</option>
+                <option value="">Alphabetical (Album)</option>
                 <option value="artist">Alphabetical (Artist)</option>
                 <option value="-year">Newest</option>
                 <option value="year">Oldest</option>
               </select>
             </div>
             <div class="col-lg-6">
+              Specify Artist: <br>
               <select data-ng-model="musicFilter.artist">
-                <option value="" disabled selected>Specify Artist:</option>
                 <option value="">All Artists</option>
                 <option data-ng-repeat="artist in w2mcCtrl.artists" value={{artist}}>{{artist}}</option>
               </select>
